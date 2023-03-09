@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_GVQZsLv_Ee2HlZxxJnTpkA" name="dal">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Gana0Lv_Ee2HlZxxJnTpkA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_GbAcYLv_Ee2HlZxxJnTpkA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GdR-YLwtEe25StXjzuMdhg" name="Requirements" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_7rwgwL2FEe2i7I-Qd4C-Vw" annotatedElement="_sijFQLwtEe25StXjzuMdhg">
+        <body>Les établissements gérés par FINESS relèvent des 4 domaines suivants : sanitaires, médico-social, social et enseignement.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_OqmJUL2GEe2i7I-Qd4C-Vw" annotatedElement="_g9CIwLwvEe25StXjzuMdhg">
+        <body>Les données sont saisies directement sur FINESS ou intégrées par un flux émis par une application partenaire.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_EW9O8L2JEe2i7I-Qd4C-Vw" annotatedElement="_sijFQLwtEe25StXjzuMdhg _g9CIwLwvEe25StXjzuMdhg">
+        <body>On utilisera l'abréviation PM/EGE pour désigner Les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_mcQqEL26Ee2i7I-Qd4C-Vw" annotatedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw">
+        <body>On garde cette méthode de synchronisation pour être compatible avec les diverses applications partenaires.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_t0XYsL29Ee2i7I-Qd4C-Vw" annotatedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw _64iL4L24Ee2i7I-Qd4C-Vw">
+        <body>La synchronisation entre le répertoire et les applications partenaires peut être synchrone ou asynchrone. La synchronisation synchrone peut ralentir les performances des applications partenaires, tandis que la synchronisation asynchrone permet aux applications de fonctionner sans interruption. &#xD;
+La synchronisation asynchrone améliore l'efficacité et l'expérience utilisateur globale.</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sijFQLwtEe25StXjzuMdhg" name="REQ-0 FINESS Function Principale">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_X2tS4LwuEe25StXjzuMdhg" name="REQ-1 Recherche et filtrage">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_dQUxALwwEe23p_U3RQb1AA" name="REQ-1.1 Recherche">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_-qDq8LwyEe23p_U3RQb1AA" name="REQ-1.1.2 Presentation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_QMJMMLw0Ee23p_U3RQb1AA" name="REQ-1.1.2.1 Trier"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RLB2ULw0Ee23p_U3RQb1AA" name="REQ-1.1.2.2 Multi-format (accessibilité)"/>
+            </nestedClassifier>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_vlGv8LwwEe23p_U3RQb1AA" name="REQ-1.2 Filtrage">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ppZrcLy9Ee2vKM58fnpo3Q" name="REQ-1.2.1 Filtrage personnalisé"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="__r2AYLzoEe2vKM58fnpo3Q" name="REQ-1.2.2 par identifiant FINESS"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_QdDTwLzpEe2vKM58fnpo3Q" name="REQ-1.2.3 par géolocalisation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Yd2hcLzpEe2vKM58fnpo3Q" name="REQ-1.2.4 par catégorie"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ipz_ILzpEe2vKM58fnpo3Q" name="REQ-1.2.5 par type"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_pyhHMLzpEe2vKM58fnpo3Q" name="REQ-1.2.6 par mot-clé"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_6twgULzpEe2vKM58fnpo3Q" name="REQ-1.2.7 par activites"/>
+          </nestedClassifier>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_g9CIwLwvEe25StXjzuMdhg" name="REQ-2 Collecte de données">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7LSjYLxFEe2vKM58fnpo3Q" name="REQ-2.1 Exhaustivité"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Q0oqYLxGEe2vKM58fnpo3Q" name="REQ-2.2 Demande d'Inmatriculacion ">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_kKJmMLxJEe2vKM58fnpo3Q" name="REQ-2.2.1 Formulaires de demande"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.2  Gestion de pièces justificatives">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SScD4LzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1 Téléchargement ">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_5bpUALzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1.1 Taille maximale de fichier"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_s1fPULzxEe2vKM58fnpo3Q" name="REQ-2.2.2.2 Sécurité des fichiers"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_81BOILzxEe2vKM58fnpo3Q" name="REQ-2.2.2.3 Suppression"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="__0MfkLzyEe2vKM58fnpo3Q" name="REQ-2.2.2.4 Historique des modifications"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_eLzXMLzzEe2vKM58fnpo3Q" name="REQ-2.2.2.5  Révision">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_FPeKkLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.1 Processus d'approbation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_G4PfMLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.2 Commentaires et observations"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rfQULzzEe2vKM58fnpo3Q" name="REQ-2.2.2.6 Métadonnées">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jfEDwLz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.1 Gestion des métadonnées "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_lvnKELz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.2 Types de métadonnées "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_nSTE0Lz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.3 Recherche de documents par métadonnées"/>
+              </nestedClassifier>
+            </nestedClassifier>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_rkiJkLxIEe2vKM58fnpo3Q" name="REQ-2.3 Vérification"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_HoLagLxJEe2vKM58fnpo3Q" name="REQ-2.4 Intégration">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ZkyMsL2LEe2i7I-Qd4C-Vw" name="REQ-2.4.1 Attribution N° FINESS"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_XkvVoL2NEe2i7I-Qd4C-Vw" name="REQ-2.4.2 Syncronization">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_YpWcML2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.1 1. Interface de programmation d'application (API) ">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_2k0xcL2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.1.1 Multi-formats (API)"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Zzxn8L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.2 Gestion des erreurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_be5tAL2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.3 Surveillance de la synchronisation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_dUYA4L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.4 Gestion de versions"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation en lot"/>
+          </nestedClassifier>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Who2ALwxEe23p_U3RQb1AA" name="filtrer" client="_vlGv8LwwEe23p_U3RQb1AA" supplier="_dQUxALwwEe23p_U3RQb1AA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_XawtALxKEe2vKM58fnpo3Q" name="attacher" client="_uZYaULxJEe2vKM58fnpo3Q" supplier="_kKJmMLxJEe2vKM58fnpo3Q"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_i7vVgLxNEe2vKM58fnpo3Q" name="synchroniser" client="_RLB2ULw0Ee23p_U3RQb1AA" supplier="_GdR-YLwtEe25StXjzuMdhg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Gae38Lv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaffALv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GajJYLv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GajJYbv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GajwcLv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gajwcbv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Gajwcrv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gajwc7v_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GakXgLv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GakXgbv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GakXgrv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gak-kLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Gak-kbv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gak-krv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GalloLv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GamMsLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GamMsbv_Ee2HlZxxJnTpkA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GamzwLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_sixHsLwtEe25StXjzuMdhg" base_NamedElement="_sijFQLwtEe25StXjzuMdhg" id="REQ-0" text="l'application doit permettre publier et partager des informations de tous les acteurs du système de santé qui comporte les données sur les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées." base_Class="_sijFQLwtEe25StXjzuMdhg"/>
+  <Requirements:Requirement xmi:id="_X2tS4bwuEe25StXjzuMdhg" base_NamedElement="_X2tS4LwuEe25StXjzuMdhg" id="REQ-1" text="L'application doit permettre aux utilisateurs de rechercher et de filtrer les informations sur les PM/EGEs enregistrées dans ce répertoire." base_Class="_X2tS4LwuEe25StXjzuMdhg"/>
+  <Requirements:Requirement xmi:id="_g9JdlLwvEe25StXjzuMdhg" base_NamedElement="_g9CIwLwvEe25StXjzuMdhg" id="REQ-2" text="L'application doit être capable de collecter et de stocker des informations sur une PM/EGE de manière efficace, afin de garantir l'exhaustivité et l'exactitude des données, lors de la soumission d'une demande d'enregistrement aux &quot;autorités d'enregistrement&quot; ou &quot;Autorités de régulation&quot;." base_Class="_g9CIwLwvEe25StXjzuMdhg"/>
+  <Requirements:Requirement xmi:id="_dQphILwwEe23p_U3RQb1AA" base_NamedElement="_dQUxALwwEe23p_U3RQb1AA" id="REQ-1.1" text="L'application doit permettre de chercher des informations sur une ou plusieurs PM/EGE enregistrées dans le répertoire, en utilisant différents critères de recherche, et doit présenter les résultats d'une manière accessible et organisée." base_Class="_dQUxALwwEe23p_U3RQb1AA"/>
+  <Requirements:Requirement xmi:id="_vlLBYLwwEe23p_U3RQb1AA" base_NamedElement="_vlGv8LwwEe23p_U3RQb1AA" id="REQ-1.2" text="l'application doit permettre définir un ou plusieurs critères de recherche." base_Class="_vlGv8LwwEe23p_U3RQb1AA"/>
+  <Requirements:DeriveReqt xmi:id="_WhynALwxEe23p_U3RQb1AA" base_DirectedRelationship="_Who2ALwxEe23p_U3RQb1AA" base_Abstraction="_Who2ALwxEe23p_U3RQb1AA"/>
+  <Requirements:Requirement xmi:id="_-qDq8bwyEe23p_U3RQb1AA" base_NamedElement="_-qDq8LwyEe23p_U3RQb1AA" id="REQ-1.1.2" text="L'application doit présenter les résultats d'une recherche de manière accessible et organisée." base_Class="_-qDq8LwyEe23p_U3RQb1AA"/>
+  <Requirements:Requirement xmi:id="_QMLBYLw0Ee23p_U3RQb1AA" base_NamedElement="_QMJMMLw0Ee23p_U3RQb1AA" id="REQ-1.1.2.1" text="L'application doit permettre de trier les résultats de la recherche en fonction de différents critères. " base_Class="_QMJMMLw0Ee23p_U3RQb1AA"/>
+  <Requirements:Requirement xmi:id="_RLLnULw0Ee23p_U3RQb1AA" base_NamedElement="_RLB2ULw0Ee23p_U3RQb1AA" id="REQ-1.1.2.2" text="L'application doit être capable de générer des résultats de recherche dans différents formats, tels que CSV, HTML, JSON, entre autres, afin que les utilisateurs puissent télécharger, imprimer, partager ou utiliser les informations dans différents outils et applications." base_Class="_RLB2ULw0Ee23p_U3RQb1AA"/>
+  <Requirements:Requirement xmi:id="_7Lc7cLxFEe2vKM58fnpo3Q" base_NamedElement="_7LSjYLxFEe2vKM58fnpo3Q" id="REQ-2.1" text="L'application doit garantir l'intégrité et l'exactitude des données collectées pour assurer que les informations présentées soient complètes et précises." base_Class="_7LSjYLxFEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_Q0oqYbxGEe2vKM58fnpo3Q" base_NamedElement="_Q0oqYLxGEe2vKM58fnpo3Q" id="REQ-2.2" text="L'application doit permettre aux PM/EGE de demander leur enregistrement auprès des autorités correspondantes." base_Class="_Q0oqYLxGEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_rklM4LxIEe2vKM58fnpo3Q" base_NamedElement="_rkiJkLxIEe2vKM58fnpo3Q" id="REQ-2.3" text="L'application doit disposer de mécanismes de vérification et correction des données pour garantir l'exactitude des informations présentées dans la demande d'enregistrement." base_Class="_rkiJkLxIEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_HoN2wLxJEe2vKM58fnpo3Q" base_NamedElement="_HoLagLxJEe2vKM58fnpo3Q" id="REQ-2.4" text="L'application doit être capable de s'intégrer avec les autorités d'enregistrement et de régulation correspondantes pour garantir que les données collectées soient synchronisées de manière opportune et efficace." base_Class="_HoLagLxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_kKLbYLxJEe2vKM58fnpo3Q" base_NamedElement="_kKJmMLxJEe2vKM58fnpo3Q" id="REQ-2.2.1" text="L'application doit comporter des formulaires de demande permettant aux utilisateurs de présenter une demande." base_Class="_kKJmMLxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_uZa2kLxJEe2vKM58fnpo3Q" base_NamedElement="_uZYaULxJEe2vKM58fnpo3Q" id="REQ-2.2.2" text="L’application doit permettre de gérer et à administrer les fichiers joints associés à des établissement." base_Class="_uZYaULxJEe2vKM58fnpo3Q"/>
+  <Requirements:DeriveReqt xmi:id="_XbCZ0LxKEe2vKM58fnpo3Q" base_DirectedRelationship="_XawtALxKEe2vKM58fnpo3Q" base_Abstraction="_XawtALxKEe2vKM58fnpo3Q"/>
+  <Requirements:DeriveReqt xmi:id="_i7xKsLxNEe2vKM58fnpo3Q" base_DirectedRelationship="_i7vVgLxNEe2vKM58fnpo3Q" base_Abstraction="_i7vVgLxNEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_ppkqkLy9Ee2vKM58fnpo3Q" base_NamedElement="_ppZrcLy9Ee2vKM58fnpo3Q" id="REQ-1.2.1" text="L'application doit permettre de trouver rapidement des PM/EGEs par n'importe quel champ, pour répondre à des besoins spécifiques et offrir une plus grande flexibilité et précision dans la recherche d'informations." base_Class="_ppZrcLy9Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="__r2AYbzoEe2vKM58fnpo3Q" base_NamedElement="__r2AYLzoEe2vKM58fnpo3Q" id="REQ-1.2.2" text="L'application doit permettre de trouver rapidement un PM/EGE par son identifiant FINESS." base_Class="__r2AYLzoEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_QdNEwLzpEe2vKM58fnpo3Q" base_NamedElement="_QdDTwLzpEe2vKM58fnpo3Q" id="REQ-1.2.3" text="L'application doit permettre de trouver rapidement des PM/EGEs qui se trouvent à proximité d'un emplacement géographique." base_Class="_QdDTwLzpEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_Yd2hcbzpEe2vKM58fnpo3Q" base_NamedElement="_Yd2hcLzpEe2vKM58fnpo3Q" id="REQ-1.2.4" text="L'application doit permettre de trouver rapidement des PM/EGEs par une ou plusieurs catégories." base_Class="_Yd2hcLzpEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_ip5esLzpEe2vKM58fnpo3Q" base_NamedElement="_ipz_ILzpEe2vKM58fnpo3Q" id="REQ-1.2.5" base_Class="_ipz_ILzpEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_pyhHMbzpEe2vKM58fnpo3Q" base_NamedElement="_pyhHMLzpEe2vKM58fnpo3Q" id="REQ-1.2.6" text="L'application doit permettre trouver rapidement des PM/EGEs par mot-clé pertinents. Les mots-clés peuvent inclure des noms de l'entité, des noms de lieux, etc." base_Class="_pyhHMLzpEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_6twgUbzpEe2vKM58fnpo3Q" base_NamedElement="_6twgULzpEe2vKM58fnpo3Q" id="REQ-1.2.7" text="L'application doit permettre de trouver rapidement des PM/EGEs par une ou plusieurs activités." base_Class="_6twgULzpEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_SScD4bzwEe2vKM58fnpo3Q" base_NamedElement="_SScD4LzwEe2vKM58fnpo3Q" id="REQ-2.2.2.1" text="L'application doit permettre le téléchargement de fichiers joints de manière sécurisée et contrôlée, dans différents formats tels que PDF, images, fichiers texte, entre autres." base_Class="_SScD4LzwEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_5bpUAbzwEe2vKM58fnpo3Q" base_NamedElement="_5bpUALzwEe2vKM58fnpo3Q" id="REQ-2.2.2.1.1" text="Une taille maximale de fichier autorisée doit être définie pour son téléchargement dans l'application." base_Class="_5bpUALzwEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_s1fPUbzxEe2vKM58fnpo3Q" base_NamedElement="_s1fPULzxEe2vKM58fnpo3Q" id="REQ-2.2.2.2" text="Les fichiers joints doivent être stockés et protégés correctement pour garantir leur sécurité et leur confidentialité.&#xD;&#xA;" base_Class="_s1fPULzxEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_81JxALzxEe2vKM58fnpo3Q" base_NamedElement="_81BOILzxEe2vKM58fnpo3Q" id="REQ-2.2.2.3" text="L'application doit permettre la suppression de fichiers joints lorsqu'ils ne sont plus nécessaires ou a été sollicité." base_Class="_81BOILzxEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="__0MfkbzyEe2vKM58fnpo3Q" base_NamedElement="__0MfkLzyEe2vKM58fnpo3Q" id="REQ-2.2.2.4" text="L'application doit conserver un historique des modifications et des mises à jour apportées aux fichiers joints pour un suivi et une vérification appropriée." base_Class="__0MfkLzyEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_eLzXMbzzEe2vKM58fnpo3Q" base_NamedElement="_eLzXMLzzEe2vKM58fnpo3Q" id="REQ-2.2.2.5" text="L'application doit disposer d'une fonctionnalité de révision permettant à l'autorité correspondante d'analyser les documents présentés." base_Class="_eLzXMLzzEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_0rfQUbzzEe2vKM58fnpo3Q" base_NamedElement="_0rfQULzzEe2vKM58fnpo3Q" id="REQ-2.2.2.6" text="L'application doit permettre l'association de métadonnées à chaque document." base_Class="_0rfQULzzEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_FPeKkbz1Ee2vKM58fnpo3Q" base_NamedElement="_FPeKkLz1Ee2vKM58fnpo3Q" id="REQ-2.2.2.5.1" text="L'application doit disposer d'un processus d'approbation permettant à l'autorité correspondante d'approuver ou de rejeter les documents présentés." base_Class="_FPeKkLz1Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_G4PfMbz1Ee2vKM58fnpo3Q" base_NamedElement="_G4PfMLz1Ee2vKM58fnpo3Q" id="REQ-2.2.2.5.2" text="L'application doit permettre à l'autorité correspondante d'ajouter des commentaires et des observations aux documents présentés." base_Class="_G4PfMLz1Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_jfEDwbz3Ee2vKM58fnpo3Q" base_NamedElement="_jfEDwLz3Ee2vKM58fnpo3Q" id="REQ-2.2.2.6.1" text="L'application doit permettre la gestion et la mise à jour des métadonnées associées aux documents." base_Class="_jfEDwLz3Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_lvnKEbz3Ee2vKM58fnpo3Q" base_NamedElement="_lvnKELz3Ee2vKM58fnpo3Q" id="REQ-2.2.2.6.2" text="L'application doit définir les types de métadonnées qui peuvent être associés aux documents." base_Class="_lvnKELz3Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_nSTE0bz3Ee2vKM58fnpo3Q" base_NamedElement="_nSTE0Lz3Ee2vKM58fnpo3Q" id="REQ-2.2.2.6.3" text="L'application doit permettre la recherche de documents par les métadonnées qui y sont associées." base_Class="_nSTE0Lz3Ee2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_ZlFusL2LEe2i7I-Qd4C-Vw" base_NamedElement="_ZkyMsL2LEe2i7I-Qd4C-Vw" id="REQ-2.4.1" text="L'application doit permettre la génération et la réservation d'un N° FINESS à attribuer à une PM/EGE lorsqu'il est demandé par une application partenaire. Puis transmise à l'application partenaire." base_Class="_ZkyMsL2LEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_XkzAAL2NEe2i7I-Qd4C-Vw" base_NamedElement="_XkvVoL2NEe2i7I-Qd4C-Vw" id="REQ-2.4.2" text="L'application doit être capable de synchroniser les données de manière opportune et efficace entre le répertoire et les applications partenaires. La synchronisation doit être bidirectionnelle pour garantir que les données soient à jour et précises des deux côtés." base_Class="_XkvVoL2NEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_Ype_EL2sEe2i7I-Qd4C-Vw" base_NamedElement="_YpWcML2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.1" text="l'application doit disposer d'une API permettant la communication entre le repertoire et les applications partenaires." base_Class="_YpWcML2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_Zzxn8b2sEe2i7I-Qd4C-Vw" base_NamedElement="_Zzxn8L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.2" text="l'application doit être capable de gérer les erreurs de communication avec les applications partenaires et fournir des informations claires et détaillées sur ces erreurs pour leur correction ultérieure." base_Class="_Zzxn8L2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_bfEFEL2sEe2i7I-Qd4C-Vw" base_NamedElement="_be5tAL2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.3" text="L'application doit disposer d'outils de surveillance permettant de vérifier que la synchronisation avec les applications partenaires est correctement effectuée et de détecter rapidement les erreurs." base_Class="_be5tAL2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_dUYA4b2sEe2i7I-Qd4C-Vw" base_NamedElement="_dUYA4L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.4" text="L'application doit disposer d'un système de gestion de versions pour garantir que les versions des données échangées avec les applications partenaires sont correctement gérées." base_Class="_dUYA4L2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_2k8tQL2sEe2i7I-Qd4C-Vw" base_NamedElement="_2k0xcL2sEe2i7I-Qd4C-Vw" text="L'API doit être capable de gérer différents formats de données et protocoles de communication en fonction des besoins." base_Class="_2k0xcL2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_5Mgu8b24Ee2i7I-Qd4C-Vw" base_NamedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw" text="L'application doit permettre une synchronisation en lot, c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires." base_Class="_5Mgu8L24Ee2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_64vAML24Ee2i7I-Qd4C-Vw" base_NamedElement="_64iL4L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.2.5" text="L'application doit être capable de réaliser la synchronisation de manière asynchrone pour éviter d'affecter les performances des applications partenaires." base_Class="_64iL4L24Ee2i7I-Qd4C-Vw"/>
+</xmi:XMI>
