@@ -44,7 +44,7 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_g9CIwLwvEe25StXjzuMdhg" name="REQ-2 Collecte de données">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_7LSjYLxFEe2vKM58fnpo3Q" name="REQ-2.1 Exhaustivité"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Q0oqYLxGEe2vKM58fnpo3Q" name="REQ-2.2 Demande d'Inmatriculacion ">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Q0oqYLxGEe2vKM58fnpo3Q" name="REQ-2.2 Demande d'Immatriculation">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_kKJmMLxJEe2vKM58fnpo3Q" name="REQ-2.2.1 Formulaires de demande"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.2  Gestion de pièces justificatives">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_SScD4LzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1 Téléchargement ">
@@ -76,7 +76,7 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
               <nestedClassifier xmi:type="uml:Class" xmi:id="_dUYA4L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.4 Gestion de versions"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation en lot"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.3 Synchronisation en lot"/>
           </nestedClassifier>
         </nestedClassifier>
       </packagedElement>
@@ -158,8 +158,8 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
   <Requirements:Requirement xmi:id="_Q0oqYbxGEe2vKM58fnpo3Q" base_NamedElement="_Q0oqYLxGEe2vKM58fnpo3Q" id="REQ-2.2" text="L'application doit permettre aux PM/EGE de demander leur enregistrement auprès des autorités correspondantes." base_Class="_Q0oqYLxGEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_rklM4LxIEe2vKM58fnpo3Q" base_NamedElement="_rkiJkLxIEe2vKM58fnpo3Q" id="REQ-2.3" text="L'application doit disposer de mécanismes de vérification et correction des données pour garantir l'exactitude des informations présentées dans la demande d'enregistrement." base_Class="_rkiJkLxIEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_HoN2wLxJEe2vKM58fnpo3Q" base_NamedElement="_HoLagLxJEe2vKM58fnpo3Q" id="REQ-2.4" text="L'application doit être capable de s'intégrer avec les autorités d'enregistrement et de régulation correspondantes pour garantir que les données collectées soient synchronisées de manière opportune et efficace." base_Class="_HoLagLxJEe2vKM58fnpo3Q"/>
-  <Requirements:Requirement xmi:id="_kKLbYLxJEe2vKM58fnpo3Q" base_NamedElement="_kKJmMLxJEe2vKM58fnpo3Q" id="REQ-2.2.1" text="L'application doit comporter des formulaires de demande permettant aux utilisateurs de présenter une demande." base_Class="_kKJmMLxJEe2vKM58fnpo3Q"/>
-  <Requirements:Requirement xmi:id="_uZa2kLxJEe2vKM58fnpo3Q" base_NamedElement="_uZYaULxJEe2vKM58fnpo3Q" id="REQ-2.2.2" text="L’application doit permettre de gérer et à administrer les fichiers joints associés à des établissement." base_Class="_uZYaULxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_kKLbYLxJEe2vKM58fnpo3Q" base_NamedElement="_kKJmMLxJEe2vKM58fnpo3Q" id="REQ-2.2.1" text="L'application doit comporter des formulaires permettant aux utilisateurs de présenter une demande d'Immatriculation." base_Class="_kKJmMLxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_uZa2kLxJEe2vKM58fnpo3Q" base_NamedElement="_uZYaULxJEe2vKM58fnpo3Q" id="REQ-2.2.2" text="L’application doit permettre de gérer et administrer les fichiers joints associés à des PM/EGEs." base_Class="_uZYaULxJEe2vKM58fnpo3Q"/>
   <Requirements:DeriveReqt xmi:id="_XbCZ0LxKEe2vKM58fnpo3Q" base_DirectedRelationship="_XawtALxKEe2vKM58fnpo3Q" base_Abstraction="_XawtALxKEe2vKM58fnpo3Q"/>
   <Requirements:DeriveReqt xmi:id="_i7xKsLxNEe2vKM58fnpo3Q" base_DirectedRelationship="_i7vVgLxNEe2vKM58fnpo3Q" base_Abstraction="_i7vVgLxNEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_ppkqkLy9Ee2vKM58fnpo3Q" base_NamedElement="_ppZrcLy9Ee2vKM58fnpo3Q" id="REQ-1.2.1" text="L'application doit permettre de trouver rapidement des PM/EGEs par n'importe quel champ, pour répondre à des besoins spécifiques et offrir une plus grande flexibilité et précision dans la recherche d'informations." base_Class="_ppZrcLy9Ee2vKM58fnpo3Q"/>
@@ -188,6 +188,6 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
   <Requirements:Requirement xmi:id="_bfEFEL2sEe2i7I-Qd4C-Vw" base_NamedElement="_be5tAL2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.3" text="L'application doit disposer d'outils de surveillance permettant de vérifier que la synchronisation avec les applications partenaires est correctement effectuée et de détecter rapidement les erreurs." base_Class="_be5tAL2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_dUYA4b2sEe2i7I-Qd4C-Vw" base_NamedElement="_dUYA4L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.4" text="L'application doit disposer d'un système de gestion de versions pour garantir que les versions des données échangées avec les applications partenaires sont correctement gérées." base_Class="_dUYA4L2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_2k8tQL2sEe2i7I-Qd4C-Vw" base_NamedElement="_2k0xcL2sEe2i7I-Qd4C-Vw" text="L'API doit être capable de gérer différents formats de données et protocoles de communication en fonction des besoins." base_Class="_2k0xcL2sEe2i7I-Qd4C-Vw"/>
-  <Requirements:Requirement xmi:id="_5Mgu8b24Ee2i7I-Qd4C-Vw" base_NamedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw" text="L'application doit permettre une synchronisation en lot, c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires." base_Class="_5Mgu8L24Ee2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_5Mgu8b24Ee2i7I-Qd4C-Vw" base_NamedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.3" text="L'application doit permettre une synchronisation en lot, c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires." base_Class="_5Mgu8L24Ee2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_64vAML24Ee2i7I-Qd4C-Vw" base_NamedElement="_64iL4L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.2.5" text="L'application doit être capable de réaliser la synchronisation de manière asynchrone pour éviter d'affecter les performances des applications partenaires." base_Class="_64iL4L24Ee2i7I-Qd4C-Vw"/>
 </xmi:XMI>
