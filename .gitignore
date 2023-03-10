@@ -1,3 +1,16 @@
 /.metadata/
 documentation/diagrammes/dal/.settings/
 documentation/.metadata/
+documentation/diagrammes/dal/Activities.SVG
+documentation/diagrammes/dal/Allocations.SVG
+documentation/diagrammes/dal/Blocks.SVG
+documentation/diagrammes/dal/ConstraintBlocks.SVG
+documentation/diagrammes/dal/ControlValues_Diagram.SVG
+documentation/diagrammes/dal/DeprecatedElements.SVG
+documentation/diagrammes/dal/Libraries_Diagram.SVG
+documentation/diagrammes/dal/ModelElements.SVG
+documentation/diagrammes/dal/PortsAndFlows.SVG
+documentation/diagrammes/dal/Primitive_Value_Types_Diagram.SVG
+documentation/diagrammes/dal/Unit_And_QuantityKind_Diagram.SVG
+documentation/diagrammes/dal/Requirements_VerdictKind_Diagram.SVG
+documentation/diagrammes/dal/Requirements.SVG

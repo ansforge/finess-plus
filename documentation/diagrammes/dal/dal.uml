@@ -24,6 +24,10 @@
         <body>La synchronisation entre le répertoire et les applications partenaires peut être synchrone ou asynchrone. La synchronisation synchrone peut ralentir les performances des applications partenaires, tandis que la synchronisation asynchrone permet aux applications de fonctionner sans interruption. &#xD;
 La synchronisation asynchrone améliore l'efficacité et l'expérience utilisateur globale.</body>
       </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_knB_8L89Ee26B-GmpHT37w" annotatedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw">
+        <body>c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. &#xD;
+Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires.</body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_sijFQLwtEe25StXjzuMdhg" name="REQ-0 FINESS Function Principale">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_X2tS4LwuEe25StXjzuMdhg" name="REQ-1 Recherche et filtrage">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_dQUxALwwEe23p_U3RQb1AA" name="REQ-1.1 Recherche">
@@ -74,15 +78,31 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Zzxn8L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.2 Gestion des erreurs"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_be5tAL2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.3 Surveillance de la synchronisation"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_dUYA4L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.4 Gestion de versions"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_YV4FcL8_Ee26B-GmpHT37w" name="REQ-2.4.2.5 Validation des données"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aUYJwL9QEe26B-GmpHT37w" name="REQ-2.4.2.6 Notification des erreurs"/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.3 Synchronisation en lot"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.3 Synchronisation en lot">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_zCeD4L8_Ee26B-GmpHT37w" name="REQ-2.4.3.5 Gestion des erreurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_zCnN0L8_Ee26B-GmpHT37w" name="REQ-2.4.3.6 Surveillance de la synchronisation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_zCn04L8_Ee26B-GmpHT37w" name="REQ-2.4.3.7 Contrôle des versions"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_zCn04b8_Ee26B-GmpHT37w" name="REQ-2.4.3.8 Validation des données"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rQV2EL8YEe26B-GmpHT37w" name="REQ-2.4.3.1 Configuration du format d'entrée "/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0q66IL8YEe26B-GmpHT37w" name="REQ-2.4.3.2 Compatibilité des formats"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_szaWEL8-Ee26B-GmpHT37w" name="REQ-2.4.3.3 Configuration du format de sortie"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_AlKpUL8_Ee26B-GmpHT37w" name="REQ-2.4.3.4 Mappage des données"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SrKEsL9HEe26B-GmpHT37w" name="REQ-2.4.3.5 Notification des erreurs"/>
+            </nestedClassifier>
           </nestedClassifier>
         </nestedClassifier>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Who2ALwxEe23p_U3RQb1AA" name="filtrer" client="_vlGv8LwwEe23p_U3RQb1AA" supplier="_dQUxALwwEe23p_U3RQb1AA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_XawtALxKEe2vKM58fnpo3Q" name="attacher" client="_uZYaULxJEe2vKM58fnpo3Q" supplier="_kKJmMLxJEe2vKM58fnpo3Q"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_i7vVgLxNEe2vKM58fnpo3Q" name="synchroniser" client="_RLB2ULw0Ee23p_U3RQb1AA" supplier="_GdR-YLwtEe25StXjzuMdhg"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_05gokL9AEe26B-GmpHT37w" name="Copy11" client="_YV4FcL8_Ee26B-GmpHT37w" supplier="_zCn04b8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_u-0WUL9BEe26B-GmpHT37w" name="Copy13" client="_GdR-YLwtEe25StXjzuMdhg" supplier="_zCeD4L8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__-h_wL9BEe26B-GmpHT37w" name="Copy14" client="_be5tAL2sEe2i7I-Qd4C-Vw" supplier="_zCnN0L8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_n0t_wL9EEe26B-GmpHT37w" name="Copy14" client="_dUYA4L2sEe2i7I-Qd4C-Vw" supplier="_zCn04L8_Ee26B-GmpHT37w"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -188,6 +208,21 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
   <Requirements:Requirement xmi:id="_bfEFEL2sEe2i7I-Qd4C-Vw" base_NamedElement="_be5tAL2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.3" text="L'application doit disposer d'outils de surveillance permettant de vérifier que la synchronisation avec les applications partenaires est correctement effectuée et de détecter rapidement les erreurs." base_Class="_be5tAL2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_dUYA4b2sEe2i7I-Qd4C-Vw" base_NamedElement="_dUYA4L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.4" text="L'application doit disposer d'un système de gestion de versions pour garantir que les versions des données échangées avec les applications partenaires sont correctement gérées." base_Class="_dUYA4L2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_2k8tQL2sEe2i7I-Qd4C-Vw" base_NamedElement="_2k0xcL2sEe2i7I-Qd4C-Vw" text="L'API doit être capable de gérer différents formats de données et protocoles de communication en fonction des besoins." base_Class="_2k0xcL2sEe2i7I-Qd4C-Vw"/>
-  <Requirements:Requirement xmi:id="_5Mgu8b24Ee2i7I-Qd4C-Vw" base_NamedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.3" text="L'application doit permettre une synchronisation en lot, c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires." base_Class="_5Mgu8L24Ee2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_5Mgu8b24Ee2i7I-Qd4C-Vw" base_NamedElement="_5Mgu8L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.3" text="L'application doit permettre une synchronisation en lot." base_Class="_5Mgu8L24Ee2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_64vAML24Ee2i7I-Qd4C-Vw" base_NamedElement="_64iL4L24Ee2i7I-Qd4C-Vw" id="REQ-2.4.2.5" text="L'application doit être capable de réaliser la synchronisation de manière asynchrone pour éviter d'affecter les performances des applications partenaires." base_Class="_64iL4L24Ee2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_rQpYEL8YEe26B-GmpHT37w" base_NamedElement="_rQV2EL8YEe26B-GmpHT37w" id="REQ-2.4.3.1" text="L'application doit permettre la configuration du format d'entrée des données pour qu'elle puisse lire différents types de fichiers." base_Class="_rQV2EL8YEe26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_0q66Ib8YEe26B-GmpHT37w" base_NamedElement="_0q66IL8YEe26B-GmpHT37w" id="REQ-2.4.3." text="L'application doit être compatible avec différents formats de fichiers, tels que CSV, XLS, XML, entre autres." base_Class="_0q66IL8YEe26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_szaWEb8-Ee26B-GmpHT37w" base_NamedElement="_szaWEL8-Ee26B-GmpHT37w" id="REQ-2.4.3.3" text="L'application doit permettre la configuration du format de sortie des données pour qu'elle puisse être compatible avec différentes applications." base_Class="_szaWEL8-Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_AlKpUb8_Ee26B-GmpHT37w" base_NamedElement="_AlKpUL8_Ee26B-GmpHT37w" id="REQ-2.4.3.4" text="L'application doit permettre le mappage des données importées aux champs correspondants à l'API." base_Class="_AlKpUL8_Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_YV4Fcb8_Ee26B-GmpHT37w" base_NamedElement="_YV4FcL8_Ee26B-GmpHT37w" id="REQ-2.4.2.5" text="L'application doit valider les données importées pour garantir leur intégrité et leur cohérence." base_Class="_YV4FcL8_Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_zCn04r8_Ee26B-GmpHT37w" base_NamedElement="_zCeD4L8_Ee26B-GmpHT37w" id="REQ-2.4.3.5" base_Class="_zCeD4L8_Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_zCn0478_Ee26B-GmpHT37w" base_NamedElement="_zCnN0L8_Ee26B-GmpHT37w" id="REQ-2.4.2.6" base_Class="_zCnN0L8_Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_zCn05L8_Ee26B-GmpHT37w" base_NamedElement="_zCn04L8_Ee26B-GmpHT37w" id="REQ-2.4.3.7" text="L'application doit contrôler les versions des fichiers importés et conserver un historique des modifications apportées." base_Class="_zCn04L8_Ee26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_zCn05b8_Ee26B-GmpHT37w" base_NamedElement="_zCn04b8_Ee26B-GmpHT37w" id="REQ-2.4.3.8" base_Class="_zCn04b8_Ee26B-GmpHT37w"/>
+  <Requirements:Copy xmi:id="_05gokb9AEe26B-GmpHT37w" base_DirectedRelationship="_05gokL9AEe26B-GmpHT37w" base_Abstraction="_05gokL9AEe26B-GmpHT37w"/>
+  <Requirements:Copy xmi:id="_u-514L9BEe26B-GmpHT37w" base_DirectedRelationship="_u-0WUL9BEe26B-GmpHT37w" base_Abstraction="_u-0WUL9BEe26B-GmpHT37w"/>
+  <Requirements:Copy xmi:id="__-h_wb9BEe26B-GmpHT37w" base_DirectedRelationship="__-h_wL9BEe26B-GmpHT37w" base_Abstraction="__-h_wL9BEe26B-GmpHT37w"/>
+  <Requirements:Copy xmi:id="_n0xDEL9EEe26B-GmpHT37w" base_DirectedRelationship="_n0t_wL9EEe26B-GmpHT37w" base_Abstraction="_n0t_wL9EEe26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_SrMg8L9HEe26B-GmpHT37w" base_NamedElement="_SrKEsL9HEe26B-GmpHT37w" id="REQ-2.4.3.5" text="L'application doit notifier l'utilisateur en cas d'erreur lors de l'importation des données." base_Class="_SrKEsL9HEe26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_aUYw0L9QEe26B-GmpHT37w" base_NamedElement="_aUYJwL9QEe26B-GmpHT37w" id="REQ-2.4.2.6" text="L'application doit notifier l'utilisateur en cas d'erreur lors de la synchronisation des données." base_Class="_aUYJwL9QEe26B-GmpHT37w"/>
 </xmi:XMI>
