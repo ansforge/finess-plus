@@ -105,7 +105,7 @@
                 <path d="M527 575 L989 575 L989 602 L527 602 L527 575 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
-                <path d="M603 575 L933 575 L933 602 L603 602 L603 575 Z"/>
+                <path d="M605 575 L930 575 L930 602 L605 602 L605 575 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
                 <path d="M532 603 L645 603 L645 630 L532 630 L532 603 Z"/>
@@ -182,8 +182,8 @@
             <rect x="10" y="550" clip-path="url(#clipPath24)" fill="none" width="460" rx="0" ry="0" height="160"/>
             <rect x="527" y="550" clip-path="url(#clipPath25)" fill="url(#linearGradient4)" width="461" height="161" stroke="none"/>
             <text x="699" xml:space="preserve" y="570" clip-path="url(#clipPath26)" stroke="none">«Requirement»</text>
-            <image x="585" y="580" clip-path="url(#clipPath27)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="604" xml:space="preserve" y="596" clip-path="url(#clipPath28)" stroke="none">REQ-2.2.2  Gestion de pièces justificatives</text>
+            <image x="587" y="580" clip-path="url(#clipPath27)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="606" xml:space="preserve" y="596" clip-path="url(#clipPath28)" stroke="none">REQ-2.2.2 Gestion de pièces justificatives</text>
             <text x="533" xml:space="preserve" y="624" clip-path="url(#clipPath29)" stroke="none">id=REQ-2.2.2 </text>
             <text x="533" xml:space="preserve" y="649" clip-path="url(#clipPath30)" stroke="none">text=L’application doit permettre de gérer et administrer</text>
             <text x="533" xml:space="preserve" y="674" clip-path="url(#clipPath30)" stroke="none">les fichiers joints associés à des PM/EGEs. </text>

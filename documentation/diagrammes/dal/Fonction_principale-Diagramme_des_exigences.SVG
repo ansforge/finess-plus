@@ -61,7 +61,7 @@
                 <path d="M770 35 L1212 35 L1212 62 L770 62 L770 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-                <path d="M867 35 L1135 35 L1135 62 L867 62 L867 35 Z"/>
+                <path d="M866 35 L1135 35 L1135 62 L866 62 L866 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
                 <path d="M775 63 L860 63 L860 90 L775 90 L775 63 Z"/>
@@ -325,10 +325,10 @@
         <g font-size="18px" fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
             <rect x="770" width="441" height="221" y="10" clip-path="url(#clipPath1)" stroke="none"/>
             <text fill="black" x="932" xml:space="preserve" y="30" clip-path="url(#clipPath2)" stroke="none">«Requirement»</text>
-            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="849" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text fill="black" x="868" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-0 FINESS Function Principale</text>
+            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="848" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <text fill="black" x="867" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-0 FINESS Fonction Principale</text>
             <text fill="black" x="776" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-0 </text>
-            <text fill="black" x="776" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=l'application doit permettre publier et partager</text>
+            <text fill="black" x="776" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre publier et partager</text>
             <text fill="black" x="776" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">des informations de tous les acteurs du système de</text>
             <text fill="black" x="776" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">santé qui comporte les données sur les personnes</text>
             <text fill="black" x="776" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">morales et les entités géographiques (établissements),</text>

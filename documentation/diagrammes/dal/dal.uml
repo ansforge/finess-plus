@@ -28,12 +28,12 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
         <body>c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. &#xD;
 Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires.</body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Class" xmi:id="_sijFQLwtEe25StXjzuMdhg" name="REQ-0 FINESS Function Principale">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sijFQLwtEe25StXjzuMdhg" name="REQ-0 FINESS Fonction Principale">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_X2tS4LwuEe25StXjzuMdhg" name="REQ-1 Recherche et filtrage">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_dQUxALwwEe23p_U3RQb1AA" name="REQ-1.1 Recherche">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_-qDq8LwyEe23p_U3RQb1AA" name="REQ-1.1.2 Presentation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_-qDq8LwyEe23p_U3RQb1AA" name="REQ-1.1.2 Présentation">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_QMJMMLw0Ee23p_U3RQb1AA" name="REQ-1.1.2.1 Trier"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_RLB2ULw0Ee23p_U3RQb1AA" name="REQ-1.1.2.2 Multi-format (accessibilité)"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RLB2ULw0Ee23p_U3RQb1AA" name="REQ-1.1.2.2 Multiformats (accessibilité)"/>
             </nestedClassifier>
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_vlGv8LwwEe23p_U3RQb1AA" name="REQ-1.2 Filtrage">
@@ -43,21 +43,21 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
             <nestedClassifier xmi:type="uml:Class" xmi:id="_Yd2hcLzpEe2vKM58fnpo3Q" name="REQ-1.2.4 par catégorie"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_ipz_ILzpEe2vKM58fnpo3Q" name="REQ-1.2.5 par type"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_pyhHMLzpEe2vKM58fnpo3Q" name="REQ-1.2.6 par mot-clé"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_6twgULzpEe2vKM58fnpo3Q" name="REQ-1.2.7 par activites"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_6twgULzpEe2vKM58fnpo3Q" name="REQ-1.2.7 par activités"/>
           </nestedClassifier>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_g9CIwLwvEe25StXjzuMdhg" name="REQ-2 Collecte de données">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_7LSjYLxFEe2vKM58fnpo3Q" name="REQ-2.1 Exhaustivité"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Q0oqYLxGEe2vKM58fnpo3Q" name="REQ-2.2 Demande d'Immatriculation">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_kKJmMLxJEe2vKM58fnpo3Q" name="REQ-2.2.1 Formulaires de demande"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.2  Gestion de pièces justificatives">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.2 Gestion de pièces justificatives">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_SScD4LzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1 Téléchargement ">
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_5bpUALzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1.1 Taille maximale de fichier"/>
               </nestedClassifier>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_s1fPULzxEe2vKM58fnpo3Q" name="REQ-2.2.2.2 Sécurité des fichiers"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_81BOILzxEe2vKM58fnpo3Q" name="REQ-2.2.2.3 Suppression"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="__0MfkLzyEe2vKM58fnpo3Q" name="REQ-2.2.2.4 Historique des modifications"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_eLzXMLzzEe2vKM58fnpo3Q" name="REQ-2.2.2.5  Révision">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_eLzXMLzzEe2vKM58fnpo3Q" name="REQ-2.2.2.5 Révision">
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_FPeKkLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.1 Processus d'approbation"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_G4PfMLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.2 Commentaires et observations"/>
               </nestedClassifier>
@@ -71,8 +71,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
           <nestedClassifier xmi:type="uml:Class" xmi:id="_rkiJkLxIEe2vKM58fnpo3Q" name="REQ-2.3 Vérification"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_HoLagLxJEe2vKM58fnpo3Q" name="REQ-2.4 Intégration">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_ZkyMsL2LEe2i7I-Qd4C-Vw" name="REQ-2.4.1 Attribution N° FINESS"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_XkvVoL2NEe2i7I-Qd4C-Vw" name="REQ-2.4.2 Syncronization">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_YpWcML2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.1 1. Interface de programmation d'application (API) ">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_XkvVoL2NEe2i7I-Qd4C-Vw" name="REQ-2.4.2 Synchronisation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_YpWcML2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.1 Interface de programmation d'application (API) ">
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_2k0xcL2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.1.1 Multi-formats (API)"/>
               </nestedClassifier>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Zzxn8L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.2 Gestion des erreurs"/>
@@ -165,7 +165,7 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_sixHsLwtEe25StXjzuMdhg" base_NamedElement="_sijFQLwtEe25StXjzuMdhg" id="REQ-0" text="l'application doit permettre publier et partager des informations de tous les acteurs du système de santé qui comporte les données sur les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées." base_Class="_sijFQLwtEe25StXjzuMdhg"/>
+  <Requirements:Requirement xmi:id="_sixHsLwtEe25StXjzuMdhg" base_NamedElement="_sijFQLwtEe25StXjzuMdhg" id="REQ-0" text="L'application doit permettre publier et partager des informations de tous les acteurs du système de santé qui comporte les données sur les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées." base_Class="_sijFQLwtEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_X2tS4bwuEe25StXjzuMdhg" base_NamedElement="_X2tS4LwuEe25StXjzuMdhg" id="REQ-1" text="L'application doit permettre aux utilisateurs de rechercher et de filtrer les informations sur les PM/EGEs enregistrées dans ce répertoire." base_Class="_X2tS4LwuEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_g9JdlLwvEe25StXjzuMdhg" base_NamedElement="_g9CIwLwvEe25StXjzuMdhg" id="REQ-2" text="L'application doit être capable de collecter et de stocker des informations sur une PM/EGE de manière efficace, afin de garantir l'exhaustivité et l'exactitude des données, lors de la soumission d'une demande d'enregistrement aux &quot;autorités d'enregistrement&quot; ou &quot;Autorités de régulation&quot;." base_Class="_g9CIwLwvEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_dQphILwwEe23p_U3RQb1AA" base_NamedElement="_dQUxALwwEe23p_U3RQb1AA" id="REQ-1.1" text="L'application doit permettre de chercher des informations sur une ou plusieurs PM/EGE enregistrées dans le répertoire, en utilisant différents critères de recherche, et doit présenter les résultats d'une manière accessible et organisée." base_Class="_dQUxALwwEe23p_U3RQb1AA"/>
@@ -203,8 +203,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_nSTE0bz3Ee2vKM58fnpo3Q" base_NamedElement="_nSTE0Lz3Ee2vKM58fnpo3Q" id="REQ-2.2.2.6.3" text="L'application doit permettre la recherche de documents par les métadonnées qui y sont associées." base_Class="_nSTE0Lz3Ee2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_ZlFusL2LEe2i7I-Qd4C-Vw" base_NamedElement="_ZkyMsL2LEe2i7I-Qd4C-Vw" id="REQ-2.4.1" text="L'application doit permettre la génération et la réservation d'un N° FINESS à attribuer à une PM/EGE lorsqu'il est demandé par une application partenaire. Puis transmise à l'application partenaire." base_Class="_ZkyMsL2LEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_XkzAAL2NEe2i7I-Qd4C-Vw" base_NamedElement="_XkvVoL2NEe2i7I-Qd4C-Vw" id="REQ-2.4.2" text="L'application doit être capable de synchroniser les données de manière opportune et efficace entre le répertoire et les applications partenaires. La synchronisation doit être bidirectionnelle pour garantir que les données soient à jour et précises des deux côtés." base_Class="_XkvVoL2NEe2i7I-Qd4C-Vw"/>
-  <Requirements:Requirement xmi:id="_Ype_EL2sEe2i7I-Qd4C-Vw" base_NamedElement="_YpWcML2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.1" text="l'application doit disposer d'une API permettant la communication entre le repertoire et les applications partenaires." base_Class="_YpWcML2sEe2i7I-Qd4C-Vw"/>
-  <Requirements:Requirement xmi:id="_Zzxn8b2sEe2i7I-Qd4C-Vw" base_NamedElement="_Zzxn8L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.2" text="l'application doit être capable de gérer les erreurs de communication avec les applications partenaires et fournir des informations claires et détaillées sur ces erreurs pour leur correction ultérieure." base_Class="_Zzxn8L2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_Ype_EL2sEe2i7I-Qd4C-Vw" base_NamedElement="_YpWcML2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.1" text="L'application doit disposer d'une API permettant la communication entre le répertoire et les applications partenaires." base_Class="_YpWcML2sEe2i7I-Qd4C-Vw"/>
+  <Requirements:Requirement xmi:id="_Zzxn8b2sEe2i7I-Qd4C-Vw" base_NamedElement="_Zzxn8L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.2" text="L'application doit être capable de gérer les erreurs de communication avec les applications partenaires et fournir des informations claires et détaillées sur ces erreurs pour leur correction ultérieure." base_Class="_Zzxn8L2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_bfEFEL2sEe2i7I-Qd4C-Vw" base_NamedElement="_be5tAL2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.3" text="L'application doit disposer d'outils de surveillance permettant de vérifier que la synchronisation avec les applications partenaires est correctement effectuée et de détecter rapidement les erreurs." base_Class="_be5tAL2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_dUYA4b2sEe2i7I-Qd4C-Vw" base_NamedElement="_dUYA4L2sEe2i7I-Qd4C-Vw" id="REQ-2.4.2.4" text="L'application doit disposer d'un système de gestion de versions pour garantir que les versions des données échangées avec les applications partenaires sont correctement gérées." base_Class="_dUYA4L2sEe2i7I-Qd4C-Vw"/>
   <Requirements:Requirement xmi:id="_2k8tQL2sEe2i7I-Qd4C-Vw" base_NamedElement="_2k0xcL2sEe2i7I-Qd4C-Vw" text="L'API doit être capable de gérer différents formats de données et protocoles de communication en fonction des besoins." base_Class="_2k0xcL2sEe2i7I-Qd4C-Vw"/>

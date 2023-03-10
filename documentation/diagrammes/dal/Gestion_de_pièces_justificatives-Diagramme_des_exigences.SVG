@@ -65,7 +65,7 @@
                 <path d="M1090 35 L1452 35 L1452 62 L1090 62 L1090 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-                <path d="M1116 35 L1446 35 L1446 62 L1116 62 L1116 35 Z"/>
+                <path d="M1118 35 L1443 35 L1443 62 L1118 62 L1118 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
                 <path d="M1095 63 L1208 63 L1208 90 L1095 90 L1095 63 Z"/>
@@ -209,7 +209,7 @@
                 <path d="M1250 275 L1612 275 L1612 302 L1250 302 L1250 275 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath52">
-                <path d="M1355 275 L1526 275 L1526 302 L1355 302 L1355 275 Z"/>
+                <path d="M1358 275 L1524 275 L1524 302 L1358 302 L1358 275 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath53">
                 <path d="M1255 303 L1382 303 L1382 330 L1255 330 L1255 303 Z"/>
@@ -386,8 +386,8 @@
         <g font-size="18px" fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
             <rect x="1090" width="361" height="161" y="10" clip-path="url(#clipPath1)" stroke="none"/>
             <text fill="black" x="1212" xml:space="preserve" y="30" clip-path="url(#clipPath2)" stroke="none">«Requirement»</text>
-            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="1098" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text fill="black" x="1117" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-2.2.2  Gestion de pièces justificatives</text>
+            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="1100" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <text fill="black" x="1119" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-2.2.2 Gestion de pièces justificatives</text>
             <text fill="black" x="1096" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-2.2.2 </text>
             <text fill="black" x="1096" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L’application doit permettre de gérer</text>
             <text fill="black" x="1096" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">et administrer les fichiers joints associés à</text>
@@ -458,8 +458,8 @@
             <rect x="410" y="550" clip-path="url(#clipPath48)" fill="none" width="360" rx="0" ry="0" height="220"/>
             <rect x="1250" y="250" clip-path="url(#clipPath49)" fill="url(#linearGradient7)" width="361" height="221" stroke="none"/>
             <text x="1372" xml:space="preserve" y="270" clip-path="url(#clipPath50)" stroke="none">«Requirement»</text>
-            <image x="1337" y="280" clip-path="url(#clipPath51)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1356" xml:space="preserve" y="296" clip-path="url(#clipPath52)" stroke="none">REQ-2.2.2.5  Révision</text>
+            <image x="1340" y="280" clip-path="url(#clipPath51)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="1359" xml:space="preserve" y="296" clip-path="url(#clipPath52)" stroke="none">REQ-2.2.2.5 Révision</text>
             <text x="1256" xml:space="preserve" y="324" clip-path="url(#clipPath53)" stroke="none">id=REQ-2.2.2.5 </text>
             <text x="1256" xml:space="preserve" y="349" clip-path="url(#clipPath54)" stroke="none">text=L'application doit disposer d'une</text>
             <text x="1256" xml:space="preserve" y="374" clip-path="url(#clipPath54)" stroke="none">fonctionnalité de révision permettant à</text>

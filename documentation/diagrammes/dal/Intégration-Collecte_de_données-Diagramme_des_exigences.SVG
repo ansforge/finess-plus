@@ -182,7 +182,7 @@
                 <path d="M1123 828 L1565 828 L1565 855 L1123 855 L1123 828 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
-                <path d="M1253 828 L1455 828 L1455 855 L1253 855 L1253 828 Z"/>
+                <path d="M1248 828 L1460 828 L1460 855 L1248 855 L1248 828 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
                 <path d="M1128 856 L1241 856 L1241 883 L1128 883 L1128 856 Z"/>
@@ -206,7 +206,7 @@
                 <path d="M23 1128 L565 1128 L565 1155 L23 1155 L23 1128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath47">
-                <path d="M55 1128 L552 1128 L552 1155 L55 1155 L55 1128 Z"/>
+                <path d="M65 1128 L543 1128 L543 1155 L65 1155 L65 1128 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
                 <path d="M28 1156 L155 1156 L155 1183 L28 1183 L28 1156 Z"/>
@@ -260,10 +260,10 @@
                 <path d="M628 1156 L755 1156 L755 1183 L628 1183 L628 1156 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath65">
-                <path d="M628 1181 L1060 1181 L1060 1283 L628 1283 L628 1181 Z"/>
+                <path d="M628 1181 L1008 1181 L1008 1308 L628 1308 L628 1181 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath66">
-                <path d="M623 1154 L1065 1154 L1065 1294 L623 1294 L623 1154 Z"/>
+                <path d="M623 1154 L1065 1154 L1065 1319 L623 1319 L623 1154 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath67">
                 <path d="M622 1102 L1065 1102 L1065 1325 L622 1325 L622 1102 Z"/>
@@ -410,16 +410,16 @@
                 <path d="M-1 -1 L2575 -1 L2575 1635 L-1 1635 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath115">
-                <path d="M1312 442 L1335 442 L1335 465 L1312 465 L1312 442 Z"/>
+                <path d="M1312 443 L1335 443 L1335 466 L1312 466 L1312 443 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath116">
-                <path d="M531 1462 L633 1462 L633 1489 L531 1489 L531 1462 Z"/>
+                <path d="M532 1462 L634 1462 L634 1489 L532 1489 L532 1462 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath117">
-                <path d="M481 1430 L685 1430 L685 1457 L481 1457 L481 1430 Z"/>
+                <path d="M482 1430 L686 1430 L686 1457 L482 1457 L482 1430 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath118">
-                <path d="M462 1497 L480 1497 L480 1510 L462 1510 L462 1497 Z"/>
+                <path d="M463 1497 L481 1497 L481 1510 L463 1510 L463 1497 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath119">
                 <path d="M1272 742 L1295 742 L1295 765 L1272 765 L1272 742 Z"/>
@@ -428,25 +428,25 @@
                 <path d="M1312 742 L1335 742 L1335 765 L1312 765 L1312 742 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath121">
-                <path d="M1172 1042 L1195 1042 L1195 1065 L1172 1065 L1172 1042 Z"/>
+                <path d="M1172 1043 L1195 1043 L1195 1066 L1172 1066 L1172 1043 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath122">
-                <path d="M332 1322 L355 1322 L355 1345 L332 1345 L332 1322 Z"/>
+                <path d="M332 1323 L355 1323 L355 1346 L332 1346 L332 1323 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath123">
-                <path d="M1252 1042 L1275 1042 L1275 1065 L1252 1065 L1252 1042 Z"/>
+                <path d="M1252 1043 L1275 1043 L1275 1066 L1252 1066 L1252 1043 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath124">
-                <path d="M1332 1042 L1355 1042 L1355 1065 L1332 1065 L1332 1042 Z"/>
+                <path d="M1332 1043 L1355 1043 L1355 1066 L1332 1066 L1332 1043 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath125">
-                <path d="M1392 1042 L1415 1042 L1415 1065 L1392 1065 L1392 1042 Z"/>
+                <path d="M1392 1043 L1415 1043 L1415 1066 L1392 1066 L1392 1043 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath126">
                 <path d="M1352 742 L1375 742 L1375 765 L1352 765 L1352 742 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath127">
-                <path d="M1532 1042 L1555 1042 L1555 1065 L1532 1065 L1532 1042 Z"/>
+                <path d="M1532 1043 L1555 1043 L1555 1066 L1532 1066 L1532 1043 Z"/>
             </clipPath>
         </defs>
         <g font-size="18px" fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -462,7 +462,7 @@
             <text fill="black" x="1049" xml:space="preserve" y="422" clip-path="url(#clipPath6)" stroke="none">de régulation". </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
-            <line y2="275" fill="none" x1="1043" clip-path="url(#clipPath7)" x2="1643" y1="275"/>
+            <line y2="275" fill="none" x1="1043" clip-path="url(#clipPath7)" x2="1644" y1="275"/>
             <line y2="275" fill="none" x1="1043" clip-path="url(#clipPath8)" x2="1644" y1="275"/>
             <rect x="1043" y="223" clip-path="url(#clipPath8)" fill="none" width="600" rx="0" ry="0" height="220"/>
             <rect x="703" y="1383" clip-path="url(#clipPath9)" fill="url(#linearGradient2)" width="441" height="241" stroke="none"/>
@@ -476,7 +476,7 @@
             <text x="709" xml:space="preserve" y="1557" clip-path="url(#clipPath14)" stroke="none">utilisateurs puissent télécharger, imprimer, partager ou</text>
             <text x="709" xml:space="preserve" y="1582" clip-path="url(#clipPath14)" stroke="none">utiliser les informations dans différents outils et</text>
             <text x="709" xml:space="preserve" y="1607" clip-path="url(#clipPath14)" stroke="none">applications. </text>
-            <line y2="1435" fill="none" x1="703" clip-path="url(#clipPath15)" x2="1143" y1="1435"/>
+            <line y2="1435" fill="none" x1="703" clip-path="url(#clipPath15)" x2="1144" y1="1435"/>
             <line y2="1435" fill="none" x1="703" clip-path="url(#clipPath16)" x2="1144" y1="1435"/>
             <rect x="703" y="1383" clip-path="url(#clipPath16)" fill="none" width="440" rx="0" ry="0" height="240"/>
             <rect x="1143" y="503" clip-path="url(#clipPath17)" fill="url(#linearGradient3)" width="381" height="240" stroke="none"/>
@@ -490,7 +490,7 @@
             <text x="1149" xml:space="preserve" y="677" clip-path="url(#clipPath22)" stroke="none">garantir que les données collectées soient</text>
             <text x="1149" xml:space="preserve" y="702" clip-path="url(#clipPath22)" stroke="none">synchronisées de manière opportune et</text>
             <text x="1149" xml:space="preserve" y="727" clip-path="url(#clipPath22)" stroke="none">efficace. </text>
-            <line y2="555" fill="none" x1="1143" clip-path="url(#clipPath23)" x2="1523" y1="555"/>
+            <line y2="555" fill="none" x1="1143" clip-path="url(#clipPath23)" x2="1524" y1="555"/>
             <line y2="555" fill="none" x1="1143" clip-path="url(#clipPath24)" x2="1524" y1="555"/>
             <rect x="1143" y="503" clip-path="url(#clipPath24)" fill="none" width="380" rx="0" ry="0" height="239"/>
             <rect x="1723" y="283" clip-path="url(#clipPath25)" fill="url(#linearGradient4)" width="261" height="112" stroke="none"/>
@@ -516,13 +516,13 @@
             <text x="689" xml:space="preserve" y="952" clip-path="url(#clipPath33)" stroke="none">une PM/EGE lorsqu'il est demandé par une</text>
             <text x="689" xml:space="preserve" y="977" clip-path="url(#clipPath33)" stroke="none">application partenaire. Puis transmise à</text>
             <text x="689" xml:space="preserve" y="1002" clip-path="url(#clipPath33)" stroke="none">l'application partenaire. </text>
-            <line y2="855" fill="none" x1="683" clip-path="url(#clipPath34)" x2="1063" y1="855"/>
+            <line y2="855" fill="none" x1="683" clip-path="url(#clipPath34)" x2="1064" y1="855"/>
             <line y2="855" fill="none" x1="683" clip-path="url(#clipPath35)" x2="1064" y1="855"/>
             <rect x="683" y="803" clip-path="url(#clipPath35)" fill="none" width="380" rx="0" ry="0" height="240"/>
             <rect x="1123" y="803" clip-path="url(#clipPath36)" fill="url(#linearGradient6)" width="441" height="241" stroke="none"/>
             <text x="1285" xml:space="preserve" y="823" clip-path="url(#clipPath37)" stroke="none">«Requirement»</text>
-            <image x="1235" y="833" clip-path="url(#clipPath38)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="1254" xml:space="preserve" y="849" clip-path="url(#clipPath39)" stroke="none">REQ-2.4.2 Syncronization</text>
+            <image x="1230" y="833" clip-path="url(#clipPath38)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="1249" xml:space="preserve" y="849" clip-path="url(#clipPath39)" stroke="none">REQ-2.4.2 Synchronisation</text>
             <text x="1129" xml:space="preserve" y="877" clip-path="url(#clipPath40)" stroke="none">id=REQ-2.4.2 </text>
             <text x="1129" xml:space="preserve" y="902" clip-path="url(#clipPath41)" stroke="none">text=L'application doit être capable de synchroniser</text>
             <text x="1129" xml:space="preserve" y="927" clip-path="url(#clipPath41)" stroke="none">les données de manière opportune et efficace entre le</text>
@@ -530,17 +530,17 @@
             <text x="1129" xml:space="preserve" y="977" clip-path="url(#clipPath41)" stroke="none">synchronisation doit être bidirectionnelle pour garantir</text>
             <text x="1129" xml:space="preserve" y="1002" clip-path="url(#clipPath41)" stroke="none">que les données soient à jour et précises des deux</text>
             <text x="1129" xml:space="preserve" y="1027" clip-path="url(#clipPath41)" stroke="none">côtés. </text>
-            <line y2="855" fill="none" x1="1123" clip-path="url(#clipPath42)" x2="1563" y1="855"/>
+            <line y2="855" fill="none" x1="1123" clip-path="url(#clipPath42)" x2="1564" y1="855"/>
             <line y2="855" fill="none" x1="1123" clip-path="url(#clipPath43)" x2="1564" y1="855"/>
             <rect x="1123" y="803" clip-path="url(#clipPath43)" fill="none" width="440" rx="0" ry="0" height="240"/>
             <rect x="23" y="1103" clip-path="url(#clipPath44)" fill="url(#linearGradient7)" width="541" height="221" stroke="none"/>
             <text x="235" xml:space="preserve" y="1123" clip-path="url(#clipPath45)" stroke="none">«Requirement»</text>
-            <image x="37" y="1133" clip-path="url(#clipPath46)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="56" xml:space="preserve" y="1149" clip-path="url(#clipPath47)" stroke="none">REQ-2.4.2.1 1. Interface de programmation d'application (API) </text>
+            <image x="47" y="1133" clip-path="url(#clipPath46)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="66" xml:space="preserve" y="1149" clip-path="url(#clipPath47)" stroke="none">REQ-2.4.2.1 Interface de programmation d'application (API) </text>
             <text x="29" xml:space="preserve" y="1177" clip-path="url(#clipPath48)" stroke="none">id=REQ-2.4.2.1 </text>
-            <text x="29" xml:space="preserve" y="1202" clip-path="url(#clipPath49)" stroke="none">text=l'application doit disposer d'une API permettant la</text>
-            <text x="29" xml:space="preserve" y="1227" clip-path="url(#clipPath49)" stroke="none">communication entre le repertoire et les applications partenaires. </text>
-            <line y2="1155" fill="none" x1="23" clip-path="url(#clipPath50)" x2="563" y1="1155"/>
+            <text x="29" xml:space="preserve" y="1202" clip-path="url(#clipPath49)" stroke="none">text=L'application doit disposer d'une API permettant la</text>
+            <text x="29" xml:space="preserve" y="1227" clip-path="url(#clipPath49)" stroke="none">communication entre le répertoire et les applications partenaires. </text>
+            <line y2="1155" fill="none" x1="23" clip-path="url(#clipPath50)" x2="564" y1="1155"/>
             <line y2="1155" fill="none" x1="23" clip-path="url(#clipPath51)" x2="564" y1="1155"/>
             <rect x="23" y="1103" clip-path="url(#clipPath51)" fill="none" width="540" rx="0" ry="0" height="220"/>
             <rect x="23" y="1403" clip-path="url(#clipPath52)" fill="url(#linearGradient8)" width="441" height="161" stroke="none"/>
@@ -551,7 +551,7 @@
             <text x="29" xml:space="preserve" y="1502" clip-path="url(#clipPath57)" stroke="none">text=L'API doit être capable de gérer différents</text>
             <text x="29" xml:space="preserve" y="1527" clip-path="url(#clipPath57)" stroke="none">formats de données et protocoles de communication</text>
             <text x="29" xml:space="preserve" y="1552" clip-path="url(#clipPath57)" stroke="none">en fonction des besoins. </text>
-            <line y2="1455" fill="none" x1="23" clip-path="url(#clipPath58)" x2="463" y1="1455"/>
+            <line y2="1455" fill="none" x1="23" clip-path="url(#clipPath58)" x2="464" y1="1455"/>
             <line y2="1455" fill="none" x1="23" clip-path="url(#clipPath59)" x2="464" y1="1455"/>
             <rect x="23" y="1403" clip-path="url(#clipPath59)" fill="none" width="440" rx="0" ry="0" height="160"/>
             <rect x="623" y="1103" clip-path="url(#clipPath60)" fill="url(#linearGradient9)" width="441" height="221" stroke="none"/>
@@ -559,11 +559,12 @@
             <image x="710" y="1133" clip-path="url(#clipPath62)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="729" xml:space="preserve" y="1149" clip-path="url(#clipPath63)" stroke="none">REQ-2.4.2.2 Gestion des erreurs</text>
             <text x="629" xml:space="preserve" y="1177" clip-path="url(#clipPath64)" stroke="none">id=REQ-2.4.2.2 </text>
-            <text x="629" xml:space="preserve" y="1202" clip-path="url(#clipPath65)" stroke="none">text=l'application doit être capable de gérer les erreurs</text>
-            <text x="629" xml:space="preserve" y="1227" clip-path="url(#clipPath65)" stroke="none">de communication avec les applications partenaires et</text>
-            <text x="629" xml:space="preserve" y="1252" clip-path="url(#clipPath65)" stroke="none">fournir des informations claires et détaillées sur ces</text>
-            <text x="629" xml:space="preserve" y="1277" clip-path="url(#clipPath65)" stroke="none">erreurs pour leur correction ultérieure. </text>
-            <line y2="1155" fill="none" x1="623" clip-path="url(#clipPath66)" x2="1063" y1="1155"/>
+            <text x="629" xml:space="preserve" y="1202" clip-path="url(#clipPath65)" stroke="none">text=L'application doit être capable de gérer les</text>
+            <text x="629" xml:space="preserve" y="1227" clip-path="url(#clipPath65)" stroke="none">erreurs de communication avec les applications</text>
+            <text x="629" xml:space="preserve" y="1252" clip-path="url(#clipPath65)" stroke="none">partenaires et fournir des informations claires et</text>
+            <text x="629" xml:space="preserve" y="1277" clip-path="url(#clipPath65)" stroke="none">détaillées sur ces erreurs pour leur correction</text>
+            <text x="629" xml:space="preserve" y="1302" clip-path="url(#clipPath65)" stroke="none">ultérieure. </text>
+            <line y2="1155" fill="none" x1="623" clip-path="url(#clipPath66)" x2="1064" y1="1155"/>
             <line y2="1155" fill="none" x1="623" clip-path="url(#clipPath67)" x2="1064" y1="1155"/>
             <rect x="623" y="1103" clip-path="url(#clipPath67)" fill="none" width="440" rx="0" ry="0" height="220"/>
             <rect x="1123" y="1103" clip-path="url(#clipPath68)" fill="url(#linearGradient10)" width="441" height="221" stroke="none"/>
@@ -576,7 +577,7 @@
             <text x="1129" xml:space="preserve" y="1252" clip-path="url(#clipPath73)" stroke="none">synchronisation avec les applications partenaires est</text>
             <text x="1129" xml:space="preserve" y="1277" clip-path="url(#clipPath73)" stroke="none">correctement effectuée et de détecter rapidement les</text>
             <text x="1129" xml:space="preserve" y="1302" clip-path="url(#clipPath73)" stroke="none">erreurs. </text>
-            <line y2="1155" fill="none" x1="1123" clip-path="url(#clipPath74)" x2="1563" y1="1155"/>
+            <line y2="1155" fill="none" x1="1123" clip-path="url(#clipPath74)" x2="1564" y1="1155"/>
             <line y2="1155" fill="none" x1="1123" clip-path="url(#clipPath75)" x2="1564" y1="1155"/>
             <rect x="1123" y="1103" clip-path="url(#clipPath75)" fill="none" width="440" rx="0" ry="0" height="220"/>
             <rect x="1643" y="1105" clip-path="url(#clipPath76)" fill="url(#linearGradient11)" width="441" height="221" stroke="none"/>
@@ -588,7 +589,7 @@
             <text x="1649" xml:space="preserve" y="1229" clip-path="url(#clipPath81)" stroke="none">gestion de versions pour garantir que les versions des</text>
             <text x="1649" xml:space="preserve" y="1254" clip-path="url(#clipPath81)" stroke="none">données échangées avec les applications partenaires</text>
             <text x="1649" xml:space="preserve" y="1279" clip-path="url(#clipPath81)" stroke="none">sont correctement gérées. </text>
-            <line y2="1157" fill="none" x1="1643" clip-path="url(#clipPath82)" x2="2083" y1="1157"/>
+            <line y2="1157" fill="none" x1="1643" clip-path="url(#clipPath82)" x2="2084" y1="1157"/>
             <line y2="1157" fill="none" x1="1643" clip-path="url(#clipPath83)" x2="2084" y1="1157"/>
             <rect x="1643" y="1105" clip-path="url(#clipPath83)" fill="none" width="440" rx="0" ry="0" height="220"/>
             <rect x="1623" y="803" clip-path="url(#clipPath84)" fill="url(#linearGradient12)" width="561" height="241" stroke="none"/>
@@ -597,7 +598,7 @@
             <text x="1784" xml:space="preserve" y="858" clip-path="url(#clipPath87)" stroke="none">REQ-2.4.3 Synchronisation en lot</text>
             <text x="1629" xml:space="preserve" y="886" clip-path="url(#clipPath88)" stroke="none">id=REQ-2.4.3 </text>
             <text x="1629" xml:space="preserve" y="911" clip-path="url(#clipPath89)" stroke="none">text=L'application doit permettre une synchronisation en lot. </text>
-            <line y2="864" fill="none" x1="1623" clip-path="url(#clipPath90)" x2="2183" y1="864"/>
+            <line y2="864" fill="none" x1="1623" clip-path="url(#clipPath90)" x2="2184" y1="864"/>
             <line y2="864" fill="none" x1="1623" clip-path="url(#clipPath91)" x2="2184" y1="864"/>
             <rect x="1623" y="803" clip-path="url(#clipPath91)" fill="none" width="560" rx="0" ry="0" height="240"/>
             <rect x="1643" y="503" clip-path="url(#clipPath92)" fill="url(#linearGradient13)" width="321" height="112" stroke="none"/>
@@ -622,7 +623,7 @@
             <text x="2129" xml:space="preserve" y="1227" clip-path="url(#clipPath100)" stroke="none">réaliser la synchronisation de manière</text>
             <text x="2129" xml:space="preserve" y="1252" clip-path="url(#clipPath100)" stroke="none">asynchrone pour éviter d'affecter les</text>
             <text x="2129" xml:space="preserve" y="1277" clip-path="url(#clipPath100)" stroke="none">performances des applications partenaires. </text>
-            <line y2="1155" fill="none" x1="2123" clip-path="url(#clipPath101)" x2="2483" y1="1155"/>
+            <line y2="1155" fill="none" x1="2123" clip-path="url(#clipPath101)" x2="2484" y1="1155"/>
             <line y2="1155" fill="none" x1="2123" clip-path="url(#clipPath102)" x2="2484" y1="1155"/>
             <rect x="2123" y="1103" clip-path="url(#clipPath102)" fill="none" width="360" rx="0" ry="0" height="220"/>
             <rect x="2023" y="503" clip-path="url(#clipPath103)" fill="url(#linearGradient15)" width="541" height="212" stroke="none"/>
@@ -649,22 +650,22 @@
             <text x="1369" xml:space="preserve" y="1457" clip-path="url(#clipPath110)" stroke="none">id=REQ-2.4.2.6 </text>
             <text x="1369" xml:space="preserve" y="1482" clip-path="url(#clipPath111)" stroke="none">text=L'application doit notifier l'utilisateur en cas</text>
             <text x="1369" xml:space="preserve" y="1507" clip-path="url(#clipPath111)" stroke="none">d'erreur lors de la synchronisation des données. </text>
-            <line y2="1435" fill="none" x1="1363" clip-path="url(#clipPath112)" x2="1803" y1="1435"/>
+            <line y2="1435" fill="none" x1="1363" clip-path="url(#clipPath112)" x2="1804" y1="1435"/>
             <line y2="1435" fill="none" x1="1363" clip-path="url(#clipPath113)" x2="1804" y1="1435"/>
             <rect x="1363" y="1383" clip-path="url(#clipPath113)" fill="none" width="440" rx="0" ry="0" height="239"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="443" y2="471"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="444" y2="471"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="471" y2="471"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="471" y2="503"/>
-            <circle clip-path="url(#clipPath115)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1322.5" cy="452.5" stroke="none"/>
-            <line clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" x1="1313" x2="1333" y1="453" y2="453" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="443" y2="463" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1323" cy="453" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="703" x2="463" y1="1503" y2="1503" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-            <text x="532" y="1483" clip-path="url(#clipPath116)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">synchroniser</text>
-            <text x="482" y="1451" clip-path="url(#clipPath117)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«abstraction, DeriveReqt»</text>
-            <line clip-path="url(#clipPath118)" fill="none" text-rendering="optimizeLegibility" x1="478" x2="463" y1="1498" y2="1503"/>
-            <line clip-path="url(#clipPath118)" fill="none" text-rendering="optimizeLegibility" x1="463" x2="478" y1="1503" y2="1508"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1723" x2="1643" y1="343" y2="283" stroke-dasharray="6.6,3.3"/>
+            <circle clip-path="url(#clipPath115)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1322.5" cy="453.5" stroke="none"/>
+            <line clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" x1="1313" x2="1333" y1="454" y2="454" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="444" y2="464" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath115)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1323" cy="454" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="703" x2="464" y1="1503" y2="1503" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+            <text x="533" y="1483" clip-path="url(#clipPath116)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">synchroniser</text>
+            <text x="483" y="1451" clip-path="url(#clipPath117)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«abstraction, DeriveReqt»</text>
+            <line clip-path="url(#clipPath118)" fill="none" text-rendering="optimizeLegibility" x1="479" x2="464" y1="1498" y2="1503"/>
+            <line clip-path="url(#clipPath118)" fill="none" text-rendering="optimizeLegibility" x1="464" x2="479" y1="1503" y2="1508"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1723" x2="1644" y1="343" y2="283" stroke-dasharray="6.6,3.3"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1283" x2="1283" y1="743" y2="783"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1283" x2="865" y1="783" y2="783"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="865" x2="865" y1="783" y2="803"/>
@@ -679,42 +680,42 @@
             <line clip-path="url(#clipPath120)" fill="none" text-rendering="optimizeLegibility" x1="1313" x2="1333" y1="753" y2="753" stroke-width="0.1"/>
             <line clip-path="url(#clipPath120)" fill="none" text-rendering="optimizeLegibility" x1="1323" x2="1323" y1="743" y2="763" stroke-width="0.1"/>
             <circle clip-path="url(#clipPath120)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1323" cy="753" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1183" x2="1183" y1="1043" y2="1083"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1183" x2="1183" y1="1044" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1183" x2="344" y1="1083" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="344" x2="344" y1="1083" y2="1103"/>
-            <circle clip-path="url(#clipPath121)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1182.5" cy="1052.5" stroke="none"/>
-            <line clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" x1="1173" x2="1193" y1="1053" y2="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" x1="1183" x2="1183" y1="1043" y2="1063" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1183" cy="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1323" y2="1378"/>
+            <circle clip-path="url(#clipPath121)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1182.5" cy="1053.5" stroke="none"/>
+            <line clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" x1="1173" x2="1193" y1="1054" y2="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" x1="1183" x2="1183" y1="1044" y2="1064" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath121)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1183" cy="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1324" y2="1378"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1378" y2="1378"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1378" y2="1403"/>
-            <circle clip-path="url(#clipPath122)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="342.5" cy="1332.5" stroke="none"/>
-            <line clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" x1="333" x2="353" y1="1333" y2="1333" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1323" y2="1343" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" r="10" cx="343" cy="1333" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1263" x2="1263" y1="1043" y2="1083"/>
+            <circle clip-path="url(#clipPath122)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="342.5" cy="1333.5" stroke="none"/>
+            <line clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" x1="333" x2="353" y1="1334" y2="1334" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" x1="343" x2="343" y1="1324" y2="1344" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath122)" fill="none" text-rendering="optimizeLegibility" r="10" cx="343" cy="1334" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1263" x2="1263" y1="1044" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1263" x2="835" y1="1083" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="835" x2="835" y1="1083" y2="1103"/>
-            <circle clip-path="url(#clipPath123)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1262.5" cy="1052.5" stroke="none"/>
-            <line clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" x1="1253" x2="1273" y1="1053" y2="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" x1="1263" x2="1263" y1="1043" y2="1063" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1263" cy="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1043" y2="1063"/>
+            <circle clip-path="url(#clipPath123)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1262.5" cy="1053.5" stroke="none"/>
+            <line clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" x1="1253" x2="1273" y1="1054" y2="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" x1="1263" x2="1263" y1="1044" y2="1064" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath123)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1263" cy="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1044" y2="1063"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1063" y2="1063"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1063" y2="1103"/>
-            <circle clip-path="url(#clipPath124)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1342.5" cy="1052.5" stroke="none"/>
-            <line clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" x1="1333" x2="1353" y1="1053" y2="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1043" y2="1063" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1343" cy="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1403" x2="1403" y1="1043" y2="1083"/>
+            <circle clip-path="url(#clipPath124)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1342.5" cy="1053.5" stroke="none"/>
+            <line clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" x1="1333" x2="1353" y1="1054" y2="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" x1="1343" x2="1343" y1="1044" y2="1064" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath124)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1343" cy="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1403" x2="1403" y1="1044" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1403" x2="1837" y1="1083" y2="1083"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1837" x2="1837" y1="1083" y2="1104"/>
-            <circle clip-path="url(#clipPath125)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1402.5" cy="1052.5" stroke="none"/>
-            <line clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" x1="1393" x2="1413" y1="1053" y2="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" x1="1403" x2="1403" y1="1043" y2="1063" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1403" cy="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1803" x2="2003" y1="615" y2="803" stroke-dasharray="6.6,3.3"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1837" x2="1837" y1="1083" y2="1105"/>
+            <circle clip-path="url(#clipPath125)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1402.5" cy="1053.5" stroke="none"/>
+            <line clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" x1="1393" x2="1413" y1="1054" y2="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" x1="1403" x2="1403" y1="1044" y2="1064" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath125)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1403" cy="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1799" x2="2003" y1="615" y2="803" stroke-dasharray="6.6,3.3"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1363" x2="1363" y1="743" y2="783"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1363" x2="1903" y1="783" y2="783"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1903" x2="1903" y1="783" y2="803"/>
@@ -722,15 +723,15 @@
             <line clip-path="url(#clipPath126)" fill="none" text-rendering="optimizeLegibility" x1="1353" x2="1373" y1="753" y2="753" stroke-width="0.1"/>
             <line clip-path="url(#clipPath126)" fill="none" text-rendering="optimizeLegibility" x1="1363" x2="1363" y1="743" y2="763" stroke-width="0.1"/>
             <circle clip-path="url(#clipPath126)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1363" cy="753" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="2163" x2="2163" y1="715" y2="803" stroke-dasharray="6.6,3.3"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="2283" x2="2303" y1="715" y2="1103" stroke-dasharray="6.6,3.3"/>
-            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1543" x2="1543" y1="1043" y2="1083"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="2158" x2="2163" y1="715" y2="803" stroke-dasharray="6.6,3.3"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="2278" x2="2303" y1="715" y2="1103" stroke-dasharray="6.6,3.3"/>
+            <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1543" x2="1543" y1="1044" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1543" x2="1584" y1="1083" y2="1083"/>
             <line clip-path="url(#clipPath114)" fill="none" text-rendering="optimizeLegibility" x1="1584" x2="1584" y1="1083" y2="1383"/>
-            <circle clip-path="url(#clipPath127)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1542.5" cy="1052.5" stroke="none"/>
-            <line clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" x1="1533" x2="1553" y1="1053" y2="1053" stroke-width="0.1"/>
-            <line clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" x1="1543" x2="1543" y1="1043" y2="1063" stroke-width="0.1"/>
-            <circle clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1543" cy="1053" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath127)" fill="white" text-rendering="optimizeLegibility" r="9.5" cx="1542.5" cy="1053.5" stroke="none"/>
+            <line clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" x1="1533" x2="1553" y1="1054" y2="1054" stroke-width="0.1"/>
+            <line clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" x1="1543" x2="1543" y1="1044" y2="1064" stroke-width="0.1"/>
+            <circle clip-path="url(#clipPath127)" fill="none" text-rendering="optimizeLegibility" r="10" cx="1543" cy="1054" stroke-width="0.1"/>
         </g>
     </g>
 </svg>
