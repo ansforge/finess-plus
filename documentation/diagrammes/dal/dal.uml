@@ -95,6 +95,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
             </nestedClassifier>
           </nestedClassifier>
         </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_4UQccL_VEe2OjO_2ND-SJA" name="REQ-3 Administration de l'application"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_JvlcIL_cEe2OjO_2ND-SJA" name="REQ-4 Portail Web"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Who2ALwxEe23p_U3RQb1AA" name="filtrer" client="_vlGv8LwwEe23p_U3RQb1AA" supplier="_dQUxALwwEe23p_U3RQb1AA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_XawtALxKEe2vKM58fnpo3Q" name="attacher" client="_uZYaULxJEe2vKM58fnpo3Q" supplier="_kKJmMLxJEe2vKM58fnpo3Q"/>
@@ -225,4 +227,6 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Copy xmi:id="_n0xDEL9EEe26B-GmpHT37w" base_DirectedRelationship="_n0t_wL9EEe26B-GmpHT37w" base_Abstraction="_n0t_wL9EEe26B-GmpHT37w"/>
   <Requirements:Requirement xmi:id="_SrMg8L9HEe26B-GmpHT37w" base_NamedElement="_SrKEsL9HEe26B-GmpHT37w" id="REQ-2.4.3.5" text="L'application doit notifier l'utilisateur en cas d'erreur lors de l'importation des données." base_Class="_SrKEsL9HEe26B-GmpHT37w"/>
   <Requirements:Requirement xmi:id="_aUYw0L9QEe26B-GmpHT37w" base_NamedElement="_aUYJwL9QEe26B-GmpHT37w" id="REQ-2.4.2.6" text="L'application doit notifier l'utilisateur en cas d'erreur lors de la synchronisation des données." base_Class="_aUYJwL9QEe26B-GmpHT37w"/>
+  <Requirements:Requirement xmi:id="_4Uj-cL_VEe2OjO_2ND-SJA" base_NamedElement="_4UQccL_VEe2OjO_2ND-SJA" id="REQ-3" text="L'application doit disposer d'un ensemble de fonctionnalités et de procédures qui permettent aux administrateurs de gérer et de maintenir l'application" base_Class="_4UQccL_VEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_JvriwL_cEe2OjO_2ND-SJA" base_NamedElement="_JvlcIL_cEe2OjO_2ND-SJA" id="REQ-4" text="L'application doit fournir un portail Web pour permettre aux utilisateurs de gérer leur compte et d'accéder aux fonctionnalités de l'application." base_Class="_JvlcIL_cEe2OjO_2ND-SJA"/>
 </xmi:XMI>
