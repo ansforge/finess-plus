@@ -101,7 +101,7 @@
                 <path d="M703 1408 L1145 1408 L1145 1435 L703 1435 L703 1408 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-                <path d="M779 1408 L1088 1408 L1088 1435 L779 1435 L779 1408 Z"/>
+                <path d="M779 1408 L1089 1408 L1089 1435 L779 1435 L779 1408 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
                 <path d="M708 1436 L835 1436 L835 1463 L708 1463 L708 1436 Z"/>
@@ -468,7 +468,7 @@
             <rect x="703" y="1383" clip-path="url(#clipPath9)" fill="url(#linearGradient2)" width="441" height="241" stroke="none"/>
             <text x="865" xml:space="preserve" y="1403" clip-path="url(#clipPath10)" stroke="none">«Requirement»</text>
             <image x="761" y="1413" clip-path="url(#clipPath11)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="780" xml:space="preserve" y="1429" clip-path="url(#clipPath12)" stroke="none">REQ-1.1.2.2 Multi-format (accessibilité)</text>
+            <text x="780" xml:space="preserve" y="1429" clip-path="url(#clipPath12)" stroke="none">REQ-1.1.2.2 Multiformats (accessibilité)</text>
             <text x="709" xml:space="preserve" y="1457" clip-path="url(#clipPath13)" stroke="none">id=REQ-1.1.2.2 </text>
             <text x="709" xml:space="preserve" y="1482" clip-path="url(#clipPath14)" stroke="none">text=L'application doit être capable de générer des</text>
             <text x="709" xml:space="preserve" y="1507" clip-path="url(#clipPath14)" stroke="none">résultats de recherche dans différents formats, tels</text>
