@@ -75,10 +75,10 @@
                 <path d="M775 63 L860 63 L860 90 L775 90 L775 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M775 88 L1204 88 L1204 215 L775 215 L775 88 Z"/>
+                <path d="M775 88 L1181 88 L1181 232 L775 232 L775 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M770 61 L1212 61 L1212 226 L770 226 L770 61 Z"/>
+                <path d="M770 61 L1212 61 L1212 232 L770 232 L770 61 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
                 <path d="M769 9 L1212 9 L1212 232 L769 232 L769 9 Z"/>
@@ -381,11 +381,12 @@
             <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="848" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
             <text fill="black" x="867" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-0 FINESS Fonction Principale</text>
             <text fill="black" x="776" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-0 </text>
-            <text fill="black" x="776" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre publier et partager</text>
-            <text fill="black" x="776" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">des informations de tous les acteurs du système de</text>
-            <text fill="black" x="776" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">santé qui comporte les données sur les personnes</text>
-            <text fill="black" x="776" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">morales et les entités géographiques (établissements),</text>
-            <text fill="black" x="776" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">ainsi que sur leurs activités autorisées/installées. </text>
+            <text fill="black" x="776" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre de publier et</text>
+            <text fill="black" x="776" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">partager des informations de tous les acteurs du</text>
+            <text fill="black" x="776" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">système de santé qui comporte les données sur les</text>
+            <text fill="black" x="776" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">personnes morales et les entités géographiques</text>
+            <text fill="black" x="776" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">(établissements), ainsi que sur leurs activités</text>
+            <text fill="black" x="776" xml:space="preserve" y="234" clip-path="url(#clipPath6)" stroke="none">autorisées/installées. </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="62" fill="none" x1="770" clip-path="url(#clipPath7)" x2="1211" y1="62"/>

@@ -11,7 +11,7 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_7rwgwL2FEe2i7I-Qd4C-Vw" annotatedElement="_sijFQLwtEe25StXjzuMdhg">
         <body>Les établissements gérés par FINESS relèvent des 4 domaines suivants : sanitaires, médico-social, social et enseignement.</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_OqmJUL2GEe2i7I-Qd4C-Vw" annotatedElement="_g9CIwLwvEe25StXjzuMdhg">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_OqmJUL2GEe2i7I-Qd4C-Vw" annotatedElement="_GdR-YLwtEe25StXjzuMdhg">
         <body>Les données sont saisies directement sur FINESS ou intégrées par un flux émis par une application partenaire.</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_EW9O8L2JEe2i7I-Qd4C-Vw" annotatedElement="_sijFQLwtEe25StXjzuMdhg _g9CIwLwvEe25StXjzuMdhg">
@@ -49,23 +49,31 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <nestedClassifier xmi:type="uml:Class" xmi:id="_g9CIwLwvEe25StXjzuMdhg" name="REQ-2 Collecte de données">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_7LSjYLxFEe2vKM58fnpo3Q" name="REQ-2.1 Exhaustivité"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Q0oqYLxGEe2vKM58fnpo3Q" name="REQ-2.2 Demande d'Immatriculation">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_kKJmMLxJEe2vKM58fnpo3Q" name="REQ-2.2.1 Formulaires de demande"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.2 Gestion de pièces justificatives">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_SScD4LzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1 Téléchargement ">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_5bpUALzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1.1 Taille maximale de fichier"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LymM0MI5Ee2OjO_2ND-SJA" name="REQ-2.2.3 Gestion des demandes d'immatriculation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MZZmwMI8Ee2OjO_2ND-SJA" name="REQ-2.2.3.1 Réception des demandes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_W7o2cMI8Ee2OjO_2ND-SJA" name="REQ-2.2.3.2 Enregistrement des demandes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_fihMsMI8Ee2OjO_2ND-SJA" name="REQ-2.2.3.3 Vérification des demandes">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_uZYaULxJEe2vKM58fnpo3Q" name="REQ-2.2.3.3.1 Gestion de pièces justificatives">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_SScD4LzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1 Téléchargement ">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_5bpUALzwEe2vKM58fnpo3Q" name="REQ-2.2.2.1.1 Taille maximale de fichier"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_s1fPULzxEe2vKM58fnpo3Q" name="REQ-2.2.2.2 Sécurité des fichiers"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_81BOILzxEe2vKM58fnpo3Q" name="REQ-2.2.2.3 Suppression"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="__0MfkLzyEe2vKM58fnpo3Q" name="REQ-2.2.2.4 Historique des modifications"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_eLzXMLzzEe2vKM58fnpo3Q" name="REQ-2.2.2.5 Révision">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_FPeKkLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.1 Processus d'approbation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_G4PfMLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.2 Commentaires et observations"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_0rfQULzzEe2vKM58fnpo3Q" name="REQ-2.2.2.6 Métadonnées">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jfEDwLz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.1 Gestion des métadonnées "/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_lvnKELz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.2 Types de métadonnées "/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_nSTE0Lz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.3 Recherche de documents par métadonnées"/>
+                  </nestedClassifier>
+                </nestedClassifier>
               </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_s1fPULzxEe2vKM58fnpo3Q" name="REQ-2.2.2.2 Sécurité des fichiers"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_81BOILzxEe2vKM58fnpo3Q" name="REQ-2.2.2.3 Suppression"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="__0MfkLzyEe2vKM58fnpo3Q" name="REQ-2.2.2.4 Historique des modifications"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_eLzXMLzzEe2vKM58fnpo3Q" name="REQ-2.2.2.5 Révision">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_FPeKkLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.1 Processus d'approbation"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_G4PfMLz1Ee2vKM58fnpo3Q" name="REQ-2.2.2.5.2 Commentaires et observations"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rfQULzzEe2vKM58fnpo3Q" name="REQ-2.2.2.6 Métadonnées">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_jfEDwLz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.1 Gestion des métadonnées "/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_lvnKELz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.2 Types de métadonnées "/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_nSTE0Lz3Ee2vKM58fnpo3Q" name="REQ-2.2.2.6.3 Recherche de documents par métadonnées"/>
-              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_V28fQMI8Ee2OjO_2ND-SJA" name="REQ-2.2.3.5 Approbation des demandes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_vUb3YMJqEe2OjO_2ND-SJA" name="REQ-2.2.3.4 Notification de l'état d'avancement du processus d'immatriculation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_bfdbkMJrEe2OjO_2ND-SJA" name="REQ-2.2.3.6 Archivage des demandes d'immatriculation et des documents justificatifs"/>
             </nestedClassifier>
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_rkiJkLxIEe2vKM58fnpo3Q" name="REQ-2.3 Vérification"/>
@@ -80,8 +88,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
               <nestedClassifier xmi:type="uml:Class" xmi:id="_dUYA4L2sEe2i7I-Qd4C-Vw" name="REQ-2.4.2.4 Gestion de versions"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_YV4FcL8_Ee26B-GmpHT37w" name="REQ-2.4.2.5 Validation des données"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_aUYJwL9QEe26B-GmpHT37w" name="REQ-2.4.2.6 Notification des erreurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_64iL4L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.2.5 Synchronisation asynchrone"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_5Mgu8L24Ee2i7I-Qd4C-Vw" name="REQ-2.4.3 Synchronisation en lot">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_zCeD4L8_Ee26B-GmpHT37w" name="REQ-2.4.3.5 Gestion des erreurs"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_zCnN0L8_Ee26B-GmpHT37w" name="REQ-2.4.3.6 Surveillance de la synchronisation"/>
@@ -110,21 +118,55 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
               <nestedClassifier xmi:type="uml:Class" xmi:id="_5VPVYMGjEe2OjO_2ND-SJA" name="REQ-3.2.1.6 Utilisation de nomenclatures et de classifications pour les services publics hospitaliers (SPH)"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_5Z-rcMGjEe2OjO_2ND-SJA" name="REQ-3.2.1.7 Utilisation de nomenclatures et de classifications pour les clientèles : "/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_wLsD0MGLEe2OjO_2ND-SJA" name="REQ-3.2.2 Gestion des workflows pour le traitement des immatriculations"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_w6nmYMGLEe2OjO_2ND-SJA" name="REQ-3.2.3 Gestion des notifications"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_xqBDAMGLEe2OjO_2ND-SJA" name="REQ-3.2.4 Gérer les listes de valeurs pour les champs à choix multiples"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_wLsD0MGLEe2OjO_2ND-SJA" name="REQ-3.2.2 Gestion des workflows d'immatriculation et d'autorisation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="___jAEMI5Ee2OjO_2ND-SJA" name="REQ-3.2.2.1 Définition des étapes du workflow"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_w6nmYMGLEe2OjO_2ND-SJA" name="REQ-3.2.3 Gestion des notifications">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_oNqp0MI6Ee2OjO_2ND-SJA" name="REQ-3.2.3.1 Envoi de notifications">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_njH4AMI6Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.1 Notification en temps réel "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_1bRNkMJ8Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2 Canaux de communication">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_fqo9YMJ9Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2.2 Notification par courrier électronique"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_hY09gMJ9Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2.5 Notification par message texte"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_iQHK0MJ9Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2.3 Notification par push"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_i-c3gMJ9Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2.4 Notification par téléphone"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_j9y0oMJ9Ee2OjO_2ND-SJA" name="REQ-3.2.3.1.2.1 Notification par système de messagerie interne"/>
+                </nestedClassifier>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_noGeoMI6Ee2OjO_2ND-SJA" name="REQ-3.2.3.2 Configuration des notifications ">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_oJxoUMI6Ee2OjO_2ND-SJA" name="REQ-3.2.3.2.1 Personnalisation des notifications ">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_19VyIMJ3Ee2OjO_2ND-SJA" name="REQ-3.2.3.2.1.1 Personnalisation du contenu et du format des notifications"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_EGHYwMJ6Ee2OjO_2ND-SJA" name="REQ-3.2.3.2.1.2 Envoi de notifications par groupe d'utilisateurs."/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_oSqekMI6Ee2OjO_2ND-SJA" name="REQ-3.2.3.2.2 Configuration des types d'événements"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_t-vOwMJ1Ee2OjO_2ND-SJA" name="REQ-3.2.3.2.3 Gestion des destinataires"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_FQ_X0MJ3Ee2OjO_2ND-SJA" name="REQ-3.2.3.3 Gestion des préférences de notification"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RH7mEMJ2Ee2OjO_2ND-SJA" name="REQ-3.2.3.4 Historique des notifications"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_FbDV8MJ7Ee2OjO_2ND-SJA" name="REQ-3.2.3.5 Suivi de l'état des notifications envoyées"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_xqBDAMGLEe2OjO_2ND-SJA" name="REQ-3.2.4 Gérer les listes de valeurs pour les champs à choix multiples">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_mFbIIMKAEe2OjO_2ND-SJA" name="REQ-3.2.4.1 Configuration des listes de valeurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nJDvYMKAEe2OjO_2ND-SJA" name="REQ-3.2.4.2 Gestion des valeurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_pg9a4MKAEe2OjO_2ND-SJA" name="REQ-3.2.4.3  Attribution des valeurs aux champs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_qvqCoMKAEe2OjO_2ND-SJA" name="REQ-3.2.4.4 Validation des valeurs"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_y2PIMMKAEe2OjO_2ND-SJA" name="REQ-3.2.4.5 Personnalisation des listes de valeurs"/>
+            </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_yoKGQMGLEe2OjO_2ND-SJA" name="REQ-3.2.5 Gestion des modèles de documents, emails et notifications"/>
           </nestedClassifier>
         </nestedClassifier>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_JvlcIL_cEe2OjO_2ND-SJA" name="REQ-4 Portail Web"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_JvlcIL_cEe2OjO_2ND-SJA" name="REQ-4 Portail Web">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_kKJmMLxJEe2vKM58fnpo3Q" name="REQ-4.1 Formulaires de demande"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_aZOQoMKJEe2OjO_2ND-SJA" name="REQ-5 API Endpoints"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Who2ALwxEe23p_U3RQb1AA" name="filtrer" client="_vlGv8LwwEe23p_U3RQb1AA" supplier="_dQUxALwwEe23p_U3RQb1AA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_XawtALxKEe2vKM58fnpo3Q" name="attacher" client="_uZYaULxJEe2vKM58fnpo3Q" supplier="_kKJmMLxJEe2vKM58fnpo3Q"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_i7vVgLxNEe2vKM58fnpo3Q" name="synchroniser" client="_RLB2ULw0Ee23p_U3RQb1AA" supplier="_GdR-YLwtEe25StXjzuMdhg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_05gokL9AEe26B-GmpHT37w" name="Copy11" client="_YV4FcL8_Ee26B-GmpHT37w" supplier="_zCn04b8_Ee26B-GmpHT37w"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_u-0WUL9BEe26B-GmpHT37w" name="Copy13" client="_GdR-YLwtEe25StXjzuMdhg" supplier="_zCeD4L8_Ee26B-GmpHT37w"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="__-h_wL9BEe26B-GmpHT37w" name="Copy14" client="_be5tAL2sEe2i7I-Qd4C-Vw" supplier="_zCnN0L8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_05gokL9AEe26B-GmpHT37w" name="Validation des données" client="_YV4FcL8_Ee26B-GmpHT37w" supplier="_zCn04b8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_u-0WUL9BEe26B-GmpHT37w" name="Gestion des erreurs" client="_GdR-YLwtEe25StXjzuMdhg" supplier="_zCeD4L8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__-h_wL9BEe26B-GmpHT37w" name="Surveillance de la synchronisation" client="_be5tAL2sEe2i7I-Qd4C-Vw" supplier="_zCnN0L8_Ee26B-GmpHT37w"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_n0t_wL9EEe26B-GmpHT37w" name="Copy14" client="_dUYA4L2sEe2i7I-Qd4C-Vw" supplier="_zCn04L8_Ee26B-GmpHT37w"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_eXT0cMJVEe2OjO_2ND-SJA" name="DiagramesDesExigences"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -187,7 +229,7 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_sixHsLwtEe25StXjzuMdhg" base_NamedElement="_sijFQLwtEe25StXjzuMdhg" id="REQ-0" text="L'application doit permettre publier et partager des informations de tous les acteurs du système de santé qui comporte les données sur les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées." base_Class="_sijFQLwtEe25StXjzuMdhg"/>
+  <Requirements:Requirement xmi:id="_sixHsLwtEe25StXjzuMdhg" base_NamedElement="_sijFQLwtEe25StXjzuMdhg" id="REQ-0" text="L'application doit permettre de publier et partager des informations de tous les acteurs du système de santé qui comporte les données sur les personnes morales et les entités géographiques (établissements), ainsi que sur leurs activités autorisées/installées." base_Class="_sijFQLwtEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_X2tS4bwuEe25StXjzuMdhg" base_NamedElement="_X2tS4LwuEe25StXjzuMdhg" id="REQ-1" text="L'application doit permettre aux utilisateurs de rechercher et de filtrer les informations sur les PM/EGEs enregistrées dans ce répertoire." base_Class="_X2tS4LwuEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_g9JdlLwvEe25StXjzuMdhg" base_NamedElement="_g9CIwLwvEe25StXjzuMdhg" id="REQ-2" text="L'application doit être capable de collecter et de stocker des informations sur une PM/EGE de manière efficace, afin de garantir l'exhaustivité et l'exactitude des données, lors de la soumission d'une demande d'enregistrement aux &quot;autorités d'enregistrement&quot; ou &quot;Autorités de régulation&quot;." base_Class="_g9CIwLwvEe25StXjzuMdhg"/>
   <Requirements:Requirement xmi:id="_dQphILwwEe23p_U3RQb1AA" base_NamedElement="_dQUxALwwEe23p_U3RQb1AA" id="REQ-1.1" text="L'application doit permettre de chercher des informations sur une ou plusieurs PM/EGE enregistrées dans le répertoire, en utilisant différents critères de recherche, et doit présenter les résultats d'une manière accessible et organisée." base_Class="_dQUxALwwEe23p_U3RQb1AA"/>
@@ -200,8 +242,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_Q0oqYbxGEe2vKM58fnpo3Q" base_NamedElement="_Q0oqYLxGEe2vKM58fnpo3Q" id="REQ-2.2" text="L'application doit permettre aux PM/EGE de demander leur enregistrement auprès des autorités correspondantes." base_Class="_Q0oqYLxGEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_rklM4LxIEe2vKM58fnpo3Q" base_NamedElement="_rkiJkLxIEe2vKM58fnpo3Q" id="REQ-2.3" text="L'application doit disposer de mécanismes de vérification et correction des données pour garantir l'exactitude des informations présentées dans la demande d'enregistrement." base_Class="_rkiJkLxIEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_HoN2wLxJEe2vKM58fnpo3Q" base_NamedElement="_HoLagLxJEe2vKM58fnpo3Q" id="REQ-2.4" text="L'application doit être capable de s'intégrer avec les autorités d'enregistrement et de régulation correspondantes pour garantir que les données collectées soient synchronisées de manière opportune et efficace." base_Class="_HoLagLxJEe2vKM58fnpo3Q"/>
-  <Requirements:Requirement xmi:id="_kKLbYLxJEe2vKM58fnpo3Q" base_NamedElement="_kKJmMLxJEe2vKM58fnpo3Q" id="REQ-2.2.1" text="L'application doit comporter des formulaires permettant aux utilisateurs de présenter une demande d'Immatriculation." base_Class="_kKJmMLxJEe2vKM58fnpo3Q"/>
-  <Requirements:Requirement xmi:id="_uZa2kLxJEe2vKM58fnpo3Q" base_NamedElement="_uZYaULxJEe2vKM58fnpo3Q" id="REQ-2.2.2" text="L’application doit permettre de gérer et administrer les fichiers joints associés à des PM/EGEs." base_Class="_uZYaULxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_kKLbYLxJEe2vKM58fnpo3Q" base_NamedElement="_kKJmMLxJEe2vKM58fnpo3Q" id="REQ-4.1" text="L'application doit comporter des formulaires permettant aux utilisateurs de présenter une demande d'Immatriculation." base_Class="_kKJmMLxJEe2vKM58fnpo3Q"/>
+  <Requirements:Requirement xmi:id="_uZa2kLxJEe2vKM58fnpo3Q" base_NamedElement="_uZYaULxJEe2vKM58fnpo3Q" id="REQ-2.2.3.3.1" text="L’application doit permettre de gérer et administrer les fichiers joints associés à des PM/EGEs." base_Class="_uZYaULxJEe2vKM58fnpo3Q"/>
   <Requirements:DeriveReqt xmi:id="_XbCZ0LxKEe2vKM58fnpo3Q" base_DirectedRelationship="_XawtALxKEe2vKM58fnpo3Q" base_Abstraction="_XawtALxKEe2vKM58fnpo3Q"/>
   <Requirements:DeriveReqt xmi:id="_i7xKsLxNEe2vKM58fnpo3Q" base_DirectedRelationship="_i7vVgLxNEe2vKM58fnpo3Q" base_Abstraction="_i7vVgLxNEe2vKM58fnpo3Q"/>
   <Requirements:Requirement xmi:id="_ppkqkLy9Ee2vKM58fnpo3Q" base_NamedElement="_ppZrcLy9Ee2vKM58fnpo3Q" id="REQ-1.2.1" text="L'application doit permettre de trouver rapidement des PM/EGEs par n'importe quel champ, pour répondre à des besoins spécifiques et offrir une plus grande flexibilité et précision dans la recherche d'informations." base_Class="_ppZrcLy9Ee2vKM58fnpo3Q"/>
@@ -250,12 +292,12 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_4Uj-cL_VEe2OjO_2ND-SJA" base_NamedElement="_4UQccL_VEe2OjO_2ND-SJA" id="REQ-3" text="L'application doit disposer d'un ensemble de fonctionnalités et de procédures qui permettent aux administrateurs de gérer et de maintenir l'application." base_Class="_4UQccL_VEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_JvriwL_cEe2OjO_2ND-SJA" base_NamedElement="_JvlcIL_cEe2OjO_2ND-SJA" id="REQ-4" text="L'application doit fournir un portail Web pour permettre aux utilisateurs de gérer leur compte et d'accéder aux fonctionnalités de l'application." base_Class="_JvlcIL_cEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_2VSHAMGFEe2OjO_2ND-SJA" base_NamedElement="_2VI9EMGFEe2OjO_2ND-SJA" id="REQ-3.1" text="L'application doit permettre la gestion des utilisateurs et de leurs rôles. Cela implique la création, la modification et la suppression de comptes d'utilisateur, ainsi que la définition des droits d'accès correspondants." base_Class="_2VI9EMGFEe2OjO_2ND-SJA"/>
-  <Requirements:Requirement xmi:id="_E4cOcMGGEe2OjO_2ND-SJA" base_NamedElement="_E4ZLIMGGEe2OjO_2ND-SJA" id="REQ-3.1.1" text="L'application doit permettre la gestion des autorisations et des rôles de chaque utilisateur. Cela implique la définition des droits d'accès pour chaque fonctionnalité de l'application." base_Class="_E4ZLIMGGEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_E4cOcMGGEe2OjO_2ND-SJA" base_NamedElement="_E4ZLIMGGEe2OjO_2ND-SJA" id="REQ-3.1.1" text="L'application doit permettre la gestion des habilitations et des rôles de chaque utilisateur. Cela implique la définition des droits d'accès par fonctionnalité de l'application, par critère  geographyque et categorie de PM/EGE." base_Class="_E4ZLIMGGEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_lOZpIMGGEe2OjO_2ND-SJA" base_NamedElement="_lOXz8MGGEe2OjO_2ND-SJA" id="REQ-3.1.2" text="L'application doit permettre la gestion des journaux d'activité. Cela implique l'enregistrement de toutes les actions effectuées dans l'application et la possibilité de les consulter ultérieurement." base_Class="_lOXz8MGGEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_YtxksMGHEe2OjO_2ND-SJA" base_NamedElement="_YtvvgMGHEe2OjO_2ND-SJA" id="REQ-3.2" text="L'application doit permettre de configurer le comportement de l'application et de ses données pour qu'elle fonctionne correctement.  &#xD;&#xA;" base_Class="_YtvvgMGHEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_uMH_0MGLEe2OjO_2ND-SJA" base_NamedElement="_uMFjkMGLEe2OjO_2ND-SJA" id="REQ-3.2.1" text="L'application doit permettre la création, la modification et la suppression de ces nomenclatures et classifications utilisées pour décrire les catégories d'établissements, les activités de soins, les disciplines, les statuts juridiques, les Tarifs (MFT), les services public Hospitalier (SPH) et les clientèles. Les nomenclatures et classifications doivent être configurables en fonction des besoins de l'application et de la réglementation en vigueur." base_Class="_uMFjkMGLEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_wLugEMGLEe2OjO_2ND-SJA" base_NamedElement="_wLsD0MGLEe2OjO_2ND-SJA" id="REQ-3.2.2" text="L'application doit permettre la gestion des étapes du processus d'immatriculation et d'autorisation des PM/EGE, depuis la demande d'inscription jusqu'à l'approbation de leur enregistrement dans le répertoire." base_Class="_wLsD0MGLEe2OjO_2ND-SJA"/>
-  <Requirements:Requirement xmi:id="_w6pbkMGLEe2OjO_2ND-SJA" base_NamedElement="_w6nmYMGLEe2OjO_2ND-SJA" id="REQ-3.2.3" text="L'application doit permettre la gestion des notifications envoyées aux utilisateurs en cas d'événements importants. Cela implique que l'application doit permettre la configuration des types d'événements qui déclenchent l'envoi de notifications, tels que l'approbation de demandes d'immatriculation ou la modification de données importantes. L'application doit également permettre la personnalisation du contenu et du format des notifications, ainsi que leur envoi à des groupes spécifiques d'utilisateurs en fonction de leur rôle ou de leur niveau d'accès. Enfin, l'application doit permettre la gestion de l'historique des notifications envoyées et la possibilité pour les utilisateurs de gérer leurs préférences de notification." base_Class="_w6nmYMGLEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_w6pbkMGLEe2OjO_2ND-SJA" base_NamedElement="_w6nmYMGLEe2OjO_2ND-SJA" id="REQ-3.2.3" text="L'application doit permettre la gestion des notifications envoyées aux utilisateurs en cas d'événements importants, des mises à jour, des nouvelles fonctionnalités, des problèmes de sécurité, changement de status de leur demande,  d'immatricultion ou de tout autre événement important lié à l'utilisation de l'application." base_Class="_w6nmYMGLEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_xqDfQMGLEe2OjO_2ND-SJA" base_NamedElement="_xqBDAMGLEe2OjO_2ND-SJA" id="REQ-3.2.4" text="L'application doit permettre la création, la modification et la suppression de valeurs pour les champs à choix multiples tels que les menus déroulants, les cases à cocher ou les boutons radio. Les listes de valeurs doivent être configurables en fonction des besoins de l'application et de la réglementation en vigueur. L'application doit également permettre la gestion des droits d'accès aux listes de valeurs en fonction des rôles et des niveaux d'autorisation des utilisateurs." base_Class="_xqBDAMGLEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_yoMigMGLEe2OjO_2ND-SJA" base_NamedElement="_yoKGQMGLEe2OjO_2ND-SJA" id="REQ-3.2.5" text="L'application doit permettre la création, la modification et la suppression de modèles de documents tels que les formulaires d'inscription ou les autorisations d'exercice, ainsi que la personnalisation des modèles pour chaque PM/EGE. L'application doit également permettre la création, la modification et la suppression de modèles d'e-mails et de notifications utilisés pour communiquer avec les utilisateurs de l'application. Les modèles doivent être configurables en fonction des besoins de l'application et de la réglementation en vigueur. L'application doit également permettre la gestion des droits d'accès aux modèles en fonction des rôles et des niveaux d'autorisation des utilisateurs." base_Class="_yoKGQMGLEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_262WkMGjEe2OjO_2ND-SJA" base_NamedElement="_26oUIMGjEe2OjO_2ND-SJA" id="REQ-3.2.1.1" text="L'application doit permettre l'utilisation de nomenclatures et de classifications pour decrire les categories d'etablissements, tels que les etablissements relevant de la loi hospitaliere, les etablissements a caractere sanitaire, etab.de formation des personnels sanitaires et sociaux, etc." base_Class="_26oUIMGjEe2OjO_2ND-SJA"/>
@@ -265,4 +307,35 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_5PjkIMGjEe2OjO_2ND-SJA" base_NamedElement="_5Pi9EMGjEe2OjO_2ND-SJA" id="REQ-3.2.1.5" text="L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les mode de fixation des tarifs (MFT) appliques aux établissements et leur mode de financement" base_Class="_5Pi9EMGjEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_5VWqIMGjEe2OjO_2ND-SJA" base_NamedElement="_5VPVYMGjEe2OjO_2ND-SJA" id="REQ-3.2.1.6" text="L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les services publics hospitaliers (SPH) et leur participation en tant qu’établissement public de santé, établissement de sante prive d'intérêt collectif, etc." base_Class="_5VPVYMGjEe2OjO_2ND-SJA"/>
   <Requirements:Requirement xmi:id="_5Z_5kMGjEe2OjO_2ND-SJA" base_NamedElement="_5Z-rcMGjEe2OjO_2ND-SJA" id="REQ-3.2.1.7" text="L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les clientèles des PM/EGE, telles que personnes handicapées, personnes âgées, enfants et adolescents, etc." base_Class="_5Z-rcMGjEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_Ly8yIMI5Ee2OjO_2ND-SJA" base_NamedElement="_LymM0MI5Ee2OjO_2ND-SJA" id="REQ-2.2.3" text="L'application doit permettre la gestion des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la réception et l'enregistrement des demandes, ainsi que la vérification des informations fournies par les PM/EGE." base_Class="_LymM0MI5Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="___lcUMI5Ee2OjO_2ND-SJA" base_NamedElement="___jAEMI5Ee2OjO_2ND-SJA" id="REQ-3.2.2.1" text="L'application doit permettre la définition des étapes du workflow pour le traitement des demandes d'immatriculation et autorisation. Cela implique que l'application doit permettre la création, la modification et la suppression des étapes du workflow, ainsi que la configuration de l'ordre dans lequel les étapes sont exécutées." base_Class="___jAEMI5Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_njIfEMI6Ee2OjO_2ND-SJA" base_NamedElement="_njH4AMI6Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.1" text="L'application doit être capable de fournir des notifications en temps réel pour les événements critiques ou urgents." base_Class="_njH4AMI6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_noHswMI6Ee2OjO_2ND-SJA" base_NamedElement="_noGeoMI6Ee2OjO_2ND-SJA" id="REQ-3.2.3.2" text="L'application doit permettre la configuration des notifications envoyées aux utilisateurs. Cela implique que l'application doit permettre la création, la modification et la suppression de modèles de notifications, ainsi que la configuration des événements déclencheurs pour l'envoi de notifications." base_Class="_noGeoMI6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_oJyPYMI6Ee2OjO_2ND-SJA" base_NamedElement="_oJxoUMI6Ee2OjO_2ND-SJA" id="REQ-3.2.3.2.1" text="L'application doit permettre la personnalisation des notifications envoyées aux utilisateurs. Cela implique que l'application doit permettre la personnalisation des messages de notification en fonction des destinataires, des événements déclencheurs et des modèles de notification." base_Class="_oJxoUMI6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_oNrQ4MI6Ee2OjO_2ND-SJA" base_NamedElement="_oNqp0MI6Ee2OjO_2ND-SJA" id="REQ-3.2.3.1" text="L'application doit permettre l'envoi de notifications aux utilisateurs. Cela implique que l'application doit permettre l'envoi de notifications automatiques ou manuelles aux utilisateurs pour les informer des événements importants dans le système." base_Class="_oNqp0MI6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_oSrFoMI6Ee2OjO_2ND-SJA" base_NamedElement="_oSqekMI6Ee2OjO_2ND-SJA" id="REQ-3.2.3.2.2" text="L'application doit permettre la configuration des types d'événements qui déclenchent l'envoi de notifications, tels que l'approbation de demandes d'immatriculation ou la modification de données importantes." base_Class="_oSqekMI6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_MZdRIMI8Ee2OjO_2ND-SJA" base_NamedElement="_MZZmwMI8Ee2OjO_2ND-SJA" id="REQ-2.2.3.1" base_Class="_MZZmwMI8Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_V29GUMI8Ee2OjO_2ND-SJA" base_NamedElement="_V28fQMI8Ee2OjO_2ND-SJA" id="REQ-2.2.3.5" text="L'application doit permettre l'approbation des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la validation finale des demandes et la génération d'une autorisation d'exercice pour les PM/EGE." base_Class="_V28fQMI8Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_W7qEkMI8Ee2OjO_2ND-SJA" base_NamedElement="_W7o2cMI8Ee2OjO_2ND-SJA" id="REQ-2.2.3.2" base_Class="_W7o2cMI8Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_fihzwMI8Ee2OjO_2ND-SJA" base_NamedElement="_fihMsMI8Ee2OjO_2ND-SJA" id="REQ-2.2.3.3" text="L'application doit permettre la vérification des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la validation des informations fournies par les PM/EGE, ainsi que la collecte des documents justificatifs nécessaires pour compléter la demande." base_Class="_fihMsMI8Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_vUlBUMJqEe2OjO_2ND-SJA" base_NamedElement="_vUb3YMJqEe2OjO_2ND-SJA" id="REQ-2.2.3.4" text="L'application doit permettre la notification de l'état d'avancement du processus d'immatriculation aux PM/EGE. Cela implique que l'application doit permettre l'envoi de notifications automatiques aux PM/EGE pour les informer de l'état d'avancement de leur demande." base_Class="_vUb3YMJqEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_bffQwMJrEe2OjO_2ND-SJA" base_NamedElement="_bfdbkMJrEe2OjO_2ND-SJA" id="REQ-2.2.3.6" text="L'application doit permettre l'archivage des demandes d'immatriculation et des documents justificatifs soumis par les PM/EGE. Cela implique que l'application doit permettre la conservation des informations et documents nécessaires pour la traçabilité et la vérification des demandes d'immatriculation." base_Class="_bfdbkMJrEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_t-xD8MJ1Ee2OjO_2ND-SJA" base_NamedElement="_t-vOwMJ1Ee2OjO_2ND-SJA" id="REQ-3.2.3.2.3" text="L'application doit permettre la gestion des destinataires des notifications. Cela implique que l'application doit permettre la configuration des destinataires pour chaque type de notification, ainsi que la gestion des groupes de destinataires." base_Class="_t-vOwMJ1Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_RH-CUMJ2Ee2OjO_2ND-SJA" base_NamedElement="_RH7mEMJ2Ee2OjO_2ND-SJA" id="REQ-3.2.3.4" text="L'application doit permettre la conservation de l'historique des notifications envoyées aux utilisateurs. Cela implique que l'application doit permettre la consultation de l'historique des notifications, ainsi que la recherche et la filtrage des notifications en fonction des critères spécifiques." base_Class="_RH7mEMJ2Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_FRBNAMJ3Ee2OjO_2ND-SJA" base_NamedElement="_FQ_X0MJ3Ee2OjO_2ND-SJA" id="REQ-3.2.3.3" text="L'application doit permettre aux utilisateurs de configurer leurs préférences de notification, y compris les types de notification qu'ils souhaitent recevoir et les canaux de communication préférés et offrir des options pour les désactiver ou les réactiver selon les besoins." base_Class="_FQ_X0MJ3Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_19YOYMJ3Ee2OjO_2ND-SJA" base_NamedElement="_19VyIMJ3Ee2OjO_2ND-SJA" id="REQ-3.2.3.2.1.1" text="L'application doit permettre la personnalisation du contenu et du format des notifications." base_Class="_19VyIMJ3Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_EGJ1AMJ6Ee2OjO_2ND-SJA" base_NamedElement="_EGHYwMJ6Ee2OjO_2ND-SJA" id="REQ-3.2.3.2.1.2" text="L'application doit permettre la personnalisation des envoi à des groupes spécifiques d'utilisateurs en fonction de leur rôle ou de leur niveau d'accès." base_Class="_EGHYwMJ6Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_FbFLIMJ7Ee2OjO_2ND-SJA" base_NamedElement="_FbDV8MJ7Ee2OjO_2ND-SJA" id="REQ-3.2.3.5" text="L'application doit permettre le suivi de l'état des notifications envoyées pour garantir qu'elles ont été reçues et lues par les destinataires." base_Class="_FbDV8MJ7Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_1bTCwMJ8Ee2OjO_2ND-SJA" base_NamedElement="_1bRNkMJ8Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2" text="L'application doit être capable d'envoyer des notifications par différents canaux de communication." base_Class="_1bRNkMJ8Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_fqqykMJ9Ee2OjO_2ND-SJA" base_NamedElement="_fqo9YMJ9Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2.2" text="L'application doit permettre l'envoi de notifications par courrier électronique." base_Class="_fqo9YMJ9Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_hY2ysMJ9Ee2OjO_2ND-SJA" base_NamedElement="_hY09gMJ9Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2.5" text="L'application doit permettre l'envoi de notifications par message texte." base_Class="_hY09gMJ9Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_iQIY8MJ9Ee2OjO_2ND-SJA" base_NamedElement="_iQHK0MJ9Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2.3" text="L'application doit permettre l'envoi de notifications par push aux utilisateurs via des applications mobiles." base_Class="_iQHK0MJ9Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_i-essMJ9Ee2OjO_2ND-SJA" base_NamedElement="_i-c3gMJ9Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2.4" text="L'application doit permettre l'envoi de notifications par téléphone, si cela est nécessaire pour les événements critiques ou urgents." base_Class="_i-c3gMJ9Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_j91Q4MJ9Ee2OjO_2ND-SJA" base_NamedElement="_j9y0oMJ9Ee2OjO_2ND-SJA" id="REQ-3.2.3.1.2.1" text="L'application doit permettre l'envoi de notifications par le système de messagerie interne de l'entreprise, si cela est applicable." base_Class="_j9y0oMJ9Ee2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_mFc9UMKAEe2OjO_2ND-SJA" base_NamedElement="_mFbIIMKAEe2OjO_2ND-SJA" id="REQ-3.2.4.1" text="L'application doit permettre la configuration des listes de valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la création, la modification et la suppression des listes de valeurs, ainsi que la configuration de l'ordre dans lequel les valeurs sont affichées." base_Class="_mFbIIMKAEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_nJFkkMKAEe2OjO_2ND-SJA" base_NamedElement="_nJDvYMKAEe2OjO_2ND-SJA" id="REQ-3.2.4.2" text="L'application doit permettre la gestion des valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la création, la modification et la suppression des valeurs, ainsi que la configuration des propriétés des valeurs (par exemple, l'étiquette, la description, la couleur, etc.)." base_Class="_nJDvYMKAEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_pg_QEMKAEe2OjO_2ND-SJA" base_NamedElement="_pg9a4MKAEe2OjO_2ND-SJA" id="REQ-3.2.4.3" text="L'application doit permettre l'attribution des valeurs aux champs à choix multiples. Cela implique que l'application doit permettre la sélection des valeurs à partir de la liste de valeurs configurée pour chaque champ" base_Class="_pg9a4MKAEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_qvr30MKAEe2OjO_2ND-SJA" base_NamedElement="_qvqCoMKAEe2OjO_2ND-SJA" id="REQ-3.2.4.4" text="L'application doit permettre la validation des valeurs sélectionnées pour les champs à choix multiples. Cela implique que l'application doit vérifier que les valeurs sélectionnées sont valides et cohérentes avec les règles de gestion et les contraintes du système." base_Class="_qvqCoMKAEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_y2QWUMKAEe2OjO_2ND-SJA" base_NamedElement="_y2PIMMKAEe2OjO_2ND-SJA" id="REQ-3.2.4.5" text="L'application doit permettre la personnalisation des listes de valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la personnalisation de l'ordre, de l'étiquette, de la description et des propriétés des valeurs pour chaque champ." base_Class="_y2PIMMKAEe2OjO_2ND-SJA"/>
+  <Requirements:Requirement xmi:id="_aZQF0MKJEe2OjO_2ND-SJA" base_NamedElement="_aZOQoMKJEe2OjO_2ND-SJA" id="REQ-5" base_Class="_aZOQoMKJEe2OjO_2ND-SJA"/>
 </xmi:XMI>

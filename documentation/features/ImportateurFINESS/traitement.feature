@@ -2,7 +2,7 @@ Fonctionnalité: Traitement asynchrone d'un fichier texte pour insérer des donn
 
 # Note : Les étapes de connexion et d'insertion de données dans la BDD via l'API exposée par le service FINESS+ sont incluses dans les scénarios. Cependant, il est important de noter que l'implémentation exacte de ces étapes peut varier en fonction des spécifications techniques du FINESS+ et des exigences de l'application.
 
-Contexte: Un fichier texte contenant des données à insérer dans la BDD FINESS+ est disponible pour être traité par le micro-service FinessBatchImpoter. Et que FINESS+  expose une API pour insérer des données dans son BDD.
+Contexte: Un fichier texte contenant des données à insérer dans la BDD FINESS+ est disponible pour être traité par le micro-service ETLFiness. Et que FINESS+  expose une API pour insérer des données dans son BDD.
 Background:
     Étant donné que FinessBatchImpoter est disponible
 	Étant donné que FINESS+ est disponible
@@ -10,7 +10,7 @@ Background:
 Scénario: Traitement asynchrone du fichier texte pour insérer des données dans la BDD FINESS+
     Lorsque le FinessBatchImpoter commence la lecture du fichier texte
     Alors le FinessBatchImpoter extrait les données à partir du fichier texte
-    Et FinessBatchImpoter envoie les données au service FINESS+ en utilisant son API pour les insérer dans la BDD FINESS+
+    Et FinessBatchImpoter envoie les données au service FINESS+ en utilisant son API.
     Et le FinessBatchImpoter stocke les erreurs, s'il y en a, dans une file d'attente pour un traitement ultérieur.
 
 Scénario: Traitement asynchrone du fichier texte échoue

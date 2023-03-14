@@ -27,22 +27,22 @@
                 <path d="M250 10 L250 212 L654 212 L654 10 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
-                <path d="M393 29 L514 29 L514 56 L393 56 L393 29 Z"/>
+                <path d="M393 9 L514 9 L514 36 L393 36 L393 9 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-                <path d="M250 55 L656 55 L656 82 L250 82 L250 55 Z"/>
+                <path d="M250 35 L656 35 L656 62 L250 62 L250 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-                <path d="M354 55 L572 55 L572 82 L354 82 L354 55 Z"/>
+                <path d="M354 35 L572 35 L572 62 L354 62 L354 35 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-                <path d="M255 83 L340 83 L340 110 L255 110 L255 83 Z"/>
+                <path d="M255 63 L340 63 L340 90 L255 90 L255 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M255 108 L641 108 L641 185 L255 185 L255 108 Z"/>
+                <path d="M255 88 L641 88 L641 165 L255 165 L255 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M250 81 L656 81 L656 196 L250 196 L250 81 Z"/>
+                <path d="M250 61 L656 61 L656 176 L250 176 L250 61 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
                 <path d="M249 9 L656 9 L656 214 L249 214 L249 9 Z"/>
@@ -51,22 +51,22 @@
                 <path d="M250 270 L250 510 L650 510 L650 270 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-                <path d="M391 270 L512 270 L512 297 L391 297 L391 270 Z"/>
+                <path d="M391 269 L512 269 L512 296 L391 296 L391 269 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-                <path d="M250 296 L652 296 L652 323 L250 323 L250 296 Z"/>
+                <path d="M250 295 L652 295 L652 322 L250 322 L250 295 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-                <path d="M385 296 L537 296 L537 323 L385 323 L385 296 Z"/>
+                <path d="M385 295 L537 295 L537 322 L385 322 L385 295 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-                <path d="M255 324 L354 324 L354 351 L255 351 L255 324 Z"/>
+                <path d="M255 323 L354 323 L354 350 L255 350 L255 323 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-                <path d="M255 349 L646 349 L646 501 L255 501 L255 349 Z"/>
+                <path d="M255 348 L646 348 L646 500 L255 500 L255 348 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-                <path d="M250 322 L652 322 L652 512 L250 512 L250 322 Z"/>
+                <path d="M250 321 L652 321 L652 511 L250 511 L250 321 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
                 <path d="M249 269 L652 269 L652 512 L249 512 L249 269 Z"/>
@@ -99,22 +99,22 @@
                 <path d="M10 790 L10 1030 L410 1030 L410 790 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
-                <path d="M151 828 L272 828 L272 855 L151 855 L151 828 Z"/>
+                <path d="M151 789 L272 789 L272 816 L151 816 L151 789 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
-                <path d="M10 854 L412 854 L412 881 L10 881 L10 854 Z"/>
+                <path d="M10 815 L412 815 L412 842 L10 842 L10 815 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
-                <path d="M154 854 L287 854 L287 881 L154 881 L154 854 Z"/>
+                <path d="M154 815 L287 815 L287 842 L154 842 L154 815 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
-                <path d="M15 882 L142 882 L142 909 L15 909 L15 882 Z"/>
+                <path d="M15 843 L142 843 L142 870 L15 870 L15 843 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
-                <path d="M15 907 L406 907 L406 984 L15 984 L15 907 Z"/>
+                <path d="M15 868 L406 868 L406 945 L15 945 L15 868 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
-                <path d="M10 880 L412 880 L412 995 L10 995 L10 880 Z"/>
+                <path d="M10 841 L412 841 L412 956 L10 956 L10 841 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
                 <path d="M9 789 L412 789 L412 1032 L9 1032 L9 789 Z"/>
@@ -123,22 +123,22 @@
                 <path d="M466 790 L466 1030 L866 1030 L866 790 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-                <path d="M607 790 L728 790 L728 817 L607 817 L607 790 Z"/>
+                <path d="M607 789 L728 789 L728 816 L607 816 L607 789 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
-                <path d="M466 816 L868 816 L868 843 L466 843 L466 816 Z"/>
+                <path d="M466 815 L868 815 L868 842 L466 842 L466 815 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
-                <path d="M522 816 L832 816 L832 843 L522 843 L522 816 Z"/>
+                <path d="M522 815 L832 815 L832 842 L522 842 L522 815 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath37">
-                <path d="M471 844 L598 844 L598 871 L471 871 L471 844 Z"/>
+                <path d="M471 843 L598 843 L598 870 L471 870 L471 843 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
-                <path d="M471 869 L856 869 L856 1021 L471 1021 L471 869 Z"/>
+                <path d="M471 868 L856 868 L856 1020 L471 1020 L471 868 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
-                <path d="M466 842 L868 842 L868 1032 L466 1032 L466 842 Z"/>
+                <path d="M466 841 L868 841 L868 1031 L466 1031 L466 841 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
                 <path d="M465 789 L868 789 L868 1032 L465 1032 L465 789 Z"/>
@@ -161,31 +161,31 @@
         </defs>
         <g font-size="18px" fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
             <rect x="250" width="405" height="203" y="10" clip-path="url(#clipPath1)" stroke="none"/>
-            <text fill="black" x="394" xml:space="preserve" y="50" clip-path="url(#clipPath2)" stroke="none">«Requirement»</text>
-            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="336" y="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
-            <text fill="black" x="355" xml:space="preserve" y="76" clip-path="url(#clipPath4)" stroke="none">REQ-1 Recherche et filtrage</text>
-            <text fill="black" x="256" xml:space="preserve" y="104" clip-path="url(#clipPath5)" stroke="none">id=REQ-1 </text>
-            <text fill="black" x="256" xml:space="preserve" y="129" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre aux utilisateurs</text>
-            <text fill="black" x="256" xml:space="preserve" y="154" clip-path="url(#clipPath6)" stroke="none">de rechercher et de filtrer les informations sur les</text>
-            <text fill="black" x="256" xml:space="preserve" y="179" clip-path="url(#clipPath6)" stroke="none">PM/EGEs enregistrées dans ce répertoire. </text>
+            <text fill="black" x="394" xml:space="preserve" y="30" clip-path="url(#clipPath2)" stroke="none">«Requirement»</text>
+            <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="336" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <text fill="black" x="355" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-1 Recherche et filtrage</text>
+            <text fill="black" x="256" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-1 </text>
+            <text fill="black" x="256" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre aux utilisateurs</text>
+            <text fill="black" x="256" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">de rechercher et de filtrer les informations sur les</text>
+            <text fill="black" x="256" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">PM/EGEs enregistrées dans ce répertoire. </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
-            <line y2="82" fill="none" x1="250" clip-path="url(#clipPath7)" x2="655" y1="82"/>
-            <line y2="82" fill="none" x1="250" clip-path="url(#clipPath8)" x2="655" y1="82"/>
+            <line y2="62" fill="none" x1="250" clip-path="url(#clipPath7)" x2="655" y1="62"/>
+            <line y2="62" fill="none" x1="250" clip-path="url(#clipPath8)" x2="655" y1="62"/>
             <rect x="250" y="10" clip-path="url(#clipPath8)" fill="none" width="404" rx="0" ry="0" height="202"/>
             <rect x="250" y="270" clip-path="url(#clipPath9)" fill="url(#linearGradient2)" width="401" height="241" stroke="none"/>
-            <text x="392" xml:space="preserve" y="291" clip-path="url(#clipPath10)" stroke="none">«Requirement»</text>
-            <image x="367" y="301" clip-path="url(#clipPath11)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="386" xml:space="preserve" y="317" clip-path="url(#clipPath12)" stroke="none">REQ-1.1 Recherche</text>
-            <text x="256" xml:space="preserve" y="345" clip-path="url(#clipPath13)" stroke="none">id=REQ-1.1 </text>
-            <text x="256" xml:space="preserve" y="370" clip-path="url(#clipPath14)" stroke="none">text=L'application doit permettre de chercher des</text>
-            <text x="256" xml:space="preserve" y="395" clip-path="url(#clipPath14)" stroke="none">informations sur une ou plusieurs PM/EGE</text>
-            <text x="256" xml:space="preserve" y="420" clip-path="url(#clipPath14)" stroke="none">enregistrées dans le répertoire, en utilisant</text>
-            <text x="256" xml:space="preserve" y="445" clip-path="url(#clipPath14)" stroke="none">différents critères de recherche, et doit présenter</text>
-            <text x="256" xml:space="preserve" y="470" clip-path="url(#clipPath14)" stroke="none">les résultats d'une manière accessible et</text>
-            <text x="256" xml:space="preserve" y="495" clip-path="url(#clipPath14)" stroke="none">organisée. </text>
-            <line y2="323" fill="none" x1="250" clip-path="url(#clipPath15)" x2="651" y1="323"/>
-            <line y2="323" fill="none" x1="250" clip-path="url(#clipPath16)" x2="651" y1="323"/>
+            <text x="392" xml:space="preserve" y="290" clip-path="url(#clipPath10)" stroke="none">«Requirement»</text>
+            <image x="367" y="300" clip-path="url(#clipPath11)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="386" xml:space="preserve" y="316" clip-path="url(#clipPath12)" stroke="none">REQ-1.1 Recherche</text>
+            <text x="256" xml:space="preserve" y="344" clip-path="url(#clipPath13)" stroke="none">id=REQ-1.1 </text>
+            <text x="256" xml:space="preserve" y="369" clip-path="url(#clipPath14)" stroke="none">text=L'application doit permettre de chercher des</text>
+            <text x="256" xml:space="preserve" y="394" clip-path="url(#clipPath14)" stroke="none">informations sur une ou plusieurs PM/EGE</text>
+            <text x="256" xml:space="preserve" y="419" clip-path="url(#clipPath14)" stroke="none">enregistrées dans le répertoire, en utilisant</text>
+            <text x="256" xml:space="preserve" y="444" clip-path="url(#clipPath14)" stroke="none">différents critères de recherche, et doit présenter</text>
+            <text x="256" xml:space="preserve" y="469" clip-path="url(#clipPath14)" stroke="none">les résultats d'une manière accessible et</text>
+            <text x="256" xml:space="preserve" y="494" clip-path="url(#clipPath14)" stroke="none">organisée. </text>
+            <line y2="322" fill="none" x1="250" clip-path="url(#clipPath15)" x2="651" y1="322"/>
+            <line y2="322" fill="none" x1="250" clip-path="url(#clipPath16)" x2="651" y1="322"/>
             <rect x="250" y="270" clip-path="url(#clipPath16)" fill="none" width="400" rx="0" ry="0" height="240"/>
             <rect x="250" y="570" clip-path="url(#clipPath17)" fill="url(#linearGradient3)" width="401" height="161" stroke="none"/>
             <text x="392" xml:space="preserve" y="590" clip-path="url(#clipPath18)" stroke="none">«Requirement»</text>
@@ -199,29 +199,29 @@
             <line y2="622" fill="none" x1="250" clip-path="url(#clipPath24)" x2="651" y1="622"/>
             <rect x="250" y="570" clip-path="url(#clipPath24)" fill="none" width="400" rx="0" ry="0" height="160"/>
             <rect x="10" y="790" clip-path="url(#clipPath25)" fill="url(#linearGradient4)" width="401" height="241" stroke="none"/>
-            <text x="152" xml:space="preserve" y="849" clip-path="url(#clipPath26)" stroke="none">«Requirement»</text>
-            <image x="136" y="859" clip-path="url(#clipPath27)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="155" xml:space="preserve" y="875" clip-path="url(#clipPath28)" stroke="none">REQ-1.1.2.1 Trier</text>
-            <text x="16" xml:space="preserve" y="903" clip-path="url(#clipPath29)" stroke="none">id=REQ-1.1.2.1 </text>
-            <text x="16" xml:space="preserve" y="928" clip-path="url(#clipPath30)" stroke="none">text=L'application doit permettre de trier les</text>
-            <text x="16" xml:space="preserve" y="953" clip-path="url(#clipPath30)" stroke="none">résultats de la recherche en fonction de différents</text>
-            <text x="16" xml:space="preserve" y="978" clip-path="url(#clipPath30)" stroke="none">critères.  </text>
-            <line y2="881" fill="none" x1="10" clip-path="url(#clipPath31)" x2="411" y1="881"/>
-            <line y2="881" fill="none" x1="10" clip-path="url(#clipPath32)" x2="411" y1="881"/>
+            <text x="152" xml:space="preserve" y="810" clip-path="url(#clipPath26)" stroke="none">«Requirement»</text>
+            <image x="136" y="820" clip-path="url(#clipPath27)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="155" xml:space="preserve" y="836" clip-path="url(#clipPath28)" stroke="none">REQ-1.1.2.1 Trier</text>
+            <text x="16" xml:space="preserve" y="864" clip-path="url(#clipPath29)" stroke="none">id=REQ-1.1.2.1 </text>
+            <text x="16" xml:space="preserve" y="889" clip-path="url(#clipPath30)" stroke="none">text=L'application doit permettre de trier les</text>
+            <text x="16" xml:space="preserve" y="914" clip-path="url(#clipPath30)" stroke="none">résultats de la recherche en fonction de différents</text>
+            <text x="16" xml:space="preserve" y="939" clip-path="url(#clipPath30)" stroke="none">critères.  </text>
+            <line y2="842" fill="none" x1="10" clip-path="url(#clipPath31)" x2="411" y1="842"/>
+            <line y2="842" fill="none" x1="10" clip-path="url(#clipPath32)" x2="411" y1="842"/>
             <rect x="10" y="790" clip-path="url(#clipPath32)" fill="none" width="400" rx="0" ry="0" height="240"/>
             <rect x="466" y="790" clip-path="url(#clipPath33)" fill="url(#linearGradient5)" width="401" height="241" stroke="none"/>
-            <text x="608" xml:space="preserve" y="811" clip-path="url(#clipPath34)" stroke="none">«Requirement»</text>
-            <image x="504" y="821" clip-path="url(#clipPath35)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="523" xml:space="preserve" y="837" clip-path="url(#clipPath36)" stroke="none">REQ-1.1.2.2 Multiformats (accessibilité)</text>
-            <text x="472" xml:space="preserve" y="865" clip-path="url(#clipPath37)" stroke="none">id=REQ-1.1.2.2 </text>
-            <text x="472" xml:space="preserve" y="890" clip-path="url(#clipPath38)" stroke="none">text=L'application doit être capable de générer</text>
-            <text x="472" xml:space="preserve" y="915" clip-path="url(#clipPath38)" stroke="none">des résultats de recherche dans différents</text>
-            <text x="472" xml:space="preserve" y="940" clip-path="url(#clipPath38)" stroke="none">formats, tels que CSV, HTML, JSON, entre autres,</text>
-            <text x="472" xml:space="preserve" y="965" clip-path="url(#clipPath38)" stroke="none">afin que les utilisateurs puissent télécharger,</text>
-            <text x="472" xml:space="preserve" y="990" clip-path="url(#clipPath38)" stroke="none">imprimer, partager ou utiliser les informations</text>
-            <text x="472" xml:space="preserve" y="1015" clip-path="url(#clipPath38)" stroke="none">dans différents outils et applications. </text>
-            <line y2="843" fill="none" x1="466" clip-path="url(#clipPath39)" x2="867" y1="843"/>
-            <line y2="843" fill="none" x1="466" clip-path="url(#clipPath40)" x2="867" y1="843"/>
+            <text x="608" xml:space="preserve" y="810" clip-path="url(#clipPath34)" stroke="none">«Requirement»</text>
+            <image x="504" y="820" clip-path="url(#clipPath35)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="523" xml:space="preserve" y="836" clip-path="url(#clipPath36)" stroke="none">REQ-1.1.2.2 Multiformats (accessibilité)</text>
+            <text x="472" xml:space="preserve" y="864" clip-path="url(#clipPath37)" stroke="none">id=REQ-1.1.2.2 </text>
+            <text x="472" xml:space="preserve" y="889" clip-path="url(#clipPath38)" stroke="none">text=L'application doit être capable de générer</text>
+            <text x="472" xml:space="preserve" y="914" clip-path="url(#clipPath38)" stroke="none">des résultats de recherche dans différents</text>
+            <text x="472" xml:space="preserve" y="939" clip-path="url(#clipPath38)" stroke="none">formats, tels que CSV, HTML, JSON, entre autres,</text>
+            <text x="472" xml:space="preserve" y="964" clip-path="url(#clipPath38)" stroke="none">afin que les utilisateurs puissent télécharger,</text>
+            <text x="472" xml:space="preserve" y="989" clip-path="url(#clipPath38)" stroke="none">imprimer, partager ou utiliser les informations</text>
+            <text x="472" xml:space="preserve" y="1014" clip-path="url(#clipPath38)" stroke="none">dans différents outils et applications. </text>
+            <line y2="842" fill="none" x1="466" clip-path="url(#clipPath39)" x2="867" y1="842"/>
+            <line y2="842" fill="none" x1="466" clip-path="url(#clipPath40)" x2="867" y1="842"/>
             <rect x="466" y="790" clip-path="url(#clipPath40)" fill="none" width="400" rx="0" ry="0" height="240"/>
             <line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="450" x2="450" y1="213" y2="218"/>
             <line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="450" x2="450" y1="218" y2="218"/>
