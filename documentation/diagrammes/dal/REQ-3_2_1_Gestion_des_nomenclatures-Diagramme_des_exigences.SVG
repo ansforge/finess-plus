@@ -51,7 +51,7 @@
                 <path d="M1055 63 L1168 63 L1168 90 L1055 90 L1055 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M1055 88 L1716 88 L1716 240 L1055 240 L1055 88 Z"/>
+                <path d="M1055 88 L1707 88 L1707 240 L1055 240 L1055 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
                 <path d="M1050 61 L1720 61 L1720 248 L1050 248 L1050 61 Z"/>
@@ -99,7 +99,7 @@
                 <path d="M855 383 L982 383 L982 410 L855 410 L855 383 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
-                <path d="M855 408 L1325 408 L1325 510 L855 510 L855 408 Z"/>
+                <path d="M855 408 L1337 408 L1337 510 L855 510 L855 408 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
                 <path d="M850 381 L1352 381 L1352 521 L850 521 L850 381 Z"/>
@@ -147,10 +147,10 @@
                 <path d="M1975 383 L2102 383 L2102 410 L1975 410 L1975 383 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
-                <path d="M1975 408 L2435 408 L2435 535 L1975 535 L1975 408 Z"/>
+                <path d="M1975 408 L2435 408 L2435 510 L1975 510 L1975 408 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath39">
-                <path d="M1970 381 L2472 381 L2472 546 L1970 546 L1970 381 Z"/>
+                <path d="M1970 381 L2472 381 L2472 521 L1970 521 L1970 381 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath40">
                 <path d="M1969 329 L2472 329 L2472 568 L1969 568 L1969 329 Z"/>
@@ -171,10 +171,10 @@
                 <path d="M1135 683 L1262 683 L1262 710 L1135 710 L1135 683 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath46">
-                <path d="M1135 708 L1615 708 L1615 810 L1135 810 L1135 708 Z"/>
+                <path d="M1135 708 L1615 708 L1615 785 L1135 785 L1135 708 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath47">
-                <path d="M1130 681 L1632 681 L1632 821 L1130 821 L1130 681 Z"/>
+                <path d="M1130 681 L1632 681 L1632 796 L1130 796 L1130 681 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
                 <path d="M1129 629 L1632 629 L1632 868 L1129 868 L1129 629 Z"/>
@@ -241,11 +241,11 @@
             <text fill="black" x="1246" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-3.2.1 Gestion des nomenclatures</text>
             <text fill="black" x="1056" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-3.2.1 </text>
             <text fill="black" x="1056" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre la création, la modification et la suppression de</text>
-            <text fill="black" x="1056" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">ces nomenclatures et classifications utilisées pour décrire les catégories</text>
+            <text fill="black" x="1056" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">ses nomenclatures et classifications utilisées pour décrire les catégories</text>
             <text fill="black" x="1056" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">d'établissements, les activités de soins, les disciplines, les statuts juridiques, les</text>
-            <text fill="black" x="1056" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">Tarifs (MFT), les services public Hospitalier (SPH) et les clientèles. Les nomenclatures</text>
-            <text fill="black" x="1056" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">et classifications doivent être configurables en fonction des besoins de l'application</text>
-            <text fill="black" x="1056" xml:space="preserve" y="234" clip-path="url(#clipPath6)" stroke="none">et de la réglementation en vigueur. </text>
+            <text fill="black" x="1056" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">Modes de FixationTarifaire (MFT), etc. Les nomenclatures et classifications doivent</text>
+            <text fill="black" x="1056" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">être configurables en fonction des besoins de l'application et de la réglementation</text>
+            <text fill="black" x="1056" xml:space="preserve" y="234" clip-path="url(#clipPath6)" stroke="none">en vigueur. </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="62" fill="none" x1="1050" clip-path="url(#clipPath7)" x2="1719" y1="62"/>
@@ -256,9 +256,9 @@
             <image x="26" y="360" clip-path="url(#clipPath11)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="45" xml:space="preserve" y="376" clip-path="url(#clipPath12)" stroke="none">REQ-3.2.1.1 Utilisation de nomenclatures et de classifications pour les catégories d'établissements</text>
             <text x="16" xml:space="preserve" y="404" clip-path="url(#clipPath13)" stroke="none">id=REQ-3.2.1.1 </text>
-            <text x="16" xml:space="preserve" y="429" clip-path="url(#clipPath14)" stroke="none">text=L'application doit permettre l'utilisation de nomenclatures et de classifications pour decrire les</text>
-            <text x="16" xml:space="preserve" y="454" clip-path="url(#clipPath14)" stroke="none">categories d'etablissements, tels que les etablissements relevant de la loi hospitaliere, les</text>
-            <text x="16" xml:space="preserve" y="479" clip-path="url(#clipPath14)" stroke="none">etablissements a caractere sanitaire, etab.de formation des personnels sanitaires et sociaux, etc. </text>
+            <text x="16" xml:space="preserve" y="429" clip-path="url(#clipPath14)" stroke="none">text=L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les</text>
+            <text x="16" xml:space="preserve" y="454" clip-path="url(#clipPath14)" stroke="none">catégories (entités géographiques), telles que les établissements relevant de la loi hospitalière, les</text>
+            <text x="16" xml:space="preserve" y="479" clip-path="url(#clipPath14)" stroke="none">établissements à caractère sanitaire, etab.de formation des personnels sanitaires et sociaux, etc. </text>
             <line y2="382" fill="none" x1="10" clip-path="url(#clipPath15)" x2="831" y1="382"/>
             <line y2="382" fill="none" x1="10" clip-path="url(#clipPath16)" x2="831" y1="382"/>
             <rect x="10" y="330" clip-path="url(#clipPath16)" fill="none" width="820" rx="0" ry="0" height="236"/>
@@ -269,8 +269,8 @@
             <text x="856" xml:space="preserve" y="404" clip-path="url(#clipPath21)" stroke="none">id=REQ-3.2.1.2 </text>
             <text x="856" xml:space="preserve" y="429" clip-path="url(#clipPath22)" stroke="none">text=L'application doit permettre l'utilisation de</text>
             <text x="856" xml:space="preserve" y="454" clip-path="url(#clipPath22)" stroke="none">nomenclatures et de classifications pour décrire les activités</text>
-            <text x="856" xml:space="preserve" y="479" clip-path="url(#clipPath22)" stroke="none">de soins fournies par les PM/EGE, telles que la pédiatrie, la</text>
-            <text x="856" xml:space="preserve" y="504" clip-path="url(#clipPath22)" stroke="none">cardiologie, Médecine d'urgence, etc. </text>
+            <text x="856" xml:space="preserve" y="479" clip-path="url(#clipPath22)" stroke="none">sanitaires autorisées/installées à/par les PM/EGE, telles que la</text>
+            <text x="856" xml:space="preserve" y="504" clip-path="url(#clipPath22)" stroke="none">pédiatrie, la cardiologie, Médecine d'urgence, etc. </text>
             <line y2="382" fill="none" x1="850" clip-path="url(#clipPath23)" x2="1351" y1="382"/>
             <line y2="382" fill="none" x1="850" clip-path="url(#clipPath24)" x2="1351" y1="382"/>
             <rect x="850" y="330" clip-path="url(#clipPath24)" fill="none" width="500" rx="0" ry="0" height="236"/>
@@ -280,9 +280,9 @@
             <text x="1454" xml:space="preserve" y="376" clip-path="url(#clipPath28)" stroke="none">REQ-3.2.1.3 Utilisation de nomenclatures et de classificatio...</text>
             <text x="1436" xml:space="preserve" y="404" clip-path="url(#clipPath29)" stroke="none">id=REQ-3.2.1.3 </text>
             <text x="1436" xml:space="preserve" y="429" clip-path="url(#clipPath30)" stroke="none">text=L'application doit permettre l'utilisation de</text>
-            <text x="1436" xml:space="preserve" y="454" clip-path="url(#clipPath30)" stroke="none">nomenclatures et de classifications pour decrire les disciplines</text>
+            <text x="1436" xml:space="preserve" y="454" clip-path="url(#clipPath30)" stroke="none">nomenclatures et de classifications pour décrire les disciplines</text>
             <text x="1436" xml:space="preserve" y="479" clip-path="url(#clipPath30)" stroke="none">telles que les disciplines d'enseignement, les disciplines</text>
-            <text x="1436" xml:space="preserve" y="504" clip-path="url(#clipPath30)" stroke="none">d'equipement sociales, etc. </text>
+            <text x="1436" xml:space="preserve" y="504" clip-path="url(#clipPath30)" stroke="none">d'équipement sociales, etc. </text>
             <line y2="382" fill="none" x1="1430" clip-path="url(#clipPath31)" x2="1931" y1="382"/>
             <line y2="382" fill="none" x1="1430" clip-path="url(#clipPath32)" x2="1931" y1="382"/>
             <rect x="1430" y="330" clip-path="url(#clipPath32)" fill="none" width="500" rx="0" ry="0" height="236"/>
@@ -293,9 +293,8 @@
             <text x="1976" xml:space="preserve" y="404" clip-path="url(#clipPath37)" stroke="none">id=REQ-3.2.1.4 </text>
             <text x="1976" xml:space="preserve" y="429" clip-path="url(#clipPath38)" stroke="none">text=L'application doit permettre l'utilisation de</text>
             <text x="1976" xml:space="preserve" y="454" clip-path="url(#clipPath38)" stroke="none">nomenclatures et de classifications pour décrire les statuts</text>
-            <text x="1976" xml:space="preserve" y="479" clip-path="url(#clipPath38)" stroke="none">juridiques des pm/ege, tels que les organismes et</text>
-            <text x="1976" xml:space="preserve" y="504" clip-path="url(#clipPath38)" stroke="none">établissements publics, les organismes privés, personne</text>
-            <text x="1976" xml:space="preserve" y="529" clip-path="url(#clipPath38)" stroke="none">morale de droit étranger, etc. </text>
+            <text x="1976" xml:space="preserve" y="479" clip-path="url(#clipPath38)" stroke="none">juridiques des PM/EGE, tels que les organismes et</text>
+            <text x="1976" xml:space="preserve" y="504" clip-path="url(#clipPath38)" stroke="none">établissements publics, les organismes privés, etc. </text>
             <line y2="382" fill="none" x1="1970" clip-path="url(#clipPath39)" x2="2471" y1="382"/>
             <line y2="382" fill="none" x1="1970" clip-path="url(#clipPath40)" x2="2471" y1="382"/>
             <rect x="1970" y="330" clip-path="url(#clipPath40)" fill="none" width="500" rx="0" ry="0" height="236"/>
@@ -306,8 +305,7 @@
             <text x="1136" xml:space="preserve" y="704" clip-path="url(#clipPath45)" stroke="none">id=REQ-3.2.1.5 </text>
             <text x="1136" xml:space="preserve" y="729" clip-path="url(#clipPath46)" stroke="none">text=L'application doit permettre l'utilisation de</text>
             <text x="1136" xml:space="preserve" y="754" clip-path="url(#clipPath46)" stroke="none">nomenclatures et de classifications pour décrire les mode de</text>
-            <text x="1136" xml:space="preserve" y="779" clip-path="url(#clipPath46)" stroke="none">fixation des tarifs (MFT) appliques aux établissements et leur</text>
-            <text x="1136" xml:space="preserve" y="804" clip-path="url(#clipPath46)" stroke="none">mode de financement </text>
+            <text x="1136" xml:space="preserve" y="779" clip-path="url(#clipPath46)" stroke="none">fixation des tarifs (MFT) appliqués aux établissements. </text>
             <line y2="682" fill="none" x1="1130" clip-path="url(#clipPath47)" x2="1631" y1="682"/>
             <line y2="682" fill="none" x1="1130" clip-path="url(#clipPath48)" x2="1631" y1="682"/>
             <rect x="1130" y="630" clip-path="url(#clipPath48)" fill="none" width="500" rx="0" ry="0" height="236"/>

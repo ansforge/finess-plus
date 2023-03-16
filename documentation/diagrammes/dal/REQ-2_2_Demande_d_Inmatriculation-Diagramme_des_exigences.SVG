@@ -63,10 +63,10 @@
                 <path d="M575 63 L660 63 L660 90 L575 90 L575 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M575 88 L1016 88 L1016 240 L575 240 L575 88 Z"/>
+                <path d="M575 88 L1016 88 L1016 215 L575 215 L575 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M570 61 L1032 61 L1032 251 L570 251 L570 61 Z"/>
+                <path d="M570 61 L1032 61 L1032 226 L570 226 L570 61 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
                 <path d="M569 9 L1032 9 L1032 252 L569 252 L569 9 Z"/>
@@ -288,7 +288,7 @@
                 <path d="M1075 1203 L1202 1203 L1202 1230 L1075 1230 L1075 1203 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath81">
-                <path d="M1075 1228 L1528 1228 L1528 1380 L1075 1380 L1075 1228 Z"/>
+                <path d="M1075 1228 L1499 1228 L1499 1380 L1075 1380 L1075 1228 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath82">
                 <path d="M1070 1201 L1532 1201 L1532 1391 L1070 1391 L1070 1201 Z"/>
@@ -321,9 +321,8 @@
             <text fill="black" x="576" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit être capable de collecter et de</text>
             <text fill="black" x="576" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">stocker des informations sur une PM/EGE de manière</text>
             <text fill="black" x="576" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">efficace, afin de garantir l'exhaustivité et l'exactitude des</text>
-            <text fill="black" x="576" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">données, lors de la soumission d'une demande</text>
-            <text fill="black" x="576" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">d'enregistrement aux "autorités d'enregistrement" ou</text>
-            <text fill="black" x="576" xml:space="preserve" y="234" clip-path="url(#clipPath6)" stroke="none">"Autorités de régulation". </text>
+            <text fill="black" x="576" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">données qui seront soumises aux "autorités</text>
+            <text fill="black" x="576" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">d'enregistrement" ou "Autorités de régulation". </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="62" fill="none" x1="570" clip-path="url(#clipPath7)" x2="1031" y1="62"/>
@@ -443,8 +442,8 @@
             <text x="1076" xml:space="preserve" y="1274" clip-path="url(#clipPath81)" stroke="none">demandes d'immatriculation et des documents</text>
             <text x="1076" xml:space="preserve" y="1299" clip-path="url(#clipPath81)" stroke="none">justificatifs soumis par les PM/EGE. Cela implique que</text>
             <text x="1076" xml:space="preserve" y="1324" clip-path="url(#clipPath81)" stroke="none">l'application doit permettre la conservation des</text>
-            <text x="1076" xml:space="preserve" y="1349" clip-path="url(#clipPath81)" stroke="none">informations et documents nécessaires pour la traçabilité</text>
-            <text x="1076" xml:space="preserve" y="1374" clip-path="url(#clipPath81)" stroke="none">et la vérification des demandes d'immatriculation. </text>
+            <text x="1076" xml:space="preserve" y="1349" clip-path="url(#clipPath81)" stroke="none">informations et documents pour la traçabilité et la</text>
+            <text x="1076" xml:space="preserve" y="1374" clip-path="url(#clipPath81)" stroke="none">vérification des demandes d'immatriculation. </text>
             <line y2="1202" fill="none" x1="1070" clip-path="url(#clipPath82)" x2="1531" y1="1202"/>
             <line y2="1202" fill="none" x1="1070" clip-path="url(#clipPath83)" x2="1531" y1="1202"/>
             <rect x="1070" y="1150" clip-path="url(#clipPath83)" fill="none" width="460" rx="0" ry="0" height="240"/>

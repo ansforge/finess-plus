@@ -75,10 +75,10 @@
                 <path d="M775 63 L860 63 L860 90 L775 90 L775 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M775 88 L1181 88 L1181 232 L775 232 L775 88 Z"/>
+                <path d="M775 88 L1195 88 L1195 215 L775 215 L775 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M770 61 L1212 61 L1212 232 L770 232 L770 61 Z"/>
+                <path d="M770 61 L1212 61 L1212 226 L770 226 L770 61 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
                 <path d="M769 9 L1212 9 L1212 232 L769 232 L769 9 Z"/>
@@ -123,10 +123,10 @@
                 <path d="M1035 343 L1120 343 L1120 370 L1035 370 L1035 343 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
-                <path d="M1035 368 L1476 368 L1476 520 L1035 520 L1035 368 Z"/>
+                <path d="M1035 368 L1476 368 L1476 495 L1035 495 L1035 368 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-                <path d="M1030 341 L1492 341 L1492 531 L1030 531 L1030 341 Z"/>
+                <path d="M1030 341 L1492 341 L1492 506 L1030 506 L1030 341 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
                 <path d="M1029 289 L1492 289 L1492 532 L1029 532 L1029 289 Z"/>
@@ -198,7 +198,7 @@
                 <path d="M515 683 L614 683 L614 710 L515 710 L515 683 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath47">
-                <path d="M515 708 L954 708 L954 760 L515 760 L515 708 Z"/>
+                <path d="M515 708 L959 708 L959 760 L515 760 L515 708 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
                 <path d="M510 681 L972 681 L972 771 L510 771 L510 681 Z"/>
@@ -382,11 +382,10 @@
             <text fill="black" x="867" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-0 FINESS Fonction Principale</text>
             <text fill="black" x="776" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-0 </text>
             <text fill="black" x="776" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit permettre de publier et</text>
-            <text fill="black" x="776" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">partager des informations de tous les acteurs du</text>
-            <text fill="black" x="776" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">système de santé qui comporte les données sur les</text>
-            <text fill="black" x="776" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">personnes morales et les entités géographiques</text>
-            <text fill="black" x="776" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">(établissements), ainsi que sur leurs activités</text>
-            <text fill="black" x="776" xml:space="preserve" y="234" clip-path="url(#clipPath6)" stroke="none">autorisées/installées. </text>
+            <text fill="black" x="776" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">partager des informations avec tous les acteurs du</text>
+            <text fill="black" x="776" xml:space="preserve" y="159" clip-path="url(#clipPath6)" stroke="none">système de santé, relatives aux personnes morales et</text>
+            <text fill="black" x="776" xml:space="preserve" y="184" clip-path="url(#clipPath6)" stroke="none">entités géographiques (établissements), ainsi qu’à</text>
+            <text fill="black" x="776" xml:space="preserve" y="209" clip-path="url(#clipPath6)" stroke="none">leurs activités autorisées/installées. </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="62" fill="none" x1="770" clip-path="url(#clipPath7)" x2="1211" y1="62"/>
@@ -412,9 +411,8 @@
             <text x="1036" xml:space="preserve" y="389" clip-path="url(#clipPath22)" stroke="none">text=L'application doit être capable de collecter et de</text>
             <text x="1036" xml:space="preserve" y="414" clip-path="url(#clipPath22)" stroke="none">stocker des informations sur une PM/EGE de manière</text>
             <text x="1036" xml:space="preserve" y="439" clip-path="url(#clipPath22)" stroke="none">efficace, afin de garantir l'exhaustivité et l'exactitude des</text>
-            <text x="1036" xml:space="preserve" y="464" clip-path="url(#clipPath22)" stroke="none">données, lors de la soumission d'une demande</text>
-            <text x="1036" xml:space="preserve" y="489" clip-path="url(#clipPath22)" stroke="none">d'enregistrement aux "autorités d'enregistrement" ou</text>
-            <text x="1036" xml:space="preserve" y="514" clip-path="url(#clipPath22)" stroke="none">"Autorités de régulation". </text>
+            <text x="1036" xml:space="preserve" y="464" clip-path="url(#clipPath22)" stroke="none">données qui seront soumises aux "autorités</text>
+            <text x="1036" xml:space="preserve" y="489" clip-path="url(#clipPath22)" stroke="none">d'enregistrement" ou "Autorités de régulation". </text>
             <line y2="342" fill="none" x1="1030" clip-path="url(#clipPath23)" x2="1491" y1="342"/>
             <line y2="342" fill="none" x1="1030" clip-path="url(#clipPath24)" x2="1491" y1="342"/>
             <rect x="1030" y="290" clip-path="url(#clipPath24)" fill="none" width="460" rx="0" ry="0" height="240"/>
@@ -474,8 +472,8 @@
             <image x="667" y="660" clip-path="url(#clipPath44)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="686" xml:space="preserve" y="676" clip-path="url(#clipPath45)" stroke="none">REQ-1.2 Filtrage</text>
             <text x="516" xml:space="preserve" y="704" clip-path="url(#clipPath46)" stroke="none">id=REQ-1.2 </text>
-            <text x="516" xml:space="preserve" y="729" clip-path="url(#clipPath47)" stroke="none">text=l'application doit permettre définir un ou plusieurs</text>
-            <text x="516" xml:space="preserve" y="754" clip-path="url(#clipPath47)" stroke="none">critères de recherche. </text>
+            <text x="516" xml:space="preserve" y="729" clip-path="url(#clipPath47)" stroke="none">text=L'application doit proposer un ou plusieurs critères</text>
+            <text x="516" xml:space="preserve" y="754" clip-path="url(#clipPath47)" stroke="none">de recherche. </text>
             <line y2="682" fill="none" x1="510" clip-path="url(#clipPath48)" x2="971" y1="682"/>
             <line y2="682" fill="none" x1="510" clip-path="url(#clipPath49)" x2="971" y1="682"/>
             <rect x="510" y="630" clip-path="url(#clipPath49)" fill="none" width="460" rx="0" ry="0" height="220"/>

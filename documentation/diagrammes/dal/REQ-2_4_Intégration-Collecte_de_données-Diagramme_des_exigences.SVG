@@ -83,10 +83,10 @@
                 <path d="M1048 276 L1133 276 L1133 303 L1048 303 L1048 276 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M1048 301 L1633 301 L1633 428 L1048 428 L1048 301 Z"/>
+                <path d="M1048 301 L1569 301 L1569 403 L1048 403 L1048 301 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M1043 274 L1645 274 L1645 439 L1043 439 L1043 274 Z"/>
+                <path d="M1043 274 L1645 274 L1645 414 L1043 414 L1043 274 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
                 <path d="M1042 222 L1645 222 L1645 445 L1042 445 L1042 222 Z"/>
@@ -284,7 +284,7 @@
                 <path d="M1128 1156 L1255 1156 L1255 1183 L1128 1183 L1128 1156 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath73">
-                <path d="M1128 1181 L1547 1181 L1547 1308 L1128 1308 L1128 1181 Z"/>
+                <path d="M1128 1181 L1541 1181 L1541 1308 L1128 1308 L1128 1181 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath74">
                 <path d="M1123 1154 L1565 1154 L1565 1319 L1123 1319 L1123 1154 Z"/>
@@ -454,9 +454,8 @@
             <text fill="black" x="1049" xml:space="preserve" y="297" clip-path="url(#clipPath5)" stroke="none">id=REQ-2 </text>
             <text fill="black" x="1049" xml:space="preserve" y="322" clip-path="url(#clipPath6)" stroke="none">text=L'application doit être capable de collecter et de stocker des</text>
             <text fill="black" x="1049" xml:space="preserve" y="347" clip-path="url(#clipPath6)" stroke="none">informations sur une PM/EGE de manière efficace, afin de garantir</text>
-            <text fill="black" x="1049" xml:space="preserve" y="372" clip-path="url(#clipPath6)" stroke="none">l'exhaustivité et l'exactitude des données, lors de la soumission d'une</text>
-            <text fill="black" x="1049" xml:space="preserve" y="397" clip-path="url(#clipPath6)" stroke="none">demande d'enregistrement aux "autorités d'enregistrement" ou "Autorités</text>
-            <text fill="black" x="1049" xml:space="preserve" y="422" clip-path="url(#clipPath6)" stroke="none">de régulation". </text>
+            <text fill="black" x="1049" xml:space="preserve" y="372" clip-path="url(#clipPath6)" stroke="none">l'exhaustivité et l'exactitude des données qui seront soumises aux</text>
+            <text fill="black" x="1049" xml:space="preserve" y="397" clip-path="url(#clipPath6)" stroke="none">"autorités d'enregistrement" ou "Autorités de régulation". </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="275" fill="none" x1="1043" clip-path="url(#clipPath7)" x2="1644" y1="275"/>
@@ -572,7 +571,7 @@
             <text x="1129" xml:space="preserve" y="1202" clip-path="url(#clipPath73)" stroke="none">text=L'application doit disposer d'outils de</text>
             <text x="1129" xml:space="preserve" y="1227" clip-path="url(#clipPath73)" stroke="none">surveillance permettant de vérifier que la</text>
             <text x="1129" xml:space="preserve" y="1252" clip-path="url(#clipPath73)" stroke="none">synchronisation avec les applications partenaires est</text>
-            <text x="1129" xml:space="preserve" y="1277" clip-path="url(#clipPath73)" stroke="none">correctement effectuée et de détecter rapidement les</text>
+            <text x="1129" xml:space="preserve" y="1277" clip-path="url(#clipPath73)" stroke="none">correctement effectuée et détecter rapidement les</text>
             <text x="1129" xml:space="preserve" y="1302" clip-path="url(#clipPath73)" stroke="none">erreurs. </text>
             <line y2="1155" fill="none" x1="1123" clip-path="url(#clipPath74)" x2="1564" y1="1155"/>
             <line y2="1155" fill="none" x1="1123" clip-path="url(#clipPath75)" x2="1564" y1="1155"/>

@@ -47,7 +47,7 @@
                 <path d="M15 63 L114 63 L114 90 L15 90 L15 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M15 88 L380 88 L380 140 L15 140 L15 88 Z"/>
+                <path d="M15 88 L398 88 L398 140 L15 140 L15 88 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
                 <path d="M10 61 L412 61 L412 151 L10 151 L10 61 Z"/>
@@ -215,8 +215,8 @@
             <image stroke="black" width="16" xlink:show="embed" xlink:type="simple" fill="black" clip-path="url(#clipPath3)" preserveAspectRatio="none" height="16" x="137" y="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
             <text fill="black" x="156" xml:space="preserve" y="56" clip-path="url(#clipPath4)" stroke="none">REQ-1.2 Filtrage</text>
             <text fill="black" x="16" xml:space="preserve" y="84" clip-path="url(#clipPath5)" stroke="none">id=REQ-1.2 </text>
-            <text fill="black" x="16" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=l'application doit permettre définir un ou</text>
-            <text fill="black" x="16" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">plusieurs critères de recherche. </text>
+            <text fill="black" x="16" xml:space="preserve" y="109" clip-path="url(#clipPath6)" stroke="none">text=L'application doit proposer un ou plusieurs</text>
+            <text fill="black" x="16" xml:space="preserve" y="134" clip-path="url(#clipPath6)" stroke="none">critères de recherche. </text>
         </g>
         <g font-size="18px" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
             <line y2="62" fill="none" x1="10" clip-path="url(#clipPath7)" x2="411" y1="62"/>
@@ -272,7 +272,7 @@
             <image x="733" y="460" clip-path="url(#clipPath43)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
             <text x="752" xml:space="preserve" y="476" clip-path="url(#clipPath44)" stroke="none">REQ-1.2.6 par mot-clé</text>
             <text x="636" xml:space="preserve" y="504" clip-path="url(#clipPath45)" stroke="none">id=REQ-1.2.6 </text>
-            <text x="636" xml:space="preserve" y="529" clip-path="url(#clipPath46)" stroke="none">text=L'application doit permettre trouver</text>
+            <text x="636" xml:space="preserve" y="529" clip-path="url(#clipPath46)" stroke="none">text=L'application doit permettre de trouver</text>
             <text x="636" xml:space="preserve" y="554" clip-path="url(#clipPath46)" stroke="none">rapidement des PM/EGEs par mot-clé pertinents.</text>
             <text x="636" xml:space="preserve" y="579" clip-path="url(#clipPath46)" stroke="none">Les mots-clés peuvent inclure des noms de</text>
             <text x="636" xml:space="preserve" y="604" clip-path="url(#clipPath46)" stroke="none">l'entité, des noms de lieux, etc. </text>
