@@ -175,7 +175,9 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
               <nestedClassifier xmi:type="uml:Class" xmi:id="_JzA6AMXDEe2spt1mRYkQrg" name="REQ-4.5.1.1 Accueil"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_LZB1kMXDEe2spt1mRYkQrg" name="REQ-4.5.1.2 Inscription"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Mrne0MXDEe2spt1mRYkQrg" name="REQ-4.5.1.3 Aide / Support"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_Nk0XsMXDEe2spt1mRYkQrg" name="REQ-4.5.1.4 Consultation des PM/EGE"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Nk0XsMXDEe2spt1mRYkQrg" name="REQ-4.5.1.4 Consultation des PM/EGE">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_M9pLgMXaEe2WC6x8F-M4iQ" name="REQ-4.5.1.4.1 Filtrage de PM/EGE"/>
+              </nestedClassifier>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_QsfTQMXDEe2spt1mRYkQrg" name="REQ-4.5.1.5 Informations générales"/>
             </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_kA7i4MQXEe2tNojPD10Rrw" name="REQ-4.5.2 Section PM/EGE">
@@ -185,12 +187,38 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
               <nestedClassifier xmi:type="uml:Class" xmi:id="_GKWUwMXEEe2spt1mRYkQrg" name="REQ-4.5.2.2 Suivi de la demande"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_IFJNgMXEEe2spt1mRYkQrg" name="REQ-4.5.2.3 Modification de la demande"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_I_R6gMXEEe2spt1mRYkQrg" name="REQ-4.5.2.4 Suppression de la demande"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_KShrEMXEEe2spt1mRYkQrg" name="REQ-4.5.2.5 Profile de l'utilisateur"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_KShrEMXEEe2spt1mRYkQrg" name="REQ-4.5.2.5 Profile de l'utilisateur">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ZOocAMXaEe2WC6x8F-M4iQ" name="REQ-4.5.2.5.1 Préférences de notification"/>
+              </nestedClassifier>
             </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_kr5LcMQXEe2tNojPD10Rrw" name="REQ-4.5.3 Section Gestionnaire">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_RF304MXJEe2spt1mRYkQrg" name="Requirement1"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_x3UfcMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.1 Consultation des demandes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_yL5oUMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.2 Analyse des demandes">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_yWLlsMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.2.1 Modification du statut des demandes"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ybwpQMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.2.2 Gestion des documents"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_yis-wMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.3 Gestion des communications"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_ynSj0MXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.4 Consultation des notifications envoyées"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_yshpIMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.5 Gestion des utilisateurs PM/EGE"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_ywmQ0MXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.6 Statistiques et rapports"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_y0wYEMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.7 Gestion des événements et des alertes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_y9doIMXOEe2WC6x8F-M4iQ" name="REQ-4.5.3.8 Support et assistance"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_ziuUgMXSEe2WC6x8F-M4iQ" name="REQ-4.5.3.9 Gestion des utilisateurs Gestionaire"/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_kWrwcMQXEe2tNojPD10Rrw" name="REQ-4.5.4 Section Administrateur"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_kWrwcMQXEe2tNojPD10Rrw" name="REQ-4.5.4 Section Administrateur">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RMeRgMXcEe2WC6x8F-M4iQ" name="Requirement1"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_R_CW4MXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_1"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SNaxIMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_2"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SXLxIMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_3"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SewYwMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_4"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Sm5oIMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_5"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_SuHqcMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_6"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_S3PKMMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_7"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_S-TbgMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_8"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_TFK4gMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_9"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_TNE3UMXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_10"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_TYxJ8MXcEe2WC6x8F-M4iQ" name="CopyOf_Requirement1_11"/>
+            </nestedClassifier>
           </nestedClassifier>
         </nestedClassifier>
       </packagedElement>
@@ -410,5 +438,29 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_IFLCsMXEEe2spt1mRYkQrg" base_NamedElement="_IFJNgMXEEe2spt1mRYkQrg" id="REQ-4.5.2.3" text="Permet aux utilisateurs de modifier leur demande d'immatriculation." base_Class="_IFJNgMXEEe2spt1mRYkQrg"/>
   <Requirements:Requirement xmi:id="_I_WL8MXEEe2spt1mRYkQrg" base_NamedElement="_I_R6gMXEEe2spt1mRYkQrg" id="REQ-4.5.2.4" text="Permet aux utilisateurs de supprimer leur demande d'immatriculation." base_Class="_I_R6gMXEEe2spt1mRYkQrg"/>
   <Requirements:Requirement xmi:id="_KSjgQMXEEe2spt1mRYkQrg" base_NamedElement="_KShrEMXEEe2spt1mRYkQrg" id="REQ-4.5.2.5" text="Permettre la modification et la mise à jour des informations de l'utilisateur, ainsi que la gestion de ses paramètres de sécurité et de confidentialité." base_Class="_KShrEMXEEe2spt1mRYkQrg"/>
-  <Requirements:Requirement xmi:id="_RF6RIMXJEe2spt1mRYkQrg" base_NamedElement="_RF304MXJEe2spt1mRYkQrg" base_Class="_RF304MXJEe2spt1mRYkQrg"/>
+  <Requirements:Requirement xmi:id="_x5x9kMXOEe2WC6x8F-M4iQ" base_NamedElement="_x3UfcMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.1" text="Permet aux autorités de consulter les demandes d'immatriculation soumises par les utilisateurs. &#xD;&#xA;" base_Class="_x3UfcMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_yL62cMXOEe2WC6x8F-M4iQ" base_NamedElement="_yL5oUMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.2" text="Offre la possibilité aux autorités d'examiner les demandes d'immatriculation selon les critères et règles en vigueur, et de les valider, solliciter des renseignements complémentaires ou de les refuser." base_Class="_yL5oUMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_yWMMwMXOEe2WC6x8F-M4iQ" base_NamedElement="_yWLlsMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.2.1" text="Permet aux autorités de mettre à jour le statut des demandes d'immatriculation (par exemple, approuvé, rejeté, en cours de traitement, en attente, etc). " base_Class="_yWLlsMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ybxQUMXOEe2WC6x8F-M4iQ" base_NamedElement="_ybwpQMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.2.2" text="Permet aux autorités de stocker, gérer et consulter les documents associés aux demandes d'immatriculation et aux PM/EGE.&#xD;&#xA;" base_Class="_ybwpQMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_yitl0MXOEe2WC6x8F-M4iQ" base_NamedElement="_yis-wMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.3" text="Permet aux autorités de communiquer avec les utilisateurs via des messages internes, des e-mails ou d'autres canaux de communication." base_Class="_yis-wMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ynTx8MXOEe2WC6x8F-M4iQ" base_NamedElement="_ynSj0MXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.4" text="Permet aux autorités de consulter l'historique des notifications envoyées par l'application aux utilisateurs." base_Class="_ynSj0MXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ysiQMMXOEe2WC6x8F-M4iQ" base_NamedElement="_yshpIMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.5" text="Permet aux autorités de gérer les comptes d'utilisateurs." base_Class="_yshpIMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ywm34MXOEe2WC6x8F-M4iQ" base_NamedElement="_ywmQ0MXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.6" text="Permet aux autorités de générer des rapports et des statistiques sur les demandes d'immatriculation, les utilisateurs, les PM/EGE, etc.&#xD;&#xA;" base_Class="_ywmQ0MXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_y0w_IMXOEe2WC6x8F-M4iQ" base_NamedElement="_y0wYEMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.7" text="Permet aux autorités de créer et de gérer des événements et des alertes liés aux demandes d'immatriculation, aux PM/EGE et aux utilisateurs." base_Class="_y0wYEMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_y9e2QMXOEe2WC6x8F-M4iQ" base_NamedElement="_y9doIMXOEe2WC6x8F-M4iQ" id="REQ-4.5.3.8" text="Permet aux autorités de recevoir un support technique et une assistance pour l'utilisation et la gestion de l'application." base_Class="_y9doIMXOEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ziu7kMXSEe2WC6x8F-M4iQ" base_NamedElement="_ziuUgMXSEe2WC6x8F-M4iQ" id="REQ-4.5.3.9" text="Permet aux autorités de gérer les comptes leur d'utilisateurs associé (rôles et droits d'accès, etc)." base_Class="_ziuUgMXSEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_M9xHUMXaEe2WC6x8F-M4iQ" base_NamedElement="_M9pLgMXaEe2WC6x8F-M4iQ" id="REQ-4.5.1.4.1" text="Permet aux utilisateurs de filtrer la liste de PM/EGE enregistrées dans le répertoire." base_Class="_M9pLgMXaEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_ZOsGYMXaEe2WC6x8F-M4iQ" base_NamedElement="_ZOocAMXaEe2WC6x8F-M4iQ" id="REQ-4.5.2.5.1" text="Le portail web doit permettre la gestion des préférences de notification pour les utilisateurs," base_Class="_ZOocAMXaEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_RMii8MXcEe2WC6x8F-M4iQ" base_NamedElement="_RMeRgMXcEe2WC6x8F-M4iQ" base_Class="_RMeRgMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_R_C98MXcEe2WC6x8F-M4iQ" base_NamedElement="_R_CW4MXcEe2WC6x8F-M4iQ" base_Class="_R_CW4MXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_SNcmUMXcEe2WC6x8F-M4iQ" base_NamedElement="_SNaxIMXcEe2WC6x8F-M4iQ" base_Class="_SNaxIMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_SXMYMMXcEe2WC6x8F-M4iQ" base_NamedElement="_SXLxIMXcEe2WC6x8F-M4iQ" base_Class="_SXLxIMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_Sew_0MXcEe2WC6x8F-M4iQ" base_NamedElement="_SewYwMXcEe2WC6x8F-M4iQ" base_Class="_SewYwMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_Sm6PMMXcEe2WC6x8F-M4iQ" base_NamedElement="_Sm5oIMXcEe2WC6x8F-M4iQ" base_Class="_Sm5oIMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_SuIRgMXcEe2WC6x8F-M4iQ" base_NamedElement="_SuHqcMXcEe2WC6x8F-M4iQ" base_Class="_SuHqcMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_S3PxQMXcEe2WC6x8F-M4iQ" base_NamedElement="_S3PKMMXcEe2WC6x8F-M4iQ" base_Class="_S3PKMMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_S-UCkMXcEe2WC6x8F-M4iQ" base_NamedElement="_S-TbgMXcEe2WC6x8F-M4iQ" base_Class="_S-TbgMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_TFLfkMXcEe2WC6x8F-M4iQ" base_NamedElement="_TFK4gMXcEe2WC6x8F-M4iQ" base_Class="_TFK4gMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_TNFeYMXcEe2WC6x8F-M4iQ" base_NamedElement="_TNE3UMXcEe2WC6x8F-M4iQ" base_Class="_TNE3UMXcEe2WC6x8F-M4iQ"/>
+  <Requirements:Requirement xmi:id="_TYxxAMXcEe2WC6x8F-M4iQ" base_NamedElement="_TYxJ8MXcEe2WC6x8F-M4iQ" base_Class="_TYxJ8MXcEe2WC6x8F-M4iQ"/>
 </xmi:XMI>
