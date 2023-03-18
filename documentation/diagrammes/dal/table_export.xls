@@ -465,21 +465,71 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <tr>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.1 Section Visiteur";><span style='mso-spacerun:yes'>              </span>REQ-4.5.1 Section Visiteur</td>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1</td>
-	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs non connecté (Visiteur) : Ce type d'utilisateur représente les personnes qui n'ont pas encore créé de compte ou qui ne se sont pas connectées. Ils peuvent consulter le répertoire des PM/EGE et accéder aux informations générales, à la documentation sur l'API et au formulaire d'aide dans la partie publique du portail web.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section publique du portail regroupe les fonctionnalités spécifiques des utilisateurs non connecté (Visiteur) : Ce type d'utilisateur représente les personnes qui n'ont pas encore créé de compte ou qui ne se sont pas connectées. Ils peuvent consulter le répertoire des PM/EGE et accéder aux informations générales, à la documentation sur l'API et au formulaire d'aide dans la partie publique du portail web.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.1.1 Accueil";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.1.1 Accueil</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Présentation de l'application et de ses fonctionnalités principales.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.1.2 Inscription ";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.1.2 Inscription </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Permet aux nouveaux utilisateurs de créer un compte pour accéder à l'application.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.1.3 Aide / Support";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.1.3 Aide / Support</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Fournit des informations et des ressources pour aider les utilisateurs à utiliser l'application.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.1.4 Consultation des PM/EGE";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.1.4 Consultation des PM/EGE</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Permet aux utilisateurs de rechercher et consulter des informations sur une ou plusieurs PM/EGE.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.1.5 Informations générales";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.1.5 Informations générales</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Fournit des informations sur l'application, son but et son utilisation, FAQ, base documentaire, aide et formations, etc.</td>
 </tr>
 <tr>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.2 Section PM/EGE";><span style='mso-spacerun:yes'>              </span>REQ-4.5.2 Section PM/EGE</td>
-	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2</td>
-	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs PM/EGE (Utilisateur final) : Ce type d'utilisateur représente les personnes morales qui soumettent des demandes d'immatriculation, vérifient le statut de leurs demandes, les modifient ou les suppriment. Le portail web doit leur fournir un accès sécurisé à la partie privée dédiée aux PM/EGE.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section privée du portail regroupe les fonctionnalités spécifiques des utilisateurs PM/EGE (Utilisateur final) : Ce type d'utilisateur représente les personnes morales qui soumettent des demandes d'immatriculation, vérifient le statut de leurs demandes, les modifient ou les suppriment. Le portail web doit leur fournir un accès sécurisé à la partie privée dédiée aux PM/EGE.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.2.1 Demande d'immatriculation";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.2.1 Demande d'immatriculation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Permet aux utilisateurs de soumettre une demande d'immatriculation pour une PM/EGE. </td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.2.2 Suivi de la demande";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.2.2 Suivi de la demande</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Permet aux utilisateurs de consulter le statut de leur demande d'immatriculation. </td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.2.3 Modification de la demande";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.2.3 Modification de la demande</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Permet aux utilisateurs de modifier leur demande d'immatriculation. </td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.2.4 Suppression de la demande";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.2.4 Suppression de la demande</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Permet aux utilisateurs de supprimer leur demande d'immatriculation.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-4.5.2.5 Profile de l'utilisateur";><span style='mso-spacerun:yes'>                  </span>REQ-4.5.2.5 Profile de l'utilisateur</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Permettre la modification et la mise à jour des informations de l'utilisateur, ainsi que la gestion de ses paramètres de sécurité et de confidentialité.</td>
 </tr>
 <tr>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.3 Section Gestionnaire";><span style='mso-spacerun:yes'>              </span>REQ-4.5.3 Section Gestionnaire</td>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.3</td>
-	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs des autorités compétentes (Gestionnaire de demandes) : Ce type d'utilisateur représente les autorités compétentes responsables de la gestion des demandes d'immatriculation. Leur rôle principal est d'évaluer, de valider ou de rejeter les demandes soumises par les PM/EGE. Le portail web doit leur permettre d'accéder à la section d'administration dédiée à la gestion des demandes.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section privée  du portail regroupe les fonctionnalités spécifiques des utilisateurs des autorités compétentes (Gestionnaire de demandes) : Ce type d'utilisateur représente les autorités compétentes responsables de la gestion des demandes d'immatriculation. Leur rôle principal est d'évaluer, de valider ou de rejeter les demandes soumises par les PM/EGE. Le portail web doit leur permettre d'accéder à la section d'administration dédiée à la gestion des demandes.</td>
 </tr>
 <tr>
 	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.4 Section Administrateur";><span style='mso-spacerun:yes'>              </span>REQ-4.5.4 Section Administrateur</td>
 	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.4</td>
-	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs administrateurs de l'application (Administrateur système) : Ce type d'utilisateur est responsable de la maintenance et de la configuration globale de l'application. Ils doivent être en mesure de gérer les comptes utilisateur, de configurer les paramètres généraux de l'application et de consulter les notifications envoyées par l'application. Le portail web doit leur donner accès à la section d'administration dédiée à la gestion de l'application.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Cette section privée du portail regroupe les fonctionnalités spécifiques des utilisateurs administrateurs de l'application (Administrateur système) : Ce type d'utilisateur est responsable de la maintenance et de la configuration globale de l'application. Ils doivent être en mesure de gérer les comptes utilisateur, de configurer les paramètres généraux de l'application et de consulter les notifications envoyées par l'application. Le portail web doit leur donner accès à la section d'administration dédiée à la gestion de l'application.</td>
 </tr>
 </table></body></html>
