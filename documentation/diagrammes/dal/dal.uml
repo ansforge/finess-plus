@@ -28,7 +28,7 @@ La synchronisation asynchrone améliore l'efficacité et l'expérience utilisate
         <body>c'est-à-dire que les données sont synchronisées en blocs plutôt qu'individuellement. &#xD;
 Cette méthode permet de limiter le nombre de requêtes et de réduire la charge de travail, mais peut entraîner un certain délai entre la mise à jour des données dans le répertoire et leur disponibilité dans les applications partenaires.</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_lZZR0MPvEe2tNojPD10Rrw" annotatedElement="_dUYA4L2sEe2i7I-Qd4C-Vw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_lZZR0MPvEe2tNojPD10Rrw" annotatedElement="_dUYA4L2sEe2i7I-Qd4C-Vw _zCn04L8_Ee26B-GmpHT37w">
         <body>Le contrôle des versions des fichiers lors de l'importation de données en lots permet d'éviter la duplication et les erreurs de données. Cela signifie que le système vérifie si une version précédente de ce fichier a été importée et s'il y a des différences avec la version actuelle, afin d'éviter les doublons et de garantir l'intégrité des données.</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_sijFQLwtEe25StXjzuMdhg" name="REQ-0 FINESS Fonction Principale">
