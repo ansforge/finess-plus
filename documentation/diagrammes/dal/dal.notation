@@ -9464,7 +9464,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_grAnUcc1Ee2WC6x8F-M4iQ" id="(0.4577540106951872,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_h-ek4Mc2Ee2WC6x8F-M4iQ" type="PapyrusUMLClassDiagram" name="REQ-4.5.3.1 Tableaux de bord" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_h-ek4Mc2Ee2WC6x8F-M4iQ" type="PapyrusUMLClassDiagram" name="REQ-4.5.3.1 Tableaux de bord - Gestionaire" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_js4ncMc2Ee2WC6x8F-M4iQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_js4ncsc2Ee2WC6x8F-M4iQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_js4nc8c2Ee2WC6x8F-M4iQ" type="Class_FloatingNameLabel">
@@ -10027,7 +10027,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KpCLocc6Ee2WC6x8F-M4iQ" id="(0.5,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_dR1SwMc6Ee2WC6x8F-M4iQ" type="PapyrusUMLClassDiagram" name="REQ-4.5.4.1 Tableaux de bord" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_dR1SwMc6Ee2WC6x8F-M4iQ" type="PapyrusUMLClassDiagram" name="REQ-4.5.4.1 Tableaux de bord - Administrateur" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_gX658Mc6Ee2WC6x8F-M4iQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_gX658sc6Ee2WC6x8F-M4iQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_gX6588c6Ee2WC6x8F-M4iQ" type="Class_FloatingNameLabel">
