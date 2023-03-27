@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_GVQZsLv_Ee2HlZxxJnTpkA" name="dal">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_Gana0Lv_Ee2HlZxxJnTpkA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -539,7 +539,7 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedEnd xmi:type="uml:Property" xmi:id="_z3Tts8ihEe2V5aQtEd4q4A" name="queue de messages" type="_cs2ZQMihEe2V5aQtEd4q4A" association="_z3TtsMihEe2V5aQtEd4q4A"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_z3TttMihEe2V5aQtEd4q4A" name="api" type="_YsosIMihEe2V5aQtEd4q4A" association="_z3TtsMihEe2V5aQtEd4q4A"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_-SNJ0MiiEe2V5aQtEd4q4A"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-SNJ0MiiEe2V5aQtEd4q4A" name="A_API_Répositoire"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_XqfAsMijEe2V5aQtEd4q4A" memberEnd="_XqfAs8ijEe2V5aQtEd4q4A _XqfAtMijEe2V5aQtEd4q4A">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqfAscijEe2V5aQtEd4q4A" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqfAssijEe2V5aQtEd4q4A" key="nature" value="UML_Nature"/>
@@ -591,6 +591,14 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedEnd xmi:type="uml:Property" xmi:id="_QsF0w8ivEe2V5aQtEd4q4A" name="portail web" type="_bcChYMiQEe2WC6x8F-M4iQ" association="_QsF0wMivEe2V5aQtEd4q4A"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_QsF0xMivEe2V5aQtEd4q4A" name="fournisseur d'adresse géographique" type="_DIE2IMivEe2V5aQtEd4q4A" association="_QsF0wMivEe2V5aQtEd4q4A"/>
       </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8cR4IMpREe2oX734FKy9Gg" name="Diagramme d'architecture">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HaxpMMpWEe2oX734FKy9Gg" name="Package1">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WU1eQMyGEe2oX734FKy9Gg" name="Block1"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YnD_kMyGEe2oX734FKy9Gg" name="Block2"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_q--yEMyGEe2oX734FKy9Gg" name="ValueType3"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_dXUpkMyGEe2oX734FKy9Gg" name="Stakeholder2"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -815,4 +823,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_ZvsoEMXiEe2WC6x8F-M4iQ" base_NamedElement="_ZvrZ8MXiEe2WC6x8F-M4iQ" id="REQ-4.5.4.4" text="Permet aux administrateurs de donner du support technique et assistance aux utilisateurs sur gestion de l'application." base_Class="_ZvrZ8MXiEe2WC6x8F-M4iQ"/>
   <Requirements:Requirement xmi:id="_jFeZwMXkEe2WC6x8F-M4iQ" base_NamedElement="_jFdysMXkEe2WC6x8F-M4iQ" id="REQ-4.5.3.1.5" text="Permets aux gestionnaires la gestion de la synchronisation des données entre le répertoire et les applications partenaires, y compris la surveillance du processus de synchronisation, la validation des données importées et la gestion des erreurs (correction manuelle de donnes)." base_Class="_jFdysMXkEe2WC6x8F-M4iQ"/>
   <Requirements:Requirement xmi:id="_mKfNcMXlEe2WC6x8F-M4iQ" base_NamedElement="_mKemYMXlEe2WC6x8F-M4iQ" id="REQ-4.5.3.1" text="L'application doit fournir des tableaux de bord pour suivre les performances de l'application, les indicateurs clés de performance et les métriques de qualité de service, etc." base_Class="_mKemYMXlEe2WC6x8F-M4iQ"/>
+  <Blocks:Block xmi:id="_WU_PQMyGEe2oX734FKy9Gg" base_Class="_WU1eQMyGEe2oX734FKy9Gg"/>
+  <Blocks:Block xmi:id="_YnGb0MyGEe2oX734FKy9Gg" base_Class="_YnD_kMyGEe2oX734FKy9Gg"/>
+  <ModelElements:Stakeholder xmi:id="_dXZiEMyGEe2oX734FKy9Gg" base_Classifier="_dXUpkMyGEe2oX734FKy9Gg"/>
+  <Blocks:ValueType xmi:id="_q_BOUMyGEe2oX734FKy9Gg" base_DataType="_q--yEMyGEe2oX734FKy9Gg"/>
 </xmi:XMI>
