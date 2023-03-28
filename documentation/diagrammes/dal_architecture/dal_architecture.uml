@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1S2_YMy3Ee2oX734FKy9Gg" name="dal_architecture">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_0ndqAM1cEe2oX734FKy9Gg">
+    <body>PM = &#xD;
+EGE = &#xD;
+Activité = &#xD;
+ID_FINESS =&#xD;
+AE =&#xD;
+CLI = Command Line Interface&#xD;
+ETL = Export Transform Load</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1TuiEMy3Ee2oX734FKy9Gg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_i2rigMy4Ee2oX734FKy9Gg" name="FinessArchitecture">
+    <packagedElement xmi:type="uml:Component" xmi:id="_0kvNwMy6Ee2oX734FKy9Gg" name="FINESS+">
+      <packagedElement xmi:type="uml:Component" xmi:id="_uBusYMy9Ee2oX734FKy9Gg" name="EGE"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="__TZogMy9Ee2oX734FKy9Gg" name="PM"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_oNbWAMy-Ee2oX734FKy9Gg" name="ID_FINESS">
+        <packagedElement xmi:type="uml:Component" xmi:id="_sKLToM1nEe2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_0jG5QMy-Ee2oX734FKy9Gg" name="Activité"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ga-B4M1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TWupYMy9Ee2oX734FKy9Gg" name="Espace PM">
+      <packagedElement xmi:type="uml:Component" xmi:id="_m8E-cM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_woQrsM1rEe2oX734FKy9Gg" name="Demandes Immatriculation"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_8hSvMM1rEe2oX734FKy9Gg" name="Suivi Demande"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Bq0NwM1sEe2oX734FKy9Gg" name="Gestion Profil"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_LlUAoM1vEe2oX734FKy9Gg" name="Consultation Notifications"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_l1wekMy_Ee2oX734FKy9Gg" name="Visiteur Front"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_64pl8M01Ee2oX734FKy9Gg" name="AE Bakcoffice">
+      <packagedElement xmi:type="uml:Component" xmi:id="_qwTeAM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_M3Ob0M1sEe2oX734FKy9Gg" name="Analyse des demandes"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_TZPXUM1sEe2oX734FKy9Gg" name="Consultation des demandes"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_aT8foM1sEe2oX734FKy9Gg" name="Gestion utilisateurs PM"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gEVfAM1uEe2oX734FKy9Gg" name="Activité"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gEVfAc1uEe2oX734FKy9Gg" name="PM"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gEVfAs1uEe2oX734FKy9Gg" name="EGE"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_H7UyEM02Ee2oX734FKy9Gg" name="Admin Bakcoffice">
+      <packagedElement xmi:type="uml:Component" xmi:id="_ojqAQM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_YuM-8M1uEe2oX734FKy9Gg" name="Gestion Notifications"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_qpOSsM1xEe2oX734FKy9Gg" name="Consultation Notifications"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oM6qIM02Ee2oX734FKy9Gg" name="Visiteur Back"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_tA410M0-Ee2oX734FKy9Gg" name="PM Front"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_tBBYsM0-Ee2oX734FKy9Gg" name="PM Back"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_9-at8M0-Ee2oX734FKy9Gg" name="Admin Back"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_9-at8c0-Ee2oX734FKy9Gg" name="Admin Front"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o9A7QM0_Ee2oX734FKy9Gg" name="ETL FINESS">
+      <packagedElement xmi:type="uml:Component" xmi:id="_puCIsM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_1VuKQM10Ee2oX734FKy9Gg" name="Flux Entrant">
+        <packagedElement xmi:type="uml:Component" xmi:id="_1VuKQc10Ee2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_6RPpEM10Ee2oX734FKy9Gg" name="Flux Sotrant">
+        <packagedElement xmi:type="uml:Component" xmi:id="_6RPpEc10Ee2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_BrInwM11Ee2oX734FKy9Gg" name="Gestionnaire d'erreurs">
+        <packagedElement xmi:type="uml:Component" xmi:id="_BrInwc11Ee2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_BrInws11Ee2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_sS1AgM0_Ee2oX734FKy9Gg" name="CLI FINESS"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_60MYMM0_Ee2oX734FKy9Gg" name="Gestion AE"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_a_1rYM1jEe2oX734FKy9Gg" name="AE Back"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_a_1rYc1jEe2oX734FKy9Gg" name="AE Front"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_LDZnYM1kEe2oX734FKy9Gg" name="Shared (Partagés)">
+      <packagedElement xmi:type="uml:Component" xmi:id="_KMlpQM1mEe2oX734FKy9Gg" name="Recherche">
+        <packagedElement xmi:type="uml:Component" xmi:id="_HVjf0M1oEe2oX734FKy9Gg" name="Filtrage (Criteria/Filter)"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_XmW00M1oEe2oX734FKy9Gg" name="Triage (Order)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_2neY8M1nEe2oX734FKy9Gg" name="Gestionnaire d'erreurs">
+        <packagedElement xmi:type="uml:Component" xmi:id="_2neY8c1nEe2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_9lt9cM1nEe2oX734FKy9Gg" name="Gestionnaire de bus">
+        <packagedElement xmi:type="uml:Component" xmi:id="_9lt9cc1nEe2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_JCScgM1qEe2oX734FKy9Gg" name="Autorisation">
+        <packagedElement xmi:type="uml:Component" xmi:id="_JCScgc1qEe2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_19AqMM1oEe2oX734FKy9Gg" name="FINESS Backend"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_I8iPQM1pEe2oX734FKy9Gg" name="FINESS Frontend"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_NMWFUM1uEe2oX734FKy9Gg" name="Gestion Notifications"/>
+  </packagedElement>
+</uml:Model>
