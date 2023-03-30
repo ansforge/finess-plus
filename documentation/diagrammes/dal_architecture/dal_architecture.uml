@@ -73,13 +73,13 @@
         <packagedElement xmi:type="uml:Component" xmi:id="_BrInwc11Ee2oX734FKy9Gg" name="Surveillance (Monitoring)"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_BrInws11Ee2oX734FKy9Gg" name="surveillance (Monitoring)"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_puCIsM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_puCIsM1kEe2oX734FKy9Gg" name="shared (Partagés)"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_L_ztwM4_Ee2oX734FKy9Gg" name="fr.gouv.esante.finess.administrateur">
       <packagedElement xmi:type="uml:Component" xmi:id="_60MYMM0_Ee2oX734FKy9Gg" name="gestionAE"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_YuM-8M1uEe2oX734FKy9Gg" name="gestionNotifications"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_qpOSsM1xEe2oX734FKy9Gg" name="consultationNotifications"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_ojqAQM1kEe2oX734FKy9Gg" name="Shared (Partagés)"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ojqAQM1kEe2oX734FKy9Gg" name="shared (Partagés)"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_J7FAcM5AEe2oX734FKy9Gg" name="fr.gouv.esante.finess.autoriteEnregistrement (AE)">
       <packagedElement xmi:type="uml:Component" xmi:id="_gEVfAc1uEe2oX734FKy9Gg" name="etablissement"/>
