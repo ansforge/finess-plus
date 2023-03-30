@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="685px" preserveAspectRatio="none" style="width:2430px;height:685px;background:#FFFFFF;" version="1.1" viewBox="0 0 2430 685" width="2430px" zoomAndPan="magnify"><defs/><g><!--MD5=[2181e3248c90ad968c409b976e863e79]
+cluster FINESS+--><g id="cluster_FINESS+"><path d="M503.5,6 L562.5,6 A3.75,3.75 0 0 1 565,8.5 L572,29.6094 L695.5,29.6094 A2.5,2.5 0 0 1 698,32.1094 L698,211.5 A2.5,2.5 0 0 1 695.5,214 L503.5,214 A2.5,2.5 0 0 1 501,211.5 L501,8.5 A2.5,2.5 0 0 1 503.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="501" x2="572" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="505" y="22.5332">FINESS+</text></g><!--MD5=[01cc618ff2abb82b7633f0acf834b5be]
+cluster Shared (Partagés)--><g id="cluster_Shared (Partagés)"><path d="M724.5,6 L851.5,6 A3.75,3.75 0 0 1 854,8.5 L861,29.6094 L1333.5,29.6094 A2.5,2.5 0 0 1 1336,32.1094 L1336,335.5 A2.5,2.5 0 0 1 1333.5,338 L724.5,338 A2.5,2.5 0 0 1 722,335.5 L722,8.5 A2.5,2.5 0 0 1 724.5,6 " fill="#ADD8E6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="722" x2="861" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="726" y="22.5332">Shared (Partagés)</text></g><!--MD5=[bb1b002a3c1aa1bd6b53c2cd43b7bfaa]
+cluster Espace PM--><g id="cluster_Espace PM"><path d="M1362.5,6 L1440.5,6 A3.75,3.75 0 0 1 1443,8.5 L1450,29.6094 L1926.5,29.6094 A2.5,2.5 0 0 1 1929,32.1094 L1929,211.5 A2.5,2.5 0 0 1 1926.5,214 L1362.5,214 A2.5,2.5 0 0 1 1360,211.5 L1360,8.5 A2.5,2.5 0 0 1 1362.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1360" x2="1450" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1364" y="22.5332">Espace PM</text></g><!--MD5=[1db736ec72295429298365f63d50d445]
+cluster AE Bakcoffice--><g id="cluster_AE Bakcoffice"><path d="M8.5,238 L105.5,238 A3.75,3.75 0 0 1 108,240.5 L115,261.6094 L695.5,261.6094 A2.5,2.5 0 0 1 698,264.1094 L698,443.5 A2.5,2.5 0 0 1 695.5,446 L8.5,446 A2.5,2.5 0 0 1 6,443.5 L6,240.5 A2.5,2.5 0 0 1 8.5,238 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="115" y1="261.6094" y2="261.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="10" y="254.5332">AE Bakcoffice</text></g><!--MD5=[db6fc556c47013b685e7e81574638c80]
+cluster Admin Bakcoffice--><g id="cluster_Admin Bakcoffice"><path d="M2081.5,6 L2203.5,6 A3.75,3.75 0 0 1 2206,8.5 L2213,29.6094 L2420.5,29.6094 A2.5,2.5 0 0 1 2423,32.1094 L2423,103.5 A2.5,2.5 0 0 1 2420.5,106 L2081.5,106 A2.5,2.5 0 0 1 2079,103.5 L2079,8.5 A2.5,2.5 0 0 1 2081.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2079" x2="2213" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="2083" y="22.5332">Admin Bakcoffice</text></g><!--MD5=[7a9dcd9d6d71bc14729532df3e36d2f5]
+cluster ETL FINESS--><g id="cluster_ETL FINESS"><path d="M1362.5,238 L1442.5,238 A3.75,3.75 0 0 1 1445,240.5 L1452,261.6094 L1656.5,261.6094 A2.5,2.5 0 0 1 1659,264.1094 L1659,443.5 A2.5,2.5 0 0 1 1656.5,446 L1362.5,446 A2.5,2.5 0 0 1 1360,443.5 L1360,240.5 A2.5,2.5 0 0 1 1362.5,238 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1360" x2="1452" y1="261.6094" y2="261.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="1364" y="254.5332">ETL FINESS</text></g><!--MD5=[c8856582f195b4afac6ba8a1c2f4a3bb]
+cluster FINESS Backend--><g id="cluster_FINESS Backend"><path d="M1685.5,238 L1801.5,238 A3.75,3.75 0 0 1 1804,240.5 L1811,261.6094 L1965.5,261.6094 A2.5,2.5 0 0 1 1968,264.1094 L1968,443.5 A2.5,2.5 0 0 1 1965.5,446 L1685.5,446 A2.5,2.5 0 0 1 1683,443.5 L1683,240.5 A2.5,2.5 0 0 1 1685.5,238 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1683" x2="1811" y1="261.6094" y2="261.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115" x="1687" y="254.5332">FINESS Backend</text></g><!--MD5=[f89f6f89d614f4d6aadaac0ada338606]
+cluster FINESS Frontend--><g id="cluster_FINESS Frontend"><path d="M39.5,470 L159.5,470 A3.75,3.75 0 0 1 162,472.5 L169,493.6094 L344.5,493.6094 A2.5,2.5 0 0 1 347,496.1094 L347,675.5 A2.5,2.5 0 0 1 344.5,678 L39.5,678 A2.5,2.5 0 0 1 37,675.5 L37,472.5 A2.5,2.5 0 0 1 39.5,470 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="37" x2="169" y1="493.6094" y2="493.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="41" y="486.5332">FINESS Frontend</text></g><!--MD5=[25bf7d1418ad63e60559e365613ac753]
+entity EGE--><g id="elem_EGE"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69" x="517.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="566.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="564.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="564.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="532.5" y="76.5332">EGE</text></g><!--MD5=[1035515eb14b5228f153ae78bdf69e99]
+entity PM--><g id="elem_PM"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="622" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="662" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="660" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="660" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="637" y="76.5332">PM</text></g><!--MD5=[cd171ef1a5b6dce34a991982335bc3a1]
+entity Activité--><g id="elem_Activité"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="85" x="517.5" y="150"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="582.5" y="155"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="580.5" y="157"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="580.5" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="532.5" y="184.5332">Activité</text></g><!--MD5=[ec2ac0f4c2ed403da5b2e7a3d7899a42]
+entity ID_FINESS--><g id="elem_ID_FINESS"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="744.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="833.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="831.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="831.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="759.5" y="76.5332">ID_FINESS</text></g><!--MD5=[9445b47e411bca5822f5e5230236c8f8]
+entity Recherche--><g id="elem_Recherche"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="940.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1029.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1027.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1027.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="955.5" y="76.5332">Recherche</text></g><!--MD5=[c48c2b2e538d0868c6c3eb1c114e1be0]
+entity Filtrage (Criteria/Filter)--><g id="elem_Filtrage (Criteria/Filter)"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="184" x="1136" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1300" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1298" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1298" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1151" y="76.5332">Filtrage (Criteria/Filter)</text></g><!--MD5=[69641a946b5c09e53b9cd8dc1cf43db4]
+entity Triage (Order)--><g id="elem_Triage (Order)"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="132" x="738" y="150"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="850" y="155"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="848" y="157"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="848" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="753" y="184.5332">Triage (Order)</text></g><!--MD5=[ef1bb8df98d0414f551d2e519a88f0b0]
+entity Surveillance (Monitoring)--><g id="elem_Surveillance (Monitoring)"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="905.5" y="150"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1082.5" y="155"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1080.5" y="157"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1080.5" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="920.5" y="184.5332">Surveillance (Monitoring)</text></g><!--MD5=[d970f3b380b2b7a41a336a2a329a8951]
+entity Gestionnaire d'erreurs--><g id="elem_Gestionnaire d'erreurs"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="1138" y="150"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1300" y="155"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1298" y="157"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1298" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="1153" y="184.5332">Gestionnaire d'erreurs</text></g><!--MD5=[bfd676932ac2d9d6167a2b4bb75fbde8]
+entity Gestionnaire de bus--><g id="elem_Gestionnaire de bus"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168" x="738" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="886" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="884" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="884" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="753" y="308.5332">Gestionnaire de bus</text></g><!--MD5=[d34ac70252f79152626323232e7ab8c9]
+entity Autorisation--><g id="elem_Autorisation"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="941.5" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1036.5" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1034.5" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1034.5" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="956.5" y="308.5332">Autorisation</text></g><!--MD5=[299fcfd5acfd6e959e10b600351d406d]
+entity Demandes Immatriculation--><g id="elem_Demandes Immatriculation"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="1376" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1562" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1560" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1560" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1391" y="76.5332">Demandes Immatriculation</text></g><!--MD5=[4bfdd8067a9512e98c2d8b3f3758ac4a]
+entity Suivi Demande--><g id="elem_Suivi Demande"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135" x="1617.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1732.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1730.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1730.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1632.5" y="76.5332">Suivi Demande</text></g><!--MD5=[f1da949de8b7c422f2e2f20d053a0b8d]
+entity Gestion Profil--><g id="elem_Gestion Profil"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="1787.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1892.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1890.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1890.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1802.5" y="76.5332">Gestion Profil</text></g><!--MD5=[48a9bf8b40729d89728cd0e3a9bc4a99]
+entity Consultation Notifications--><g id="elem_Consultation Notifications"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="199" x="1379.5" y="150"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1558.5" y="155"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1556.5" y="157"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1556.5" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1394.5" y="184.5332">Consultation Notifications</text></g><!--MD5=[427ab61054ae9259592f0a4683e8c485]
+entity Shared2 (Partagés)--><g id="elem_Shared2 (Partagés)"><rect fill="#ADD8E6" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="1613.5" y="150"/><rect fill="#ADD8E6" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1758.5" y="155"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1756.5" y="157"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1756.5" y="161"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1628.5" y="184.5332">Shared2 (Partagés)</text></g><!--MD5=[389f3d202c2c5b0a15574cb521584e6a]
+entity Analyse des demandes--><g id="elem_Analyse des demandes"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="22.5" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="189.5" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="187.5" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="187.5" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="37.5" y="308.5332">Analyse des demandes</text></g><!--MD5=[9509e7bc218d8dcbe00723d1aec4a8cd]
+entity Consultation des demandes--><g id="elem_Consultation des demandes"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="216" x="245" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="441" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="439" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="439" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="260" y="308.5332">Consultation des demandes</text></g><!--MD5=[f775438aa6cfc482f212d9c811a84fa6]
+entity Gestion utilisateurs PM--><g id="elem_Gestion utilisateurs PM"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="185" x="496.5" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="661.5" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="659.5" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="659.5" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="511.5" y="308.5332">Gestion utilisateurs PM</text></g><!--MD5=[da9bc9c67906042c3fedd735d85d3fd4]
+entity Gestion Notifications--><g id="elem_Gestion Notifications"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="31.5" y="382"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="180.5" y="387"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="178.5" y="389"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="178.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="46.5" y="416.5332">Gestion Notifications</text></g><!--MD5=[8611260850a74849d4e8d8cf99edb85f]
+entity Shared3 (Partagés)--><g id="elem_Shared3 (Partagés)"><rect fill="#ADD8E6" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="235.5" y="382"/><rect fill="#ADD8E6" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="380.5" y="387"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="378.5" y="389"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="378.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="250.5" y="416.5332">Shared3 (Partagés)</text></g><!--MD5=[6910ee3b078cc27b84a664be15f59e8c]
+entity Gestion AE--><g id="elem_Gestion AE"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111" x="2295.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="2386.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2384.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2384.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="2310.5" y="76.5332">Gestion AE</text></g><!--MD5=[1bf002f557602ad19990f0c9f4785680]
+entity Shared4 (Partagés)--><g id="elem_Shared4 (Partagés)"><rect fill="#ADD8E6" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="2095.5" y="42"/><rect fill="#ADD8E6" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="2240.5" y="47"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2238.5" y="49"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2238.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2110.5" y="76.5332">Shared4 (Partagés)</text></g><!--MD5=[551eba1aad1f8e60156db96b2ad4e085]
+entity Flux Entrant--><g id="elem_Flux Entrant"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="1376" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1472" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1470" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1470" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1391" y="308.5332">Flux Entrant</text></g><!--MD5=[040341602597d405cb25725cec2031f1]
+entity Flux Sortant--><g id="elem_Flux Sortant"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="1527" y="274"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1623" y="279"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1621" y="281"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1621" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1542" y="308.5332">Flux Sortant</text></g><!--MD5=[a5ae0de1477632e35220858b21a9c0af]
+entity Shared5 (Partagés)--><g id="elem_Shared5 (Partagés)"><rect fill="#ADD8E6" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="1376.5" y="382"/><rect fill="#ADD8E6" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1521.5" y="387"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1519.5" y="389"/><rect fill="#ADD8E6" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1519.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1391.5" y="416.5332">Shared5 (Partagés)</text></g><!--MD5=[762de3370e02c5254acab8b07f36034f]
+entity Visiteur Back--><g id="elem_Visiteur Back"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="1699" y="274"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1801" y="279"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1799" y="281"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1799" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1714" y="308.5332">Visiteur Back</text></g><!--MD5=[3871957b0d37bbdf0a8bef56700d515b]
+entity PM Back--><g id="elem_PM Back"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="1856.5" y="274"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1931.5" y="279"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1929.5" y="281"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1929.5" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1871.5" y="308.5332">PM Back</text></g><!--MD5=[6ef02e8b66e5449c35aa6b820b14e2e0]
+entity Admin Back--><g id="elem_Admin Back"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="1703" y="382"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1797" y="387"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1795" y="389"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1795" y="393"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1718" y="416.5332">Admin Back</text></g><!--MD5=[cb1b51e403bf27183cd432a610764771]
+entity AE Back--><g id="elem_AE Back"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="1852.5" y="382"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1925.5" y="387"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1923.5" y="389"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1923.5" y="393"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1867.5" y="416.5332">AE Back</text></g><!--MD5=[ca7775efd8135c720a989be2ee292250]
+entity Visiteur Front--><g id="elem_Visiteur Front"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="53.5" y="506"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="158.5" y="511"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="156.5" y="513"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="156.5" y="517"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="68.5" y="540.5332">Visiteur Front</text></g><!--MD5=[a88e7e15a511840a4e9f453f189d5c0d]
+entity Admin Front--><g id="elem_Admin Front"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="213.5" y="506"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="310.5" y="511"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="308.5" y="513"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="308.5" y="517"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="228.5" y="540.5332">Admin Front</text></g><!--MD5=[a4528297458edd32600a773ac7756f10]
+entity AE Front--><g id="elem_AE Front"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="68" y="614"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="144" y="619"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="142" y="621"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="142" y="625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="83" y="648.5332">AE Front</text></g><!--MD5=[dc78324c64a40947e27df21eb799811e]
+entity PM Front--><g id="elem_PM Front"><rect fill="#DDA0DD" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="199" y="614"/><rect fill="#DDA0DD" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="277" y="619"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="275" y="621"/><rect fill="#DDA0DD" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="275" y="625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="214" y="648.5332">PM Front</text></g><!--MD5=[8ce93dc7fce44fbee027c2effcd5dce8]
+entity CLI FINESS--><g id="elem_CLI FINESS"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="113" x="1947.5" y="42"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="2040.5" y="47"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2038.5" y="49"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="2038.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1962.5" y="76.5332">CLI FINESS</text></g><!--MD5=[f9402c0cf450106cfd0f7b8dd7f02a4a]
+@startuml
+!define AWSPUML https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v14.0/Advanced/svg/
+
+skinparam componentStyle uml2
+
+package "FINESS+" {
+  [EGE]
+  [PM]
+  [Activité]
+  [Shared (Partagés)] #LightBlue 
+}
+ package "Shared (Partagés)" #LightBlue  {
+    [ID_FINESS]
+    [Recherche]
+    [Filtrage (Criteria/Filter)]
+    [Triage (Order)]
+    [Surveillance (Monitoring)]
+    [Gestionnaire d'erreurs]
+    [Gestionnaire de bus]
+    [Autorisation]
+} 
+
+package "Espace PM" {
+  [Demandes Immatriculation]
+  [Suivi Demande]
+  [Gestion Profil]
+  [Consultation Notifications]
+  [Shared2 (Partagés)] #LightBlue
+}
+
+package "AE Bakcoffice" {
+  [PM]
+  [EGE]
+  [Activité]
+  [Analyse des demandes]
+  [Consultation des demandes]
+  [Gestion utilisateurs PM]
+  [Gestion Notifications]
+  [Shared3 (Partagés)] #LightBlue
+}
+
+package "Admin Bakcoffice" {
+  [Gestion AE]
+  [Gestion Notifications]
+  [Consultation Notifications]
+  [Shared4 (Partagés)] #LightBlue
+}
+
+package "ETL FINESS" {
+  [Flux Entrant]
+  [Flux Sortant]
+  [Surveillance (Monitoring)]
+  [Gestionnaire d'erreurs]
+  [Shared5 (Partagés)] #LightBlue
+}
+
+component "CLI FINESS"
+
+package "FINESS Backend" {
+  [Visiteur Back]#Plum
+  [PM Back]#Plum
+  [Admin Back]#Plum
+  [AE Back]#Plum
+}
+
+package "FINESS Frontend" {
+  [Visiteur Front]#Plum
+  [Admin Front]#Plum
+  [AE Front]#Plum
+  [PM Front]#Plum
+}
+
+@enduml
+
+@startuml
+
+skinparam componentStyle uml2
+
+package "FINESS+" {
+  [EGE]
+  [PM]
+  [Activité]
+  [Shared (Partagés)] #LightBlue 
+}
+ package "Shared (Partagés)" #LightBlue  {
+    [ID_FINESS]
+    [Recherche]
+    [Filtrage (Criteria/Filter)]
+    [Triage (Order)]
+    [Surveillance (Monitoring)]
+    [Gestionnaire d'erreurs]
+    [Gestionnaire de bus]
+    [Autorisation]
+} 
+
+package "Espace PM" {
+  [Demandes Immatriculation]
+  [Suivi Demande]
+  [Gestion Profil]
+  [Consultation Notifications]
+  [Shared2 (Partagés)] #LightBlue
+}
+
+package "AE Bakcoffice" {
+  [PM]
+  [EGE]
+  [Activité]
+  [Analyse des demandes]
+  [Consultation des demandes]
+  [Gestion utilisateurs PM]
+  [Gestion Notifications]
+  [Shared3 (Partagés)] #LightBlue
+}
+
+package "Admin Bakcoffice" {
+  [Gestion AE]
+  [Gestion Notifications]
+  [Consultation Notifications]
+  [Shared4 (Partagés)] #LightBlue
+}
+
+package "ETL FINESS" {
+  [Flux Entrant]
+  [Flux Sortant]
+  [Surveillance (Monitoring)]
+  [Gestionnaire d'erreurs]
+  [Shared5 (Partagés)] #LightBlue
+}
+
+component "CLI FINESS"
+
+package "FINESS Backend" {
+  [Visiteur Back]#Plum
+  [PM Back]#Plum
+  [Admin Back]#Plum
+  [AE Back]#Plum
+}
+
+package "FINESS Frontend" {
+  [Visiteur Front]#Plum
+  [Admin Front]#Plum
+  [AE Front]#Plum
+  [PM Front]#Plum
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

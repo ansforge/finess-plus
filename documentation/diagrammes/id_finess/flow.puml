@@ -1,0 +1,32 @@
+@startuml
+!theme materia-outline
+:Inicio;
+:Establecer conexión con la base de datos;
+:Iniciar una transacción;
+:Verificar si el valor existe en la tabla `valores_unicos`;
+if (Valor existe) then (Sí)
+  :Error: El valor ya existe en otra tabla;
+  :Deshacer la transacción;
+  :Cerrar la conexión con la base de datos;
+  :Fin;
+  stop
+else (No)
+  :Insertar el valor en la tabla `valores_unicos`;
+  :¿Cuál tabla se seleccionó?;
+  if (tabla1) then (tabla1)
+    :Insertar el valor en la tabla1;
+  elseif (tabla2) then (tabla2)
+    :Insertar el valor en la tabla2;
+  else (No válida)
+    :Error: La tabla no es válida;
+    :Deshacer la transacción;
+    :Cerrar la conexión con la base de datos;
+    :Fin;
+    stop
+  endif
+  :Finalizar la transacción;
+  :Cerrar la conexión con la base de datos;
+  :Fin;
+  stop
+endif
+@enduml

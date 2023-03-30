@@ -1,0 +1,87 @@
+@startuml
+
+!define AWSPUML https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v14.0/Advanced/svg/
+
+skinparam componentStyle uml2
+
+package "FINESS+" AS FINESS {
+  [EGE]
+  [PM]
+  [Activité]
+  [Shared (Partagés)] #LightBlue 
+}
+
+FINESS - Shared
+ package "Shared (Partagés)" AS Shared #LightBlue  {
+    [ID_FINESS]
+    [Recherche]
+    [Filtrage (Criteria/Filter)]
+    [Triage (Order)]
+    [Surveillance (Monitoring)]
+    [Gestionnaire d'erreurs]
+    [Gestionnaire de bus]
+    [Autorisation]
+} 
+
+package "Espace PM" AS Espace_PM {
+  [Demandes Immatriculation]
+  [Suivi Demande]
+  [Gestion Profil]
+  [Consultation Notifications]
+  [Shared2 (Partagés)] #LightBlue
+}
+
+Espace_PM - Shared
+
+package "AE Bakcoffice" AS AE_Bakcoffice {
+  [PM]
+  [EGE]
+  [Activité]
+  [Analyse des demandes]
+  [Consultation des demandes]
+  [Gestion utilisateurs PM]
+  [Gestion Notifications]
+  [Shared3 (Partagés)] #LightBlue
+}
+
+AE_Bakcoffice - Shared
+AE_Bakcoffice - FINESS
+
+package "Admin Bakcoffice" AS Admin_Bakcoffice {
+  [Gestion AE]
+  [Gestion Notifications]
+  [Consultation Notifications]
+  [Shared (Partagés) AS S4 ]  #LightBlue
+}
+
+Admin_Bakcoffice - Shared
+
+package "ETL FINESS" as ETL_FINESS{
+  [Flux Entrant]
+  [Flux Sortant]
+  [Surveillance (Monitoring)]
+  [Gestionnaire d'erreurs]
+  [Shared5 (Partagés)] #LightBlue
+}
+
+component "CLI FINESS" AS CLI
+
+package "FINESS Backend" {
+  [Visiteur Back]#Plum
+  [PM Back]#Plum
+  [Admin Back]#Plum
+  [AE Back]#Plum
+}
+
+FINESS_Backend - Shared
+
+package "FINESS Frontend" {
+  [Visiteur Front]#Plum
+  [Admin Front]#Plum
+  [AE Front]#Plum
+  [PM Front]#Plum
+}
+
+"FINESS Frontend" ..> "FINESS Backend"
+
+@enduml

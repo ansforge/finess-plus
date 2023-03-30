@@ -1,0 +1,39 @@
+@startuml
+actor Usuario1
+actor Usuario2
+participant App as App
+participant DatabaseManager as DBM
+database BaseDeDatos as DB
+
+== Inserción concurrente ==
+
+Usuario1 -> App : insertarConUnicidad(1, 5)
+activate App
+App -> DBM : insertarConUnicidad(1, 5)
+activate DBM
+DBM -> DB : Iniciar transacción
+activate DB
+DB -> DB : Verificar si el valor existe
+DB --> DBM : No existe
+DBM -> DB : Insertar en valores_unicos
+DB -> DB : Insertar en tabla1
+DBM --> App : Inserción exitosa
+deactivate DB
+deactivate DBM
+App --> Usuario1 : Inserción exitosa
+deactivate App
+
+Usuario2 -> App : insertarConUnicidad(2, 5)
+activate App
+App -> DBM : insertarConUnicidad(2, 5)
+activate DBM
+DBM -> DB : Iniciar transacción
+activate DB
+DB -> DB : Verificar si el valor existe
+DB --> DBM : Existe
+DBM --> App : Error: El valor ya existe
+deactivate DB
+deactivate DBM
+App --> Usuario2 : Error: El valor ya existe
+deactivate App
+@enduml

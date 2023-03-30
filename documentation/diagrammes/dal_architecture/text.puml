@@ -1,0 +1,41 @@
+@startuml
+!define AWSPUML https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v14.0/Advanced/svg/
+
+skinparam componentStyle uml2
+
+package "Gestion des établissements" {
+  [Autorisations d'activité]
+  [Coordonnées]
+  [Statut juridique]
+}
+
+package "Interopérabilité" {
+  [API FINESS]
+  [Connecteurs externes]
+}
+
+package "Gestion des utilisateurs" {
+  [Authentification]
+  [Gestion des rôles]
+  [Profil utilisateur]
+}
+
+package "Administration" {
+  [Maintenance]
+  [Sauvegarde et restauration]
+  [Journalisation]
+}
+
+[Autorisations d'activité] --> [API FINESS]
+[Coordonnées] --> [API FINESS]
+[Statut juridique] --> [API FINESS]
+
+[API FINESS] --> [Connecteurs externes]
+
+[Authentification] --> [Gestion des rôles]
+[Profil utilisateur] --> [Gestion des rôles]
+
+[Maintenance] --> [Sauvegarde et restauration]
+[Maintenance] --> [Journalisation]
+
+@enduml
