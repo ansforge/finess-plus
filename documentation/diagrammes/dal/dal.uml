@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
-  <uml:Model xmi:id="_GVQZsLv_Ee2HlZxxJnTpkA" name="dal">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_GVQZsLv_Ee2HlZxxJnTpkA" name="dal_requirements_context">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_Gana0Lv_Ee2HlZxxJnTpkA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -237,19 +237,6 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
       <packagedElement xmi:type="uml:Abstraction" xmi:id="__-h_wL9BEe26B-GmpHT37w" name="Surveillance de la synchronisation" client="_be5tAL2sEe2i7I-Qd4C-Vw" supplier="_zCnN0L8_Ee26B-GmpHT37w"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_n0t_wL9EEe26B-GmpHT37w" name="Gestion de versions" client="_dUYA4L2sEe2i7I-Qd4C-Vw" supplier="_zCn04L8_Ee26B-GmpHT37w"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_5gg34MXuEe2WC6x8F-M4iQ" name="Diagrammes des exigences"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_IvstkMMrEe2OjO_2ND-SJA" name="Interactions">
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_dTB0QMMWEe2OjO_2ND-SJA" name="Interaction14">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_lZwDwMMWEe2OjO_2ND-SJA" name="" type="_dTB0QMMWEe2OjO_2ND-SJA"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_lZ08QcMWEe2OjO_2ND-SJA" name="" type="_dTB0QMMWEe2OjO_2ND-SJA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_hTbuoMMWEe2OjO_2ND-SJA" name="FINESS+ (Front)"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_h3bMgMMWEe2OjO_2ND-SJA" name="Lifeline2"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_iddRwMMWEe2OjO_2ND-SJA" name="Lifeline3"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_jgv6wMMWEe2OjO_2ND-SJA" name="Lifeline4"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_kOVZgMMWEe2OjO_2ND-SJA" name="FINESS+ (Back)"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_lZvcsMMWEe2OjO_2ND-SJA" name="" represents="_lZwDwMMWEe2OjO_2ND-SJA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_lZ08QMMWEe2OjO_2ND-SJA" name="" represents="_lZ08QcMWEe2OjO_2ND-SJA"/>
-      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bDOgIMiNEe2WC6x8F-M4iQ" name="Context FINESS+">
       <packagedElement xmi:type="uml:Interaction" xmi:id="_OgsFQMiQEe2WC6x8F-M4iQ" name="FINESS+" visibility="public" useCase="_bcChYMiQEe2WC6x8F-M4iQ _CZ6OwMiSEe2WC6x8F-M4iQ _QXgyEMiSEe2WC6x8F-M4iQ _ZP1doMiSEe2WC6x8F-M4iQ _dVBKUMiSEe2WC6x8F-M4iQ _gRKyYMiSEe2WC6x8F-M4iQ _YsosIMihEe2V5aQtEd4q4A _cs2ZQMihEe2V5aQtEd4q4A _Up_rMMijEe2V5aQtEd4q4A _UFhWEMisEe2V5aQtEd4q4A _kMSlUMisEe2V5aQtEd4q4A">
@@ -592,14 +579,6 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedEnd xmi:type="uml:Property" xmi:id="_QsF0xMivEe2V5aQtEd4q4A" name="fournisseur d'adresse géographique" type="_DIE2IMivEe2V5aQtEd4q4A" association="_QsF0wMivEe2V5aQtEd4q4A"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_8cR4IMpREe2oX734FKy9Gg" name="Diagramme d'architecture">
-      <packagedElement xmi:type="uml:Package" xmi:id="_HaxpMMpWEe2oX734FKy9Gg" name="Package1">
-        <packagedElement xmi:type="uml:Class" xmi:id="_WU1eQMyGEe2oX734FKy9Gg" name="Block1"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_YnD_kMyGEe2oX734FKy9Gg" name="Block2"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_q--yEMyGEe2oX734FKy9Gg" name="ValueType3"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_dXUpkMyGEe2oX734FKy9Gg" name="Stakeholder2"/>
-    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -823,8 +802,4 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
   <Requirements:Requirement xmi:id="_ZvsoEMXiEe2WC6x8F-M4iQ" base_NamedElement="_ZvrZ8MXiEe2WC6x8F-M4iQ" id="REQ-4.5.4.4" text="Permet aux administrateurs de donner du support technique et assistance aux utilisateurs sur gestion de l'application." base_Class="_ZvrZ8MXiEe2WC6x8F-M4iQ"/>
   <Requirements:Requirement xmi:id="_jFeZwMXkEe2WC6x8F-M4iQ" base_NamedElement="_jFdysMXkEe2WC6x8F-M4iQ" id="REQ-4.5.3.1.5" text="Permets aux gestionnaires la gestion de la synchronisation des données entre le répertoire et les applications partenaires, y compris la surveillance du processus de synchronisation, la validation des données importées et la gestion des erreurs (correction manuelle de donnes)." base_Class="_jFdysMXkEe2WC6x8F-M4iQ"/>
   <Requirements:Requirement xmi:id="_mKfNcMXlEe2WC6x8F-M4iQ" base_NamedElement="_mKemYMXlEe2WC6x8F-M4iQ" id="REQ-4.5.3.1" text="L'application doit fournir des tableaux de bord pour suivre les performances de l'application, les indicateurs clés de performance et les métriques de qualité de service, etc." base_Class="_mKemYMXlEe2WC6x8F-M4iQ"/>
-  <Blocks:Block xmi:id="_WU_PQMyGEe2oX734FKy9Gg" base_Class="_WU1eQMyGEe2oX734FKy9Gg"/>
-  <Blocks:Block xmi:id="_YnGb0MyGEe2oX734FKy9Gg" base_Class="_YnD_kMyGEe2oX734FKy9Gg"/>
-  <ModelElements:Stakeholder xmi:id="_dXZiEMyGEe2oX734FKy9Gg" base_Classifier="_dXUpkMyGEe2oX734FKy9Gg"/>
-  <Blocks:ValueType xmi:id="_q_BOUMyGEe2oX734FKy9Gg" base_DataType="_q--yEMyGEe2oX734FKy9Gg"/>
 </xmi:XMI>

@@ -1,0 +1,27 @@
+@startuml
+start
+:Le système partenaire copie le fichier sur le serveur SFTP;
+:Le système d'importation se connecte au serveur SFTP;
+:Récupérer la liste des fichiers;
+repeat
+  :Vérifier le format du fichier;
+  if (Format correct)
+    :Vérifier si le fichier a déjà été traité;
+    if (Fichier non traité)
+      :Lire le fichier;
+      repeat
+        :Appeler l'API pour valider et traiter l'information;
+        if (Appel API échoué)
+          :Générer une notification pour l'enregistrement en échec;
+        endif
+      repeat while (Il reste des enregistrements à traiter)
+      :Marquer le fichier comme traité;
+    else (Fichier déjà traité)
+      :Passer au fichier suivant;
+    endif
+  else (Format incorrect)
+    :Envoyer une alerte pour le format incorrect;
+  endif
+repeat while (Il reste des fichiers à traiter)
+stop
+@enduml

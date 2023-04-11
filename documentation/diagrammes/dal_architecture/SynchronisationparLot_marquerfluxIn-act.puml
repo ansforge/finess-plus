@@ -1,0 +1,19 @@
+@startuml
+start
+:Le système d'importation se connecte au serveur SFTP;
+:Récupérer la liste des fichiers;
+repeat
+  :Vérifier si le fichier a une entrée dans la base de données ou le fichier de journal;
+  if (Fichier non traité)
+    :Traiter le fichier;
+    if (Traitement réussi)
+      :Ajouter une entrée dans la base de données ou le fichier de journal avec le statut "réussi";
+    else (Traitement échoué)
+      :Ajouter une entrée dans la base de données ou le fichier de journal avec le statut "échoué";
+    endif
+  else (Fichier déjà traité)
+    :Passer au fichier suivant;
+  endif
+repeat while (Il reste des fichiers à traiter)
+stop
+@enduml

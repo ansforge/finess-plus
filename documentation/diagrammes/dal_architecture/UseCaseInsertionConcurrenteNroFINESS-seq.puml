@@ -1,0 +1,38 @@
+Version en PlantUML
+@startuml
+!theme cerulean-outline
+actor Utilisateur1
+actor Utilisateur2
+participant App as App
+participant DatabaseManager as DBM
+database BaseDeDonnees as DB
+== Insertion concurrente ==
+Utilisateur1 -> App : insererAvecUnicite(1, 5)
+activate App
+App -> DBM : insererAvecUnicite(1, 5)
+activate DBM
+DBM -> DB : Démarrer la transaction
+activate DB
+DB -> DB : Vérifier si la valeur existe
+DB --> DBM : N'existe pas
+DBM -> DB : Insérer dans valeurs_uniques
+DB -> DB : Insérer dans table_personneMorale
+DBM --> App : Insertion réussie
+deactivate DB
+deactivate DBM
+App --> Utilisateur1 : Insertion réussie
+deactivate App
+Utilisateur2 -> App : insererAvecUnicite(2, 5)
+activate App
+App -> DBM : insererAvecUnicite(2, 5)
+activate DBM
+DBM -> DB : Démarrer la transaction
+activate DB
+DB -> DB : Vérifier si la valeur existe
+DB --> DBM : Existe
+DBM --> App : Erreur: La valeur existe déjà
+deactivate DB
+deactivate DBM
+App --> Utilisateur2 : Erreur: La valeur existe déjà
+deactivate App
+@enduml

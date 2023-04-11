@@ -1,0 +1,19 @@
+@startuml
+start
+:Attribuer un identifiant unique à chaque enregistrement et associer l'identifiant du fichier d'origine;
+:Envoyer l'enregistrement à l'API;
+:Stocker l'identifiant de l'enregistrement, l'identifiant du fichier d'origine et l'état du traitement (en attente) dans la base de données ou le fichier de journal;
+
+
+:Le système exportateur vérifie si tous les enregistrements ont été traités;
+repeat
+:Le système exportateur écoute les accusés de réception de l'API via le système de messagerie;
+if (Accusé de réception reçu)
+  :Mettre à jour l'état du traitement (réussi ou échoué) et les informations sur les erreurs (si nécessaire) dans la base de données ou le fichier de journal;
+  :Comparer l'état du traitement dans la base de données ou le fichier de journal avec les accusés de réception reçus;
+  :Mettre à jour le statut des enregistrements et enregistrer les informations sur les erreurs (si nécessaire);
+  :Résoudre les problèmes ou notifier les parties concernées des erreurs rencontrées;
+endif
+repeat while (Tous les enregistrements traités)
+stop
+@enduml

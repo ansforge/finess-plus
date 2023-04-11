@@ -1,0 +1,32 @@
+@startuml
+:Commencer;
+:Établir une connexion avec la base de données;
+:Démarrer une transaction;
+:Déterminer l'identifiant;
+:Vérifier si la valeur de l'identifiant existe dans la table `valeurs_uniques`;
+if (Valeur existe) then (Oui)
+  :Erreur: La valeur existe déjà dans l'autre table;
+  :Annuler la transaction;
+  :Fermer la connexion avec la base de données;
+  :Terminer;
+  stop
+else (Non)
+  :Insérer la valeur de l'identifiant dans la table `valeurs_uniques`;
+  :Quelle table a été sélectionnée? (table_personneMorale ou table_ege);
+  if (table_personneMorale) then (table_personneMorale)
+    :Insérer la valeur dans la table_personneMorale;
+  elseif (table_ege) then (table_ege)
+    :Insérer la valeur dans la table_ege;
+  else (Aucune valide)
+    :Erreur: La table n'est pas valide;
+    :Annuler la transaction;
+    :Fermer la connexion avec la base de données;
+    :Terminer;
+    stop
+  endif
+  :Finaliser la transaction
+  :Fermer la connexion avec la base de données;
+  :Terminer;
+  stop
+endif
+@enduml

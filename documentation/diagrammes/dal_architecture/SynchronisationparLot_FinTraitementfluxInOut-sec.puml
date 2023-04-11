@@ -1,0 +1,19 @@
+@startuml
+actor "Système Exportateur" as exportateur
+participant "API" as api
+database "Base de données / Journal" as db
+participant "Système de messagerie" as messaging
+loop Tous les enregistrements non traités
+exportateur -> exportateur: Attribuer un identifiant unique à chaque enregistrement et associer l'identifiant du fichier d'origine
+exportateur -> api: Envoyer l'enregistrement à l'API
+exportateur -> db: Stocker l'identifiant de l'enregistrement, l'identifiant du fichier d'origine et l'état du traitement (en attente)
+exportateur -> messaging: Écouter les accusés de réception de l'API
+  alt Accusé de réception reçu
+    exportateur -> db: Mettre à jour l'état du traitement (réussi ou échoué) et les informations sur les erreurs (si nécessaire)
+    exportateur -> exportateur: Comparer l'état du traitement avec les accusés de réception reçus
+    exportateur -> exportateur: Mettre à jour le statut des enregistrements et enregistrer les informations sur les erreurs (si nécessaire)
+exportateur -> exportateur: Résoudre les problèmes ou notifier les parties concernées des erreurs rencontrées
+end
+exportateur -> exportateur: Vérifier si tous les enregistrements ont été traités
+end
+@enduml

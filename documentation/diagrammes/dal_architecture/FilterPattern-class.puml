@@ -1,0 +1,73 @@
+@startuml
+left to right direction
+class EGE {
+    -numeroFinessEGE: String
+    -nomEGE: String
+    -categorie: Categorie
+    -activites_autorisees: Activite
+    -codePostal: String
+}
+
+class Categorie {
+    -code: String
+    -libelle: String
+}
+
+class Activite {
+    -code: String
+    -libelle: String
+}
+
+interface Criterium {
+    +meetCriteria(eges: List<EGE>): List<EGE>
+}
+
+class CriteriumCodePostal {
+    -codePostal: String
+    +CriteriumCodePostal(codePostal: String)
+}
+class CriteriumCategorie {
+    -categorie: Categorie
+    +CriteriumCategorie(categorie: Categorie)
+}
+class CriteriumActivite {
+    -activite: Activite
+    +CriteriumActivite(activite: Activite)
+}
+class AndCriterium {
+    -criterium: Criterium
+    -otherCriterium: Criterium
+    +AndCriterium(criterium: Criterium, otherCriterium: Criterium)
+}
+class OrCriterium {
+    -criterium: Criterium
+    -otherCriterium: Criterium
+    +OrCriterium(criterium: Criterium, otherCriterium: Criterium)
+}
+
+class DemoFiltreEGE {
+    +main(args: String[]): void
+    +afficherEGEs(eges: List<EGE>): void
+}
+
+Criterium <|.. CriteriumCodePostal
+Criterium <|.. CriteriumCategorie
+Criterium <|.. CriteriumActivite
+Criterium <|.. AndCriterium
+Criterium <|.. OrCriterium
+
+EGE *-- Categorie
+EGE *-- Activite
+
+EGE -- DemoFiltreEGE
+DemoFiltreEGE-- CriteriumCodePostal
+DemoFiltreEGE-- CriteriumCategorie
+DemoFiltreEGE-- CriteriumActivite
+DemoFiltreEGE-- AndCriterium
+DemoFiltreEGE-- OrCriterium
+
+CriteriumCodePostal -down-> CriteriumCategorie
+CriteriumCategorie -down-> CriteriumActivite
+CriteriumActivite -down-> AndCriterium
+AndCriterium -down-> OrCriterium
+@enduml

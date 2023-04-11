@@ -1,0 +1,87 @@
+@startuml
+
+package "fr-gouv-esante-finess-annuaire-personneMorale" {
+
+  package "domain" {
+    class PersonneMoraleEntity {
+      -id: Id
+      -nom: Nom
+      -adresse: Adresse
+    }
+    class Id {}
+    class Nom {}
+    class Adresse {}
+  }
+
+  package "application" {
+
+    package "services" {
+      class PersonneMoraleService {
+        +creerPersonneMorale(nom: Nom, adresse: Adresse): PersonneMoraleEntity
+        +modifierPersonneMorale(id: Id, nom: Nom, adresse: Adresse): PersonneMoraleEntity
+        +supprimerPersonneMorale(id: Id): void
+      }
+    }
+
+    package "ports" {
+      interface PersonneMoraleRepository {
+        +ajouter(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
+        +modifier(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
+        +supprimer(id: Id): void
+        +trouverParId(id: Id): Optional<PersonneMoraleEntity>
+      }
+    }
+
+  }
+
+  package "infrastructure" {
+
+    package "adapters" {
+      class ProgressPersonneMoraleRepositoryImpl {
+        +ajouter(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
+        +modifier(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
+        +supprimer(id: Id): void
+        +trouverParId(id: Id): Optional<PersonneMoraleEntity>
+      }
+    }
+
+    package "config" {}
+
+  }
+
+  package "shared" {}
+
+}
+
+package "fr-gouv-esante-finess-apps-annuaire-finess-backend" {
+  class PersonneMoraleController {
+    +creerPersonneMorale(nom: Nom, adresse: Adresse): ResponseEntity<PersonneMoraleEntity>
+    +modifierPersonneMorale(id: Id, nom: Nom, adresse: Adresse): ResponseEntity<PersonneMoraleEntity>
+    +supprimerPersonneMorale(id: Id): ResponseEntity<Void>
+  }
+}
+
+package "fr-gouv-esante-finess-apps-annuaire-finess-frontend" {
+  class PersonneMoraleView {}
+}
+
+package "CLI" {
+  class ClientCLI {
+    +creerPersonneMorale(nom: Nom, adresse: Adresse): void
+    +modifierPersonneMorale(id: Id, nom: Nom, adresse: Adresse): void
+    +supprimerPersonneMorale(id: Id): void
+  }
+}
+
+PersonneMoraleService --> PersonneMoraleRepository : <<interface>>
+ProgressPersonneMoraleRepositoryImpl ..|> PersonneMoraleRepository : <<implements>>
+PersonneMoraleService ..> PersonneMoraleEntity : <<use>>
+PersonneMoraleService ..> Id : <<use>>
+PersonneMoraleService ..> Nom : <<use>>
+PersonneMoraleService ..> Adresse : <<use>>
+
+PersonneMoraleController --> PersonneMoraleService : <<use>>
+PersonneMoraleView --> PersonneMoraleController : <<use>>
+ClientCLI --> PersonneMoraleService : <<use>>
+
+@enduml

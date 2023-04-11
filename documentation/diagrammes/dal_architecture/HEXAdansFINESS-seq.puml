@@ -1,0 +1,17 @@
+@startuml
+
+actor Utilisateur
+participant Controleur
+participant ServiceApplication
+participant Domaine
+participant Infrastructure
+
+Utilisateur -> Controleur : Requête/Commande CLI/Événement (DTO)
+Controleur -> ServiceApplication : Commande/Requête
+ServiceApplication -> Domaine : Logique métier (Services de domaine, Entités/Agrégats)
+Domaine -> Infrastructure : Ports (Interfaces)
+Infrastructure -> ServiceApplication : Données format domaine
+ServiceApplication -> Controleur : Données/Confirmation
+Controleur -> Utilisateur : Réponse (Présentateurs/Vues)
+
+@enduml

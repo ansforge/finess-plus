@@ -1,0 +1,32 @@
+@startuml
+actor "Système Partenaire" as partenaire
+participant "Serveur SFTP" as sftp
+participant "Système d'Importation" as importation
+participant API
+
+partenaire -> sftp: Copier le fichier
+importation -> sftp: Se connecter
+sftp -> importation: Liste des fichiers
+loop pour chaque fichier
+  importation -> sftp: Vérifier le format du fichier
+  alt Format correct
+    importation -> sftp: Vérifier si le fichier a déjà été traité
+    alt Fichier non traité
+      importation -> sftp: Lire le fichier
+      loop pour chaque enregistrement
+        importation -> API: Valider et traiter l'information
+        alt Appel API réussi
+          importation -> importation: Continuer avec l'enregistrement suivant
+        else Appel API échoué
+          importation -> importation: Générer une notification pour l'enregistrement en échec
+        end
+      end
+      importation -> sftp: Marquer le fichier comme traité
+    else Fichier déjà traité
+      importation -> importation: Passer au fichier suivant
+    end
+  else Format incorrect
+    importation -> importation: Envoyer une alerte pour le format incorrect
+  end
+end
+@enduml

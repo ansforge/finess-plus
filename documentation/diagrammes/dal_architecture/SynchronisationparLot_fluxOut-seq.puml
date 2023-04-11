@@ -1,0 +1,22 @@
+@startuml
+actor "Système d'Exportation" as exportation
+participant "Système de Messagerie" as messagerie
+participant API
+participant "Serveur SFTP" as sftp
+
+exportation -> messagerie: Écouter les messages
+alt Traitement terminé
+  exportation -> API: GET Données traitées
+  alt Appel API réussi
+    API -> exportation: Données traitées
+    exportation -> exportation: Créer un fichier avec un format spécifique
+    exportation -> sftp: Envoyer le fichier
+    alt Envoi du fichier réussi
+    else Envoi du fichier échoué
+      exportation -> exportation: Générer une notification d'erreur
+    end
+  else Appel API échoué
+    exportation -> exportation: Générer une notification d'erreur
+  end
+end
+@enduml

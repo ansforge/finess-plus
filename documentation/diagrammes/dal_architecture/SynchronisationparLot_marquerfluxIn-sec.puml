@@ -1,0 +1,22 @@
+@startuml
+actor "Système d'Importation" as importation
+participant "Serveur SFTP" as sftp
+database "Base de données / Journal" as db
+
+importation -> sftp: Se connecter
+importation -> sftp: Récupérer la liste des fichiers
+
+loop Il reste des fichiers à traiter
+  importation -> db: Vérifier si le fichier a une entrée
+  alt Fichier non traité
+    importation -> importation: Traiter le fichier
+    alt Traitement réussi
+      importation -> db: Ajouter une entrée avec le statut "réussi"
+    else Traitement échoué
+      importation -> db: Ajouter une entrée avec le statut "échoué"
+    end
+  else Fichier déjà traité
+    importation -> importation: Passer au fichier suivant
+  end
+end
+@enduml

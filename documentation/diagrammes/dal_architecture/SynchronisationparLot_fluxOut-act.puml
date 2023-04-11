@@ -1,0 +1,18 @@
+@startuml
+start
+:Le système d'exportation écoute le système de messagerie;
+repeat
+  :Vérifier si le traitement des enregistrements est terminé;
+repeat while (Traitement terminé)
+  :Faire un GET à l'API pour obtenir les données traitées;
+  if (Appel API réussi)
+    :Créer un fichier avec un format spécifique contenant les données traitées;
+    :Envoyer le fichier au serveur SFTP;
+    if (Envoi du fichier échoué)
+      :Générer une notification d'erreur;
+    endif
+  else (Appel API échoué)
+    :Générer une notification d'erreur;
+  endif
+stop
+@enduml

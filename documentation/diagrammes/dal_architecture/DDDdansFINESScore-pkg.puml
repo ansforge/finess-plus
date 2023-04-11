@@ -1,0 +1,39 @@
+@startuml
+package projet_finess {
+
+  package core {
+    package annuaire {
+      package main {
+        package fr_gouv_esante_finess_annuaire {
+          package etablissement {}
+          package personneMorale {}
+          package activite {}
+          package shared {}
+        }
+        package test {}
+      }
+    }
+
+    package syncroParLot {
+      package main {
+        package fr_gouv_esante_finess_syncroParLot {
+          package flux_entrant {}
+          package flux_sortant {}
+          package surveillance {}
+          package gestionnaire_erreurs {}
+          package shared {}
+        }
+      }
+      package test {}
+    }
+
+    package autoriteEnregistrement {
+      package main {}
+      package test {}
+    }
+
+    package shared {}
+  }
+
+}
+@enduml

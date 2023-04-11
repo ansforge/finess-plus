@@ -1,0 +1,30 @@
+@startuml
+package projet_finess {
+
+  package apps {
+    package main {
+      package fr_gouv_esante_finess_apps {
+        package admin_backoffice {
+          package frontend {}
+          package backend {}
+        }
+        package ae_backoffice {
+          package frontend {}
+          package backend {}
+        }
+        package pm_backoffice {
+          package frontend {}
+          package backend {}
+        }
+        package cli_finess {}
+        package annuaire_finess {
+          package frontend {}
+          package backend {}
+        }
+      }
+    }
+    package test {}
+  }
+
+}
+@enduml

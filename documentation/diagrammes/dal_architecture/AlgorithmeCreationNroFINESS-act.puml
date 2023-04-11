@@ -1,0 +1,20 @@
+@startuml
+partition "Déterminer l'identifiant" {
+    :Commencer;
+    :Générer ou récupérer le numéro de département d'implantation;
+    :Ajouter '0' comme troisième caractère;
+    :Récupérer le dernier numéro d'ordre utilisé pour le département indiqué dans la table `valeurs_uniques`;
+    :Calculer le nouveau numéro d'ordre (N+1);
+    :Calculer la clé de Luhn;
+    :Concaténer tous les éléments pour former l'identifiant;
+    
+    if (L'identifiant est valide) then (Oui)
+      :Retourner l'identifiant;
+      stop
+    else (Non)
+      :Erreur: L'identifiant n'est pas valide;
+      :Terminer;
+      stop
+    endif
+}
+@enduml
