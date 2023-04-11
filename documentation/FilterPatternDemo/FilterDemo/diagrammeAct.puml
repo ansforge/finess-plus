@@ -1,0 +1,9 @@
+@startuml
+start
+-> "Créer liste d'objets\n(EGE)";
+-> "Définir critères\n(Criterium)";
+-> "Appliquer critères\nsur liste d'objets";
+:Obtenir liste filtrée;
+-> "Utiliser liste filtrée\npour traitement";
+stop
+@enduml

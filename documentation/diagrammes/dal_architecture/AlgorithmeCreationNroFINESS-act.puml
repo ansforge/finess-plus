@@ -1,4 +1,4 @@
-@startuml
+@startuml 
 partition "Déterminer l'identifiant" {
     :Commencer;
     :Générer ou récupérer le numéro de département d'implantation;

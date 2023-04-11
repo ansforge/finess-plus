@@ -1,0 +1,66 @@
+@startuml
+participant "DemoFiltreEGE" as Demo
+participant "CriteriumCodePostal" as CP
+participant "CriteriumActivite" as CA
+participant "CriteriumCategorie" as CC
+participant "AndCriterium" as AC
+participant "OrCriterium" as OC
+participant "List<EGE>" as EGEList
+
+activate Demo
+Demo -> CP : new CriteriumCodePostal("75001")
+activate CP
+deactivate CP
+
+Demo -> CA : new CriteriumActivite(new Activite("A1", "Actividad 1"))
+activate CA
+deactivate CA
+
+Demo -> CC : new CriteriumCategorie(new Categorie("C1", "Categoría 1"))
+activate CC
+deactivate CC
+
+Demo -> AC : new AndCriterium(CP, CA)
+activate AC
+deactivate AC
+
+Demo -> OC : new OrCriterium(CC, AC)
+activate OC
+deactivate OC
+
+Demo -> OC : meetCriteria(eges)
+activate OC
+OC -> AC : meetCriteria(eges)
+activate AC
+AC -> CP : meetCriteria(eges)
+activate CP
+CP -> EGEList : filtrer par code postal
+activate EGEList
+deactivate EGEList
+deactivate CP
+
+AC -> CA : meetCriteria(eges)
+activate CA
+CA -> EGEList : filtrer par activité
+activate EGEList
+deactivate EGEList
+deactivate CA
+deactivate AC
+
+OC -> CC : meetCriteria(eges)
+activate CC
+CC -> EGEList : filtrer par catégorie
+activate EGEList
+deactivate EGEList
+deactivate CC
+
+OC -> EGEList : combiner les résultats
+activate EGEList
+deactivate EGEList
+deactivate OC
+
+Demo -> EGEList : afficher les résultats
+activate EGEList
+deactivate EGEList
+deactivate Demo
+@enduml
