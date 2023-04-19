@@ -1,0 +1,41 @@
+@startuml
+
+'  title FINESS Fonction Principale
+
+package "Recherche et Filtrage" {
+
+  usecase REQ1 as "Recherche et Filtrage"
+  usecase REQ-1.1 as "Recherche"
+  ' usecase REQ-1.1.2 as "Présentation"
+  ' usecase REQ-1.1.2.1 as "Trier"
+  ' usecase REQ-1.1.2.2 as "Multiformats (accessibilité)"
+  ' usecase REQ-1.2 as "Filtrage"
+  ' usecase REQ-1.2.1 as "Filtrage personnalisé"
+  ' usecase REQ-1.2.2 as "par identifiant FINESS"
+  ' usecase REQ-1.2.3 as "par géolocalisation"
+  ' usecase REQ-1.2.4 as "par catégorie"
+  ' usecase REQ-1.2.5 as "par mot-clé"
+  ' usecase REQ-1.2.6 as "par activités"
+
+  ' REQ-1 --> REQ-1.1
+  ' REQ-1 --> REQ-1.2
+
+  ' REQ-1.1 --> REQ-1.1.2
+
+  ' REQ-1.1.2 --> REQ-1.1.2.1
+  ' REQ-1.1.2 --> REQ-1.1.2.2
+
+  ' REQ-1.2 --> REQ-1.2.1
+  ' REQ-1.2 --> REQ-1.2.2
+  ' REQ-1.2 --> REQ-1.2.3
+  ' REQ-1.2 --> REQ-1.2.4
+  ' REQ-1.2 --> REQ-1.2.5
+  ' REQ-1.2 --> REQ-1.2.6
+
+}
+
+usecase REQ-0 as "FINESS Fonction Principale"
+
+REQ-0 --> "Recherche et Filtrage"
+
+@enduml

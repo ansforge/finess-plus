@@ -1,0 +1,485 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>0</x:Number>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:ActiveCol>0</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8895</x:WindowHeight>
+  <x:WindowWidth>13980</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>270</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body><table border='1'><tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;'>id</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;'>text</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'  REQ-0 FINESS Fonction Principale";><span style='mso-spacerun:yes'>  </span>REQ-0 FINESS Fonction Principale</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-0</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de publier et partager des informations avec tous les acteurs du système de santé, relatives aux personnes morales et entités géographiques (établissements), ainsi qu’à leurs activités autorisées/installées.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'      REQ-1 Recherche et filtrage";><span style='mso-spacerun:yes'>      </span>REQ-1 Recherche et filtrage</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre aux utilisateurs de rechercher et de filtrer les informations sur les PM/EGEs enregistrées dans ce répertoire.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-1.1 Recherche";><span style='mso-spacerun:yes'>          </span>REQ-1.1 Recherche</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de chercher des informations sur une ou plusieurs PM/EGE enregistrées dans le répertoire, en utilisant différents critères de recherche, et doit présenter les résultats d'une manière accessible et organisée.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.1.2 Présentation";><span style='mso-spacerun:yes'>              </span>REQ-1.1.2 Présentation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit présenter les résultats d'une recherche de manière accessible et organisée.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-1.1.2.1 Trier";><span style='mso-spacerun:yes'>                  </span>REQ-1.1.2.1 Trier</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.1.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trier les résultats de la recherche en fonction de différents critères. </td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-1.1.2.2 Multiformats (accessibilité)";><span style='mso-spacerun:yes'>                  </span>REQ-1.1.2.2 Multiformats (accessibilité)</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.1.2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de générer des résultats de recherche dans différents formats, tels que CSV, HTML, JSON, entre autres, afin que les utilisateurs puissent télécharger, imprimer, partager ou utiliser les informations dans différents outils et applications.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-1.2 Filtrage";><span style='mso-spacerun:yes'>          </span>REQ-1.2 Filtrage</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit proposer un ou plusieurs critères de recherche.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.1 Filtrage personnalisé";><span style='mso-spacerun:yes'>              </span>REQ-1.2.1 Filtrage personnalisé</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement des PM/EGEs par n'importe quel champ, pour répondre à des besoins spécifiques et offrir une plus grande flexibilité et précision dans la recherche d'informations.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.2 par identifiant FINESS";><span style='mso-spacerun:yes'>              </span>REQ-1.2.2 par identifiant FINESS</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement un PM/EGE par son identifiant FINESS.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.3 par géolocalisation";><span style='mso-spacerun:yes'>              </span>REQ-1.2.3 par géolocalisation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement des PM/EGEs qui se trouvent à proximité d'un emplacement géographique.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.4 par catégorie";><span style='mso-spacerun:yes'>              </span>REQ-1.2.4 par catégorie</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement des PM/EGEs par une ou plusieurs catégories.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.5 par type";><span style='mso-spacerun:yes'>              </span>REQ-1.2.5 par type</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.6 par mot-clé";><span style='mso-spacerun:yes'>              </span>REQ-1.2.6 par mot-clé</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.6</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement des PM/EGEs par mot-clé pertinents. Les mots-clés peuvent inclure des noms de l'entité, des noms de lieux, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-1.2.7 par activités";><span style='mso-spacerun:yes'>              </span>REQ-1.2.7 par activités</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-1.2.7</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de trouver rapidement des PM/EGEs par une ou plusieurs activités.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'      REQ-2 Collecte de données";><span style='mso-spacerun:yes'>      </span>REQ-2 Collecte de données</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de collecter et de stocker des informations sur une PM/EGE de manière efficace, afin de garantir l'exhaustivité et l'exactitude des données qui seront soumises aux "autorités d'enregistrement" ou "Autorités de régulation".</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-2.1 Exhaustivité";><span style='mso-spacerun:yes'>          </span>REQ-2.1 Exhaustivité</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit garantir l'intégrité et l'exactitude des données collectées pour assurer que les informations présentées soient complètes et précises.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-2.2 Demande d'Immatriculation";><span style='mso-spacerun:yes'>          </span>REQ-2.2 Demande d'Immatriculation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre aux PM/EGE de demander leur enregistrement auprès des autorités correspondantes.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-2.2.3 Gestion des demandes d'immatriculation";><span style='mso-spacerun:yes'>              </span>REQ-2.2.3 Gestion des demandes d'immatriculation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la réception et l'enregistrement des demandes, ainsi que la vérification des informations fournies par les PM/EGE.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.1 Réception des demandes";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.1 Réception des demandes</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.2 Enregistrement des demandes";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.2 Enregistrement des demandes</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.3 Vérification des demandes";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.3 Vérification des demandes</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la vérification des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la validation des informations fournies par les PM/EGE, ainsi que la collecte des documents justificatifs nécessaires pour compléter la demande.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.5 Approbation des demandes";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.5 Approbation des demandes</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'approbation des demandes d'immatriculation soumises par les PM/EGE. Cela implique que l'application doit permettre la validation finale des demandes et la génération d'une autorisation d'exercice pour les PM/EGE.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.4 Notification de l'état d'avancement du processus d'immatriculation";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.4 Notification de l'état d'avancement du processus d'immatriculation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la notification de l'état d'avancement du processus d'immatriculation aux PM/EGE. Cela implique que l'application doit permettre l'envoi de notifications automatiques aux PM/EGE pour les informer de l'état d'avancement de leur demande.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.2.3.6 Archivage des demandes d'immatriculation et des documents justificatifs";><span style='mso-spacerun:yes'>                  </span>REQ-2.2.3.6 Archivage des demandes d'immatriculation et des documents justificatifs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.2.3.6</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'archivage des demandes d'immatriculation et des documents justificatifs soumis par les PM/EGE. Cela implique que l'application doit permettre la conservation des informations et documents pour la traçabilité et la vérification des demandes d'immatriculation.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-2.3 Vérification";><span style='mso-spacerun:yes'>          </span>REQ-2.3 Vérification</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit disposer de mécanismes de vérification et correction des données pour garantir l'exactitude des informations présentées dans la demande d'enregistrement.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-2.4 Intégration";><span style='mso-spacerun:yes'>          </span>REQ-2.4 Intégration</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de s'intégrer avec les autorités d'enregistrement et de régulation correspondantes pour garantir que les données collectées soient synchronisées de manière opportune et efficace.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-2.4.1 Attribution N° FINESS";><span style='mso-spacerun:yes'>              </span>REQ-2.4.1 Attribution N° FINESS</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la génération et la réservation d'un N° FINESS à attribuer à une PM/EGE lorsqu'il est demandé par une application partenaire. Puis transmise à l'application partenaire.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-2.4.2 Synchronisation";><span style='mso-spacerun:yes'>              </span>REQ-2.4.2 Synchronisation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de synchroniser les données de manière opportune et efficace entre le répertoire et les applications partenaires. La synchronisation doit être bidirectionnelle pour garantir que les données soient à jour et précises des deux côtés.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.1 Interface de programmation d'application (API) ";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.1 Interface de programmation d'application (API) </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit disposer d'une API permettant la communication entre le répertoire et les applications partenaires.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.2 Gestion des erreurs";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.2 Gestion des erreurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de gérer les erreurs de communication avec les applications partenaires et fournir des informations claires et détaillées sur ces erreurs pour leur correction ultérieure.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.3 Surveillance de la synchronisation";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.3 Surveillance de la synchronisation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit disposer d'outils de surveillance permettant de vérifier que la synchronisation avec les applications partenaires est correctement effectuée et détecter rapidement les erreurs.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.4 Gestion de versions";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.4 Gestion de versions</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit disposer d'un système de gestion de versions pour garantir que les versions des données échangées avec les applications partenaires sont correctement gérées.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.5 Validation des données";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.5 Validation des données</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit valider les données importées pour garantir leur intégrité et leur cohérence.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.6 Notification des erreurs";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.6 Notification des erreurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.6</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit notifier l'utilisateur en cas d'erreur lors de la synchronisation des données.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.2.5 Synchronisation asynchrone";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.2.5 Synchronisation asynchrone</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit être capable de réaliser la synchronisation de manière asynchrone pour éviter d'affecter les performances des applications partenaires.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-2.4.3 Synchronisation en lot";><span style='mso-spacerun:yes'>              </span>REQ-2.4.3 Synchronisation en lot</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre une synchronisation en lot.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.5 Gestion des erreurs";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.5 Gestion des erreurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.6 Surveillance de la synchronisation";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.6 Surveillance de la synchronisation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.2.6</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.7 Contrôle des versions";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.7 Contrôle des versions</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.7</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit contrôler les versions des fichiers importés et conserver un historique des modifications apportées.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.8 Validation des données";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.8 Validation des données</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.8</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.1 Configuration du format d'entrée ";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.1 Configuration du format d'entrée </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la configuration du format d'entrée des données pour qu'elle puisse lire différents types de fichiers.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.2 Compatibilité des formats";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.2 Compatibilité des formats</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit être compatible avec différents formats de fichiers, tels que CSV, XLS, XML, entre autres.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.3 Configuration du format de sortie";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.3 Configuration du format de sortie</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la configuration du format de sortie des données pour qu'elle puisse être compatible avec différentes applications.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.4 Mappage des données";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.4 Mappage des données</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre le mappage des données importées aux champs correspondants à l'API.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-2.4.3.5 Notification des erreurs";><span style='mso-spacerun:yes'>                  </span>REQ-2.4.3.5 Notification des erreurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-2.4.3.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit notifier l'utilisateur en cas d'erreur lors de l'importation des données.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'      REQ-3 Administration de l'application";><span style='mso-spacerun:yes'>      </span>REQ-3 Administration de l'application</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit disposer d'un ensemble de fonctionnalités et de procédures qui permettent aux administrateurs de gérer et de maintenir l'application.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-3.1 Gestion des utilisateurs";><span style='mso-spacerun:yes'>          </span>REQ-3.1 Gestion des utilisateurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des utilisateurs et de leurs rôles. Cela implique la création, la modification et la suppression de comptes d'utilisateur, ainsi que la définition des droits d'accès correspondants.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.1.1 Gestion des droits d'accès";><span style='mso-spacerun:yes'>              </span>REQ-3.1.1 Gestion des droits d'accès</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.1.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des habilitations et des rôles de chaque utilisateur. Cela implique la définition des droits d'accès par fonctionnalité de l'application, par critère géographique et catégorie de PM/EGE, voire type d’activité sanitaire, médico-sociale, sociale et enseignement</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.1.2 Audit et historique des actions de l'utilisateur";><span style='mso-spacerun:yes'>              </span>REQ-3.1.2 Audit et historique des actions de l'utilisateur</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des journaux d'activité. Cela implique l'enregistrement de toutes les actions effectuées dans l'application et la possibilité de les consulter ultérieurement.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-3.2 Configuration de l'application";><span style='mso-spacerun:yes'>          </span>REQ-3.2 Configuration de l'application</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre de configurer le comportement de l'application et de ses données pour qu'elle fonctionne correctement.  
+</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.2.1 Gestion des nomenclatures";><span style='mso-spacerun:yes'>              </span>REQ-3.2.1 Gestion des nomenclatures</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la création, la modification et la suppression de ses nomenclatures et classifications utilisées pour décrire les catégories d'établissements, les activités de soins, les disciplines, les statuts juridiques, les Modes de FixationTarifaire (MFT), etc. Les nomenclatures et classifications doivent être configurables en fonction des besoins de l'application et de la réglementation en vigueur.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.1 Utilisation de nomenclatures et de classifications pour les catégories d'établissements";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.1 Utilisation de nomenclatures et de classifications pour les catégories d'établissements</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les catégories (entités géographiques), telles que les établissements relevant de la loi hospitalière, les établissements à caractère sanitaire, etab.de formation des personnels sanitaires et sociaux, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.2 Utilisation de nomenclatures et de classifications pour les activités de soins";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.2 Utilisation de nomenclatures et de classifications pour les activités de soins</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les activités sanitaires autorisées/installées à/par les PM/EGE, telles que la pédiatrie, la cardiologie, Médecine d'urgence, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.3 Utilisation de nomenclatures et de classifications pour les disciplines";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.3 Utilisation de nomenclatures et de classifications pour les disciplines</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les disciplines telles que les disciplines d'enseignement, les disciplines d'équipement sociales, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.4 Utilisation de nomenclatures et de classifications pour les statuts juridiques";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.4 Utilisation de nomenclatures et de classifications pour les statuts juridiques</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les statuts juridiques des PM/EGE, tels que les organismes et établissements publics, les organismes privés, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.5 Utilisation de nomenclatures et de classifications pour les tarifs (MFT) :";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.5 Utilisation de nomenclatures et de classifications pour les tarifs (MFT) :</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les mode de fixation des tarifs (MFT) appliqués aux établissements.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.6 Utilisation de nomenclatures et de classifications pour les services publics hospitaliers (SPH)";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.6 Utilisation de nomenclatures et de classifications pour les services publics hospitaliers (SPH)</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.6</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les services publics hospitaliers (SPH) et leur participation en tant qu’établissement public de santé, établissement de sante prive d'intérêt collectif, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.1.7 Utilisation de nomenclatures et de classifications pour les clientèles : ";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.1.7 Utilisation de nomenclatures et de classifications pour les clientèles : </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.1.7</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'utilisation de nomenclatures et de classifications pour décrire les clientèles des PM/EGE, telles que personnes handicapées, personnes âgées, enfants et adolescents, etc.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.2.2 Gestion des workflows d'immatriculation et d'autorisation";><span style='mso-spacerun:yes'>              </span>REQ-3.2.2 Gestion des workflows d'immatriculation et d'autorisation</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des étapes du processus d'immatriculation et d'autorisation des PM/EGE, depuis la demande d'immatriculation jusqu'à l'approbation de leur enregistrement dans le répertoire.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.2.1 Définition des étapes du workflow";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.2.1 Définition des étapes du workflow</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.2.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la définition des étapes du workflow pour le traitement des demandes d'immatriculation et autorisation. Cela implique que l'application doit permettre la création, la modification et la suppression des étapes du workflow, ainsi que la configuration de l'ordre dans lequel les étapes sont exécutées.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.2.3 Gestion des notifications";><span style='mso-spacerun:yes'>              </span>REQ-3.2.3 Gestion des notifications</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des notifications envoyées aux utilisateurs en cas d'événements importants, des mises à jour, des nouvelles fonctionnalités, des problèmes de sécurité, changement de statuts de leur demande, d'immatriculation ou de tout autre événement important lié à l'utilisation de l'application.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.3.1 Envoi de notifications";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.3.1 Envoi de notifications</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'envoi de notifications aux utilisateurs. Cela implique que l'application doit permettre l'envoi de notifications automatiques ou manuelles aux utilisateurs pour les informer des événements importants dans le système.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.3.2 Configuration des notifications ";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.3.2 Configuration des notifications </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la configuration des notifications envoyées aux utilisateurs. Cela implique que l'application doit permettre la création, la modification et la suppression de modèles de notifications, ainsi que la configuration des événements déclencheurs pour l'envoi de notifications.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.3.3 Gestion des préférences de notification";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.3.3 Gestion des préférences de notification</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre aux utilisateurs de configurer leurs préférences de notification, y compris les types de notification qu'ils souhaitent recevoir et les canaux de communication préférés et offrir des options pour les désactiver ou les réactiver selon les besoins.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.3.4 Historique des notifications";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.3.4 Historique des notifications</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la conservation de l'historique des notifications envoyées aux utilisateurs. Cela implique que l'application doit permettre la consultation de l'historique des notifications, ainsi que la recherche et la filtrage des notifications en fonction des critères spécifiques.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.3.5 Suivi de l'état des notifications envoyées";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.3.5 Suivi de l'état des notifications envoyées</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.3.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre le suivi de l'état des notifications envoyées pour garantir qu'elles ont été reçues et lues par les destinataires.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.2.4 Gérer les listes de valeurs pour les champs à choix multiples";><span style='mso-spacerun:yes'>              </span>REQ-3.2.4 Gérer les listes de valeurs pour les champs à choix multiples</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la création, la modification et la suppression de valeurs pour les champs à choix multiples tels que les menus déroulants, les cases à cocher ou les boutons radio. Les listes de valeurs doivent être configurables en fonction des besoins de l'application et de la réglementation en vigueur. L'application doit également permettre la gestion des droits d'accès aux listes de valeurs en fonction des rôles et des niveaux d'autorisation des utilisateurs.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.4.1 Configuration des listes de valeurs";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.4.1 Configuration des listes de valeurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la configuration des listes de valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la création, la modification et la suppression des listes de valeurs, ainsi que la configuration de l'ordre dans lequel les valeurs sont affichées.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.4.2 Gestion des valeurs";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.4.2 Gestion des valeurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la gestion des valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la création, la modification et la suppression des valeurs, ainsi que la configuration des propriétés des valeurs (par exemple, l'étiquette, la description, la couleur, etc.).</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.4.3  Attribution des valeurs aux champs";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.4.3  Attribution des valeurs aux champs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre l'attribution des valeurs aux champs à choix multiples. Cela implique que l'application doit permettre la sélection des valeurs à partir de la liste de valeurs configurée pour chaque champ</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.4.4 Validation des valeurs";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.4.4 Validation des valeurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la validation des valeurs sélectionnées pour les champs à choix multiples. Cela implique que l'application doit vérifier que les valeurs sélectionnées sont valides et cohérentes avec les règles de gestion et les contraintes du système.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.4.5 Personnalisation des listes de valeurs";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.4.5 Personnalisation des listes de valeurs</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.4.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la personnalisation des listes de valeurs pour les champs à choix multiples. Cela implique que l'application doit permettre la personnalisation de l'ordre, de l'étiquette, de la description et des propriétés des valeurs pour chaque champ.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-3.2.5 Gestion des modèles de documents, emails et notifications";><span style='mso-spacerun:yes'>              </span>REQ-3.2.5 Gestion des modèles de documents, emails et notifications</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la création, l'édition et la suppression de modèles de documents, tels que les formulaires de demande d’immatriculation ou les autorisations d'exercice, en tenant compte des besoins spécifiques et de la réglementation en vigueur. Elle doit également gérer les modèles d'e-mails et de notifications pour communiquer avec les utilisateurs, tout en permettant la gestion des droits d'accès aux modèles selon les rôles et niveaux d'autorisation des utilisateurs.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.5.1.2 Exploration des modèles de documents";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.5.1.2 Exploration des modèles de documents</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.5.1.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la consultation, la recherche et la filtrage des modèles de documents, emails et notifications enregistrés dans le système.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'                  REQ-3.2.5.1.1 Configuration des modèles";><span style='mso-spacerun:yes'>                  </span>REQ-3.2.5.1.1 Configuration des modèles</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-3.2.5.1.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>L'application doit permettre la configuration des modèles, incluant les modèles de documents, les modèles d'emails et les modèles de notifications. Cela implique que l'application doit permettre la création, la modification et la suppression des modèles, ainsi que la configuration des propriétés des modèles (par exemple, le format, le style, le contenu, l'objet, le corps, les destinataires, le contenu, les événements déclencheurs, etc.).</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'      REQ-4 Portail Web";><span style='mso-spacerun:yes'>      </span>REQ-4 Portail Web</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit fournir un portail Web pour permettre aux utilisateurs de gérer leur compte et d'accéder aux fonctionnalités de l'application.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-4.3 Accessibilité";><span style='mso-spacerun:yes'>          </span>REQ-4.3 Accessibilité</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Le portail doit être conçue en tenant compte des principes d'accessibilité pour les personnes handicapées, en respectant les normes internationales telles que les Directives pour l'accessibilité des contenus Web (WCAG).</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-4.1 Expérience utilisateur";><span style='mso-spacerun:yes'>          </span>REQ-4.1 Expérience utilisateur</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Le portail doit être convivial et intuitif pour l'utilisateur</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-4.2 Compatibilité";><span style='mso-spacerun:yes'>          </span>REQ-4.2 Compatibilité</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Le portail doit être compatible avec les différents navigateurs et dispositifs utilisés par les utilisateurs, afin de garantir une expérience utilisateur optimale. </td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-4.4 Conformité réglementaire";><span style='mso-spacerun:yes'>          </span>REQ-4.4 Conformité réglementaire</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>L'application doit respecter toutes les lois et réglementations applicables, notamment en matière de protection des données personnelles et de confidentialité.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'          REQ-4.5 Separation des responsabilités";><span style='mso-spacerun:yes'>          </span>REQ-4.5 Separation des responsabilités</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Le portail web doit être conçu pour gérer et différencier les quatre types d'utilisateurs principaux, chacun ayant des rôles et des responsabilités spécifiques, ainsi que des niveaux d'accès et des fonctionnalités distincts.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.1 Section Visiteur";><span style='mso-spacerun:yes'>              </span>REQ-4.5.1 Section Visiteur</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.1</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs non connecté (Visiteur) : Ce type d'utilisateur représente les personnes qui n'ont pas encore créé de compte ou qui ne se sont pas connectées. Ils peuvent consulter le répertoire des PM/EGE et accéder aux informations générales, à la documentation sur l'API et au formulaire d'aide dans la partie publique du portail web.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.2 Section PM/EGE";><span style='mso-spacerun:yes'>              </span>REQ-4.5.2 Section PM/EGE</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.2</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs PM/EGE (Utilisateur final) : Ce type d'utilisateur représente les personnes morales qui soumettent des demandes d'immatriculation, vérifient le statut de leurs demandes, les modifient ou les suppriment. Le portail web doit leur fournir un accès sécurisé à la partie privée dédiée aux PM/EGE.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.3 Section Gestionnaire";><span style='mso-spacerun:yes'>              </span>REQ-4.5.3 Section Gestionnaire</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.3</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs des autorités compétentes (Gestionnaire de demandes) : Ce type d'utilisateur représente les autorités compétentes responsables de la gestion des demandes d'immatriculation. Leur rôle principal est d'évaluer, de valider ou de rejeter les demandes soumises par les PM/EGE. Le portail web doit leur permettre d'accéder à la section d'administration dédiée à la gestion des demandes.</td>
+</tr>
+<tr>
+	<td style='color: rgb(0,0,0); background-color: rgb(240,240,240); font: NORMAL; font-family: Verdana;' x:str="'              REQ-4.5.4 Section Administrateur";><span style='mso-spacerun:yes'>              </span>REQ-4.5.4 Section Administrateur</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>REQ-4.5.4</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Segoe UI;'>Cette section du portail regroupe les fonctionnalités spécifiques des utilisateurs administrateurs de l'application (Administrateur système) : Ce type d'utilisateur est responsable de la maintenance et de la configuration globale de l'application. Ils doivent être en mesure de gérer les comptes utilisateur, de configurer les paramètres généraux de l'application et de consulter les notifications envoyées par l'application. Le portail web doit leur donner accès à la section d'administration dédiée à la gestion de l'application.</td>
+</tr>
+</table></body></html>

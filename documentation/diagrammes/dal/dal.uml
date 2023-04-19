@@ -367,6 +367,12 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedAttribute xmi:type="uml:Property" xmi:id="_7xVkAcisEe2V5aQtEd4q4A" name="" type="_kMSlUMisEe2V5aQtEd4q4A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_tI10IcitEe2V5aQtEd4q4A" name="" type="_cs2ZQMihEe2V5aQtEd4q4A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_tT2KQMitEe2V5aQtEd4q4A" name="" type="_cs2ZQMihEe2V5aQtEd4q4A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xBsNsN3lEe2uDfM-VnpzFg" name="" type="_cs2ZQMihEe2V5aQtEd4q4A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xNP9cd3lEe2uDfM-VnpzFg" name="" type="_cs2ZQMihEe2V5aQtEd4q4A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xh0fQd3lEe2uDfM-VnpzFg" name="" type="_cs2ZQMihEe2V5aQtEd4q4A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wNh68d3nEe2uDfM-VnpzFg" name=""/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1Wdjod3nEe2uDfM-VnpzFg" name="" type="_YsosIMihEe2V5aQtEd4q4A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1kpJkd3nEe2uDfM-VnpzFg" name="" type="_YsosIMihEe2V5aQtEd4q4A"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_b661wMiQEe2WC6x8F-M4iQ" name="" represents="_b68q8MiQEe2WC6x8F-M4iQ"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_OHcz8MiSEe2WC6x8F-M4iQ" name="" represents="_OHdbAMiSEe2WC6x8F-M4iQ"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_O-_f8MiSEe2WC6x8F-M4iQ" name="" represents="_O_AHAMiSEe2WC6x8F-M4iQ"/>
@@ -469,6 +475,12 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <lifeline xmi:type="uml:Lifeline" xmi:id="_7xVkAMisEe2V5aQtEd4q4A" name="" represents="_7xVkAcisEe2V5aQtEd4q4A"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_tI10IMitEe2V5aQtEd4q4A" name="" represents="_tI10IcitEe2V5aQtEd4q4A"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_tT1jMMitEe2V5aQtEd4q4A" name="" represents="_tT2KQMitEe2V5aQtEd4q4A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_xBeLQN3lEe2uDfM-VnpzFg" name="" represents="_xBsNsN3lEe2uDfM-VnpzFg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_xNP9cN3lEe2uDfM-VnpzFg" name="" represents="_xNP9cd3lEe2uDfM-VnpzFg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_xh0fQN3lEe2uDfM-VnpzFg" name="" represents="_xh0fQd3lEe2uDfM-VnpzFg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_wNh68N3nEe2uDfM-VnpzFg" name="" represents="_wNh68d3nEe2uDfM-VnpzFg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_1WdjoN3nEe2uDfM-VnpzFg" name="" represents="_1Wdjod3nEe2uDfM-VnpzFg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_1kpJkN3nEe2uDfM-VnpzFg" name="" represents="_1kpJkd3nEe2uDfM-VnpzFg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_gigr8MiQEe2WC6x8F-M4iQ" name="Utilisateur"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_mGHecMiQEe2WC6x8F-M4iQ" name="Visiteur">
@@ -526,7 +538,7 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedEnd xmi:type="uml:Property" xmi:id="_z3Tts8ihEe2V5aQtEd4q4A" name="queue de messages" type="_cs2ZQMihEe2V5aQtEd4q4A" association="_z3TtsMihEe2V5aQtEd4q4A"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_z3TttMihEe2V5aQtEd4q4A" name="api" type="_YsosIMihEe2V5aQtEd4q4A" association="_z3TtsMihEe2V5aQtEd4q4A"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_-SNJ0MiiEe2V5aQtEd4q4A" name="A_API_Répositoire"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-SNJ0MiiEe2V5aQtEd4q4A" name="repository"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_XqfAsMijEe2V5aQtEd4q4A" memberEnd="_XqfAs8ijEe2V5aQtEd4q4A _XqfAtMijEe2V5aQtEd4q4A">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqfAscijEe2V5aQtEd4q4A" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqfAssijEe2V5aQtEd4q4A" key="nature" value="UML_Nature"/>
@@ -553,15 +565,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DirZYcitEe2V5aQtEd4q4A" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DirZYsitEe2V5aQtEd4q4A" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_DirZY8itEe2V5aQtEd4q4A" name="flux sortant" type="_kMSlUMisEe2V5aQtEd4q4A" association="_DirZYMitEe2V5aQtEd4q4A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_DirZY8itEe2V5aQtEd4q4A" name="flux sortant" type="_cs2ZQMihEe2V5aQtEd4q4A" association="_DirZYMitEe2V5aQtEd4q4A"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_DirZZMitEe2V5aQtEd4q4A" name="app partenaire ans" type="_ecXkMMijEe2V5aQtEd4q4A" association="_DirZYMitEe2V5aQtEd4q4A"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_Fx4b4MitEe2V5aQtEd4q4A" memberEnd="_Fx4b48itEe2V5aQtEd4q4A _Fx4b5MitEe2V5aQtEd4q4A">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fx4b4citEe2V5aQtEd4q4A" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fx4b4sitEe2V5aQtEd4q4A" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Fx4b48itEe2V5aQtEd4q4A" name="flux sortant" type="_kMSlUMisEe2V5aQtEd4q4A" association="_Fx4b4MitEe2V5aQtEd4q4A"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Fx4b5MitEe2V5aQtEd4q4A" name="queue de messages" type="_cs2ZQMihEe2V5aQtEd4q4A" association="_Fx4b4MitEe2V5aQtEd4q4A"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_KY6RYMitEe2V5aQtEd4q4A" memberEnd="_KY6RY8itEe2V5aQtEd4q4A _KY6RZMitEe2V5aQtEd4q4A">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KY6RYcitEe2V5aQtEd4q4A" source="org.eclipse.papyrus">
@@ -578,6 +583,8 @@ Cette méthode permet de limiter le nombre de requêtes et de réduire la charge
         <ownedEnd xmi:type="uml:Property" xmi:id="_QsF0w8ivEe2V5aQtEd4q4A" name="portail web" type="_bcChYMiQEe2WC6x8F-M4iQ" association="_QsF0wMivEe2V5aQtEd4q4A"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_QsF0xMivEe2V5aQtEd4q4A" name="fournisseur d'adresse géographique" type="_DIE2IMivEe2V5aQtEd4q4A" association="_QsF0wMivEe2V5aQtEd4q4A"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_2UFCcN3nEe2uDfM-VnpzFg" name="API.."/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_a8w2kN3oEe2uDfM-VnpzFg" name="API..."/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GXwUELv_Ee2HlZxxJnTpkA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GX1zoLv_Ee2HlZxxJnTpkA" source="http://www.eclipse.org/uml2/2.0.0/UML">

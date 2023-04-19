@@ -1,0 +1,55 @@
+@startuml
+start
+partition "main" {
+    :Commencer;
+    :Obtenir les informations du nouveau registre;
+    :Appeler trouverNumerosFINESSManquants avec les informations du registre;
+    :Appeler formaterNumeroFINESS avec le numeroFINESS récupéré;
+    :Insérer le nouveau registre avec le numéro FINESS complet;
+}
+stop
+partition "trouverNumerosFINESSManquants" {
+    :Commencer;
+    :Obtenir le département du nouveau registre (departement);
+    if (Cache des numéros FINESS manquants pour le département est vide) then (Oui)
+        :Récupérer tous les numéros FINESS attribués pour le département (listeNumerosFINESS);
+        :Trouver min_valeur et max_valeur dans listeNumerosFINESS;
+
+        :Créer un ensemble avec tous les numéros FINESS dans la plage entre min_valeur et max_valeur (intervalleComplet);
+        :Créer un ensemble avec les numéros FINESS uniques dans la liste (numerosFINESSUniques);
+
+        :Trouver la différence entre intervalleComplet et numerosFINESSUniques (numerosFINESSManquants);
+        
+        if (numerosFINESSManquants est vide) then (Oui)
+            :Générer un numéro FINESS consécutif en utilisant max_valeur+1 (numeroFINESS);
+            :Mettre à jour le cache avec le numéro FINESS consécutif pour le département;
+        else (Non)
+            :Récupérer un numéro FINESS manquant dans numerosFINESSManquants (numeroFINESS);
+            :Mettre à jour le cache avec les numerosFINESSManquants pour le département;
+        endif
+    else (Non)
+
+    endif
+    stop
+}
+
+partition "formaterNumeroFINESS" {
+
+    :Utiliser un numéro FINESS manquant ou consécutif du cache pour le département (numeroFINESS);
+    :Retirer le numéro FINESS utilisé du cache pour le département;
+
+    :Ajouter le département;
+    :Ajouter '0' comme troisième caractère;
+    :Ajouter le numéro FINESS (numeroFINESS);     
+    :Calculer la clé de Luhn;
+    :Concaténer tous les éléments pour former le numéro FINESS;
+    
+    if (L'identifiant est valide) then (Oui)
+      :Retourner le numéro FINESS complet;
+      stop
+    else (Non)
+      :Erreur: le numéro FINESS n'est pas valide;
+      stop
+    endif
+}
+@enduml
