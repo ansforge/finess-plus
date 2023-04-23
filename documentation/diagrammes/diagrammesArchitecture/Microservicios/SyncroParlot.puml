@@ -1,0 +1,64 @@
+@startuml
+
+package "projet_finess" {
+  package "apps" as apps
+
+  package "core" as core {
+    package "personneMorale" as pm {
+      package "main" as pm_main {
+        package "fr.gouv.esante.finess.personneMorale" as pm_finess
+        folder "shared" as pm_shared
+        folder "test" as pm_test
+      }
+    }
+
+    package "etablissement" as etabl {
+      package "main" as etabl_main {
+        package "fr.gouv.esante.finess.etablissement" as etabl_finess
+        folder "shared" as etabl_shared
+        folder "test" as etabl_test
+      }
+    }
+
+    package "activite" as act {
+      package "main" as act_main {
+        package "fr.gouv.esante.finess.activite" as act_finess
+        folder "shared" as act_shared
+        folder "test" as act_test
+      }
+    }
+
+    package "syncroParLot" as sync {
+      package "main" as sync_main {
+        package "fr.gouv.esante.finess.syncroParLot" as sync_finess {
+          folder "flux_entrant" as sync_flux_entrant
+          folder "flux_sortant" as sync_flux_sortant
+          folder "surveillance" as sync_surveillance
+          folder "gestionnaire_erreurs" as sync_gestionnaire_erreurs
+          folder "shared" as sync_shared
+        }
+        folder "shared" as sync_shared
+        folder "test" as sync_test
+      }
+    }
+
+    ' package "autoriteEnregistrement" as autorite {
+    '     package "main" as autorite_main {
+    '     package "fr.gouv.esante.finess.activite" as act_finess
+    '     folder "shared" as autorite_shared
+    '     folder "test" as autorite_test
+    '   }
+
+    ' '   folder "main" as autorite_main
+    ' '   folder "test" as autorite_test
+    ' }
+
+    ' package "shared" as shared {
+    '   folder "main" as autorite_main
+    '   folder "test" as autorite_test
+    ' }
+
+  }
+}
+
+@enduml
