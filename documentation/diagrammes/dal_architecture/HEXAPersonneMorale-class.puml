@@ -37,7 +37,7 @@ package "fr-gouv-esante-finess-annuaire-personneMorale" {
   package "infrastructure" {
 
     package "adapters" {
-      class ProgressPersonneMoraleRepositoryImpl {
+      class PostgresqlPersonneMoraleRepositoryImpl {
         +ajouter(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
         +modifier(personneMorale: PersonneMoraleEntity): PersonneMoraleEntity
         +supprimer(id: Id): void
@@ -74,7 +74,7 @@ package "CLI" {
 }
 
 PersonneMoraleService --> PersonneMoraleRepository : <<interface>>
-ProgressPersonneMoraleRepositoryImpl ..|> PersonneMoraleRepository : <<implements>>
+PostgresqlPersonneMoraleRepositoryImpl ..|> PersonneMoraleRepository : <<implements>>
 PersonneMoraleService ..> PersonneMoraleEntity : <<use>>
 PersonneMoraleService ..> Id : <<use>>
 PersonneMoraleService ..> Nom : <<use>>
