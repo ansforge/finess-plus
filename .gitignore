@@ -15,3 +15,8 @@ documentation/diagrammes/dal/diagrammesDesExigences/Primitive_Value_Types_Diagra
 documentation/diagrammes/dal/diagrammesDesExigences/Requirements_VerdictKind_Diagram.SVG
 documentation/diagrammes/dal/diagrammesDesExigences/Requirements.SVG
 documentation/diagrammes/dal/diagrammesDesExigences/Unit_And_QuantityKind_Diagram.SVG
+
+ans-microservice-squelette/.gradle/
+ans-microservice-squelette/bin/
+ans-microservice-squelette/build
+ans-microservice-squelette/var/log/java-basic-skeleton-test.log
