@@ -16,7 +16,26 @@ documentation/diagrammes/dal/diagrammesDesExigences/Requirements_VerdictKind_Dia
 documentation/diagrammes/dal/diagrammesDesExigences/Requirements.SVG
 documentation/diagrammes/dal/diagrammesDesExigences/Unit_And_QuantityKind_Diagram.SVG
 
-ans-microservice-squelette/.gradle/
-ans-microservice-squelette/bin/
-ans-microservice-squelette/build
-ans-microservice-squelette/var/log/java-basic-skeleton-test.log
+
+# Gradle
+
+build/
+ans-microservice-squelette/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+ans-microservice-squelette/gradle-app.setting
+
+.gradle
+ans-microservice-squelette/.gradle
+
+var/log/*
+ans-microservice-squelette/var/log/*
+
+!var/log/.gitkeep
+!ans-microservice-squelette/var/log/.gitkeep
+
+*\.vscode/*
+
+bin/*
+ans-microservice-squelette/bin/*
