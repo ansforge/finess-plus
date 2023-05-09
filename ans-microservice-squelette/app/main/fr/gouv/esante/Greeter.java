@@ -1,4 +1,4 @@
-package fr.gouv.esante.java_basic_skeleton;
+package fr.gouv.esante;
 
 public class Greeter {
 

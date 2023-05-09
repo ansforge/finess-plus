@@ -1,0 +1,11 @@
+rootProject.name = 'ans-java-ddd-skeleton'
+
+include ':backoffice'
+project(':backoffice').projectDir = new File('src/backoffice')
+
+include ':finess'
+project(':finess').projectDir = new File('src/finess')
+
+include ':shared'
+project(':shared').projectDir = new File('src/shared')
+
